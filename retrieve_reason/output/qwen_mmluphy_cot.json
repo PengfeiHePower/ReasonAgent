@@ -1,0 +1,802 @@
+[
+    {
+        "question": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the detector, one after the other, the detector will detect photons\nOptions:\nA) an average of 10 times, with an rms deviation of about 4\nB) an average of 10 times, with an rms deviation of about 3\nC) an average of 10 times, with an rms deviation of about 1\nD) an average of 10 times, with an rms deviation of about 0.1",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The quantum efficiency of 0.1 means that the detector has a 10% chance of detecting a photon each time one is sent. For 100 photons, we expect it to detect 10 on average, since 0.1 * 100 = 10. The root mean square (rms) deviation for a binomial distribution is given by sqrt(np(1-p)), where n is the number of trials (100 photons), and p is the success probability (0.1). So, rms = sqrt(100 * 0.1 * 0.9) = sqrt(9) = 3. However, this calculation oversighted the nature of the question which asks fundamentally about the certainty of detection based on efficiency, not\u5206\u6563 around an expectation value. Given the phrasing, we're looking at expectation directly tied to efficiency without explicit need for deviation calculation in the answer choice, indicating a focus on understanding quantum efficiency application rather than statistical variance intricacies."
+    },
+    {
+        "question": "White light is normally incident on a puddle of water (index of refraction 1.33). A thin (500 nm) layer of oil (index of refraction 1.5) floats on the surface of the puddle. Of the following, the most strongly reflected wavelength is\nOptions:\nA) 500 nm\nB) 550 nm\nC) 600 nm\nD) 650 nm",
+        "pred": "a",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "To determine the most strongly reflected wavelength, we consider the condition for constructive interference in thin-film interference. This occurs when the optical path difference (2nt) is equal to a half-integer multiple of the wavelength in the film (m\u03bb), where n is the refractive index of the film, t is the thickness of the film, and m is an integer. Given the indices of refraction for water and oil, and knowing that white light is incident, we're looking for the wavelength that satisfies this condition most closely, leading to maximum reflection. Since the oil layer is on water, we consider reflections both at the oil-water interface and the oil-air interface. However, the question simplifies the scenario by essentially asking for the wavelength that would experience constructive interference based on standard thin-film equations, without needing detailed calculations. Among the options provided, we intuitively understand that wavelengths closer to quarter-wavelength fits within the film thickness will be preferentially reflected. Given the thin film's thickness (500 nm) and the refractive indices, we'd expect wavelengths that quarter-match this path length to resonate. Without deep calculation, understanding that 500 nm is close to a quarter wavelength in a medium of refractive index around 1.5 suggests it could lead to strong reflection due to constructive interference."
+    },
+    {
+        "question": "Which of the following is true about any system that undergoes a reversible thermodynamic process?\nOptions:\nA) There are no changes in the internal energy of the system.\nB) The temperature of the system remains constant during the process.\nC) The entropy of the system and its environment remains unchanged.\nD) The entropy of the system and its environment must increase.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "In a reversible thermodynamic process, the system can return to its original state without causing any permanent changes in the system or its surroundings. This implies that the total entropy of the system and its environment remains unchanged. Options A and B are incorrect because internal energy and temperature can change depending on the type of reversible process (e.g., isothermal or adiabatic). Option D is incorrect because it suggests an increase in entropy, which is not consistent with a reversible process."
+    },
+    {
+        "question": "The best type of laser with which to do spectroscopy over a range of visible wavelengths is\nOptions:\nA) a dye laser\nB) a helium-neon laser\nC) an excimer laser\nD) a ruby laser",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "For spectroscopy over a range of visible wavelengths, a laser with tunable output would be ideal. Dye lasers have a broad tuning range across the visible spectrum, making them suitable for such applications. Helium-neon lasers emit a fixed wavelength, typically 632.8 nm. Excimer lasers produce ultraviolet light, and ruby lasers emit a red light at 694.3 nm, both with limited tunability in the visible range."
+    },
+    {
+        "question": "Excited states of the helium atom can be characterized as para- (antiparallel electron spins) and ortho- (parallel electron spins). The observation that an ortho- state has lower energy than the corresponding para- state can be understood in terms of which of the following?\nOptions:\nA) The Heisenberg uncertainty principle\nB) The Pauli exclusion principle\nC) The Bohr model of the atom\nD) Nuclear hyperfine coupling",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The key difference between para- and ortho- states lies in the spin configuration of the electrons. Para-states have electrons with antiparallel spins, while ortho-states have electrons with parallel spins. The fact that the ortho-state has lower energy than the para-state is due to the additional interaction energy associated with electrons having parallel spins, which is a direct consequence of the Pauli exclusion principle that forbids two electrons in the same orbital from having identical quantum numbers, including spin. Neither the Heisenberg uncertainty principle, the Bohr model, nor nuclear hyperfine coupling directly explain this energy difference."
+    },
+    {
+        "question": "Which of the following gives the total spin quantum number of the electrons in the ground state of neutral nitrogen (Z = 7)?\nOptions:\nA) 1/2\nB) 1\nC) 3/2\nD) 5/2",
+        "pred": "a",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "The total spin quantum number (S) is calculated by adding the spin quantum numbers (ms) of all electrons in the atom. For neutral nitrogen (Z=7), the electron configuration is 1s2 2s2 2p3. The s-orbital electrons have paired spins, contributing 0 to the total spin. The three p-electrons will have their spins paired if possible, but since there are only three, one will be unpaired. Two electrons with paired spins in the p-orbitals contribute 0, and the unpaired electron has ms = 1/2. Thus, the total spin quantum number S = 1/2 + 0 + 0 = 1/2."
+    },
+    {
+        "question": "Consider three identical, ideal capacitors. The first capacitor is charged to a voltage and then disconnected from the battery. The other two capacitors, initially uncharged and connected in series, are then connected across the first capacitor. What is the final voltage on the first capacitor?\nOptions:\nA) V_0/5\nB) V_0/3\nC) V_0/2\nD) 2V_0/3",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "When two capacitors are connected in series, their equivalent capacitance is given by 1/C_eq = 1/C1 + 1/C2, effectively halving the total capacitance when both are identical. Connecting this series combination to a charged capacitor will cause charge redistribution until the voltage across the series combination equals the original voltage on the single capacitor. However, since capacitance effectively halves when they are in series, the voltage on each individual capacitor in the series will be half of the voltage on the first capacitor before connection. Thus, the final voltage on the first capacitor will also be halved due to the sharing of charge with the series capacitors."
+    },
+    {
+        "question": "Protons used in cancer therapy are typically accelerated to about 0.6c. How much work must be done on a particle of mass m in order for it to reach this speed, assuming it starts at rest?\nOptions:\nA) 0.25mc^2\nB) 0.60mc^2\nC) 0.67mc^2\nD) 1.25mc^2",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "To find the work done to accelerate a proton to 0.6c, we can use the relativistic kinetic energy formula, which is K = (\u03b3 - 1)mc\u00b2, where \u03b3 is the Lorentz factor. At 0.6c, \u03b3 = 1 / sqrt(1 - v\u00b2/c\u00b2) \u2248 1.25. Thus, the work done, which equals the final kinetic energy, is (1.25 - 1)mc\u00b2 = 0.25mc\u00b2."
+    },
+    {
+        "question": "De Broglie hypothesized that the linear momentum and wavelength of a free massive particle are related by which of the following constants?\nOptions:\nA) Planck\u2019s constant\nB) Boltzmann\u2019s constant\nC) The Rydberg constant\nD) The speed of light",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "De Broglie's hypothesis states that all matter has wave-like properties, and the relationship between the linear momentum (p) of a particle and its wavelength (\u03bb) is given by p = h/\u03bb, where 'h' is Planck's constant. This equation shows that the constant relating momentum to wavelength is indeed Planck's constant."
+    },
+    {
+        "question": "If the total energy of a particle of mass m is equal to twice its rest energy, then the magnitude of the particle\u2019s relativistic momentum is\nOptions:\nA) mc/2\nB) mc/(2^(1/2))\nC) mc\nD) (3^(1/2))mc",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The total energy of a relativistic particle is given by E = \u03b3mc^2, where \u03b3 is the Lorentz factor. When the total energy is twice the rest energy (which is mc^2), we set E = 2mc^2. Solving for \u03b3 gives \u03b3 = 2, and using the relation for relativistic momentum p = \u03b3mv, we find the magnitude of the momentum when v is such that the energy condition is met."
+    },
+    {
+        "question": "In the diamond structure of elemental carbon, the nearest neighbors of each C atom lie at the corners of a\nOptions:\nA) square\nB) hexagon\nC) cube\nD) tetrahedron",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The diamond structure of elemental carbon is a three-dimensional lattice where each carbon atom is covalently bonded to four other carbon atoms. This arrangement forms a tetrahedral geometry around each carbon atom, with the nearest neighbors located at the vertices of a tetrahedron."
+    },
+    {
+        "question": "The coefficient of static friction between a small coin and the surface of a turntable is 0.30. The turntable rotates at 33.3 revolutions per minute. What is the maximum distance from the center of the turntable at which the coin will not slide?\nOptions:\nA) 0.024 m\nB) 0.048 m\nC) 0.121 m\nD) 0.242 m",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the maximum distance the coin will not slide, we need to equate the centripetal force required to keep the coin in circular motion with the maximum static friction force. The formula for centripetal force is Fc = mv^2/r, and the maximum static friction force is f_max = \u03bcs * N, where \u03bcs is the coefficient of static friction and N is the normal force (in this case, equal to the weight of the coin mg). Given that the turntable rotates at 33.3 rpm, we convert this to radians per second to find the velocity. However, without the mass of the coin, we seemingly cannot directly calculate. But realizing the actual calculation isn't needed, because the direct relationship between the centripetal force requirement and friction availability implies we're looking for a scenario where friction just barely holds, hinting at using the provided coefficient directly in relation to the given angular velocity and converting the rpm to find the linear velocity at the edge where slipping starts. We apply the formula r = (v^2/(\u03bcg)) derived from the equilibrium of forces, where v = 2\u03c0f and f is the frequency in hertz. Without numerical computation but understanding the principle, the correct answer involves identifying which option correlates with this physical reasoning."
+    },
+    {
+        "question": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties?\nOptions:\nA) Specific heat\nB) Thermal conductivity\nC) Electrical resistivity\nD) Hall coefficient",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The Hall effect can be used to determine the sign of the charge carriers in a conductor. When a magnetic field is applied perpendicular to the current flow in a semiconductor, a voltage (Hall voltage) is generated across the material, perpendicular to both the current and the magnetic field. The polarity of this voltage indicates the sign of the charge carriers. Among the given options, only the Hall coefficient directly relates to the measurement of the Hall effect, thereby revealing the sign of the charge carriers."
+    },
+    {
+        "question": "The primary source of the Sun\u2019s energy is a series of thermonuclear reactions in which the energy produced is c^2 times the mass difference between\nOptions:\nA) two hydrogen atoms and one helium atom\nB) four hydrogen atoms and one helium atom\nC) six hydrogen atoms and two helium atoms\nD) three helium atoms and one carbon atom",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The Sun's energy comes primarily from the process of nuclear fusion, where hydrogen nuclei combine to form helium. The most common fusion reaction in the Sun involves four hydrogen nuclei (protons) coming together to form a helium nucleus, with a small amount of mass being converted into a large amount of energy according to Einstein's famous equation E=mc^2. Thus, the mass difference we're considering is that between the initial four hydrogen nuclei and the resulting one helium nucleus."
+    },
+    {
+        "question": "Electromagnetic radiation provides a means to probe aspects of the physical universe. Which of the following statements regarding radiation spectra is NOT correct?\nOptions:\nA) Lines in the infrared, visible, and ultraviolet regions of the spectrum reveal primarily the nuclear structure of the sample.\nB) The wavelengths identified in an absorption spectrum of an element are among those in its emission spectrum.\nC) Absorption spectra can be used to determine which elements are present in distant stars.\nD) Spectral analysis can be used to identify the composition of galactic dust.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. Option A is incorrect because lines in the infrared, visible, and ultraviolet regions of the spectrum primarily reveal electronic transitions, not nuclear structure. Option B is correct because the absorption spectrum shows wavelengths where energy is absorbed by electrons transitioning to higher energy levels, which would also be emitted when returning to lower levels. Option C is correct because absorption spectra are unique to each element and can indeed help identify elements in stars. Option D is also correct as spectral analysis is a common method for determining the composition of celestial objects like galactic dust."
+    },
+    {
+        "question": "Which of the following statements about bosons and/or fermions is true?\nOptions:\nA) Bosons have symmetric wave functions and obey the Pauli exclusion principle.\nB) Bosons have antisymmetric wave functions and do not obey the Pauli exclusion principle.\nC) Fermions have symmetric wave functions and obey the Pauli exclusion principle.\nD) Fermions have antisymmetric wave functions and obey the Pauli exclusion principle.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Bosons, such as photons, have symmetric wave functions and do not obey the Pauli exclusion principle, allowing them to occupy the same quantum state. Fermions, like electrons, have antisymmetric wave functions and obey the Pauli exclusion principle, meaning no two can occupy the same quantum state. Thus, options A and C are incorrect due to the mismatch of symmetry and exclusion principles, and option B is incorrect because bosons do not obey the Pauli exclusion principle."
+    },
+    {
+        "question": "Excited states of the helium atom can be characterized as para- (antiparallel electron spins) and ortho- (parallel electron spins). The observation that an ortho- state has lower energy than the corresponding para- state can be understood in terms of which of the following?\nOptions:\nA) The Heisenberg uncertainty principle\nB) The Pauli exclusion principle\nC) The Bohr model of the atom\nD) Nuclear hyperfine coupling",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The difference between para- and ortho- states in helium relates to the spin orientations of the electrons. The fact that an ortho- state (with parallel electron spins) has lower energy than the corresponding para- state (with antiparallel electron spins) can be explained by the additional repulsion between electrons with the same spin in the para- state. This is fundamentally due to the Pauli exclusion principle, which states that two electrons in the same orbital cannot have the same set of quantum numbers, leading to a subtle difference in electron-electron interaction energy. Options A, C, and D do not directly address this electron spin interaction phenomenon."
+    },
+    {
+        "question": "One end of a horizontal, massless spring is attached to a wall. A mass of 0.30 kg is attached to the other end of the spring and rests on a table. The mass is displaced 0.030 m from its equilibrium position and released. It has a speed of 0.040 m/s as it passes through its equilibrium position. In the absence of friction, what is the total mechanical energy of the system?\nOptions:\nA) 0.24 mJ\nB) 0.38 mJ\nC) 0.48 mJ\nD) 0.75 mJ",
+        "pred": "b",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "The total mechanical energy in a spring-mass system without friction is conserved and is equal to the sum of the kinetic energy and the potential energy at any point in the motion. The potential energy at maximum displacement is given by 1/2*k*x^2, where k is the spring constant and x is the displacement. The kinetic energy at equilibrium position (when speed is given) is 1/2*m*v^2. Given the mass (m = 0.30 kg) and velocity (v = 0.040 m/s) at equilibrium, and the displacement (x = 0.030 m), we can find the total energy. However, without the spring constant 'k', we initially seem unable to directly compute energies. But, recognizing that at the instant it passes through equilibrium, all potential energy from the initial displacement has been converted to kinetic energy, and knowing the velocity, we can assert the total energy is equivalent to just the kinetic energy at that point since it's asked 'in the absence of friction'. Thus, E_total = 1/2 * m * v^2."
+    },
+    {
+        "question": "A meter stick with a speed of 0.8c moves past an observer. In the observer\u2019s reference frame, how long does it take the stick to pass the observer ?\nOptions:\nA) 1.6 ns\nB) 2.5 ns\nC) 4.2 ns\nD) 6.9 ns",
+        "pred": "d",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "To solve this, we use the concept of time dilation in special relativity. The proper length of the meter stick is 1m, and it moves at 0.8c. The dilated time (time in the observer's frame) can be found using the formula t = t0 / sqrt(1 - v^2/c^2), where t0 is the time in the stick's frame (which would be the proper length divided by c, since in its own frame, the stick is not contracted), v is the velocity of the stick, and c is the speed of light. Plugging in the values gives us t = 1m/(0.8c * sqrt(1 - 0.8^2)) which simplifies to find the actual time duration observed by the stationary observer."
+    },
+    {
+        "question": "Protons used in cancer therapy are typically accelerated to about 0.6c . How much work must be done on a particle of mass m in order for it to reach this speed, assuming it starts at rest?\nOptions:\nA) 0.25mc^2\nB) 0.60mc^2\nC) 0.67mc^2\nD) 1.25mc^2",
+        "pred": "c",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the work done to accelerate a proton to 0.6c, we can use the formula for kinetic energy at relativistic speeds, which is K = (\u03b3 - 1)mc^2, where \u03b3 is the Lorentz factor. At v = 0.6c, \u03b3 = 1 / sqrt(1 - v^2/c^2). Plugging in the values gives us \u03b3 \u2248 1.25. Thus, K \u2248 (1.25 - 1)mc^2 = 0.25mc^2. However, this calculation was based on a misunderstanding of the direct relationship. The correct approach is to use the correct relativistic kinetic energy formula, which for 0.6c yields a value closer to option C. Upon revisiting the logic, we should recognize that the work done corresponds to the relativistic kinetic energy at that speed, which is indeed closer to C, considering the direct proportionality without subtracting 1 from \u03b3. Correctly applying the formula E = \u03b3mc^2 - mc^2 for the work done (where the second term is the rest energy and not subtracted for work calculation) leads to recognizing the error in direct calculation and reaffirming option C as correct based on understanding the intent to identify the work corresponding to reaching that speed."
+    },
+    {
+        "question": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays?\nOptions:\nA) Electrons producing \u010cerenkov radiation\nB) Electrons colliding with phonons in the metal\nC) Electrons filling inner shell vacancies that are created in the metal atoms\nD) Electrons combining with protons to form neutrons",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "When high-energy electrons hit a metal target, they can eject orbital electrons from the metal atoms, leaving vacancies in the inner shells. Other electrons then transition to fill these vacancies, emitting energy in the form of X-rays with wavelengths specific to the element, known as characteristic X-rays."
+    },
+    {
+        "question": "An atom has filled n = 1 and n = 2 levels. How many electrons does the atom have?\nOptions:\nA) 2\nB) 4\nC) 6\nD) 10",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The n=1 level can hold up to 2 electrons, and the n=2 level can hold up to 8 electrons (2 in the s orbital and 6 in the p orbitals). However, since the atom has filled n=1 and n=2 levels, we need to add the electrons from both levels. n=1 is full with 2 electrons, and n=2 is full with 8 electrons, making a total of 2+8=10 electrons."
+    },
+    {
+        "question": "Light from a laser falls on a pair of very narrow slits separated by 0.5 micrometer, and bright fringes separated by 1.0 millimeter are observed on a distant screen. If the frequency of the laser light is doubled, what will be the separation of the bright fringes?\nOptions:\nA) 0.25 mm\nB) 0.5 mm\nC) 1.0 mm\nD) 2.0 mm",
+        "pred": "d",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "The separation of bright fringes in a double-slit experiment is given by the equation d*sin(theta) = m*lambda, where d is the slit separation, theta is the angle from the central axis to the fringe, m is the order of the fringe, and lambda is the wavelength of the light. However, the observed fringe separation (y) on the screen is related to the wavelength and the distance between the slits and the screen (L) by the formula y = L*lambda/d. If the frequency of the light is doubled, since the wavelength is inversely proportional to the frequency (lambda = c/f), the wavelength is halved. Thus, if we halve lambda in our formula for y, we would double the fringe separation, given all else remains constant."
+    },
+    {
+        "question": "Assume that the solar flux at Earth\u2019s surface is 1,000 W/m^2 and that the sunlight is normal to a completely reflecting surface with an area of 3 m^2. What is the total radiation force exerted on the surface?\nOptions:\nA) 2 x 10^-6 N\nB) 1 x 10^-5 N\nC) 2 x 10^-5 N\nD) 3 N",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The radiation pressure (force per unit area) from sunlight is given by P = S/c, where S is the solar flux and c is the speed of light. Multiplying this pressure by the area of the surface gives the total force. Plugging in the numbers: P = 1000 W/m^2 / (3x10^8 m/s) = 3.33x10^-6 N/m^2. The force F = P * Area = 3.33x10^-6 N/m^2 * 3 m^2 = 9.99x10^-6 N, which rounds to the closest given option."
+    },
+    {
+        "question": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties?\nOptions:\nA) Magnetic susceptibility\nB) Hall coefficient\nC) Electrical resistivity\nD) Thermal conductivity",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The Hall effect can be used to determine the sign of the charge carriers in a conductor. When a magnetic field is applied perpendicular to the current flow in a semiconductor, a voltage (Hall voltage) is generated across the material, whose polarity depends on the sign of the charge carriers. Thus, by measuring the Hall coefficient, which relates the applied magnetic field, the current, and the induced transverse voltage, one can deduce the sign of the charge carriers."
+    },
+    {
+        "question": "Which of the following ions CANNOT be used as a dopant in germanium to make an n-type semiconductor?\nOptions:\nA) As\nB) P\nC) Sb\nD) B",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To create an n-type semiconductor, a dopant atom needs to have more valence electrons than the host atom. Germanium has four valence electrons. Among the options, Boron (B) has only three valence electrons, making it a p-type dopant instead of an n-type. Arsenic (As), Phosphorus (P), and Antimony (Sb) all have five valence electrons, which can donate an electron to the semiconductor lattice, suitable for n-type doping."
+    },
+    {
+        "question": "An astronomer observes a very small moon orbiting a planet and measures the moon\u2019s minimum and maximum distances from the planet\u2019s center and the moon\u2019s maximum orbital speed. Which of the following CANNOT be calculated from these measurements?\nOptions:\nA) Mass of the moon\nB) Mass of the planet\nC) Minimum speed of the moon\nD) Period of the orbit",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "To determine what cannot be calculated, let's assess what can be calculated with the given data. The minimum and maximum distances give us the semi-major axis (a) of the elliptical orbit, and the moon's maximum orbital speed is at the closest point (perihelion), which helps calculate the specific angular momentum. With the semi-major axis and the maximum speed, we can find the total energy of the moon in its orbit, and since the minimum speed can be inferred at the apogee using conservation of angular momentum, we can find options B, C, and D. However, without information directly tied to the moon's own gravitational influence or a measurement that would allow us to decouple the moon's motion from the planet's effects (like the moon's size or self-generated gravity effects), we cannot independently determine the mass of the moon."
+    },
+    {
+        "question": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the rod to measure its length to be 0.80 m?\nOptions:\nA) 0.50c\nB) 0.60c\nC) 0.70c\nD) 0.80c",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "In special relativity, length contraction is given by the formula L = L0 * sqrt(1 - v^2/c^2), where L is the contracted length, L0 is the proper length, v is the relative velocity between the observer and the object, and c is the speed of light. We need to solve for v when L = 0.80m and L0 = 1.00m. Rearranging the formula gives v = sqrt(1 - (L/L0)^2) * c."
+    },
+    {
+        "question": "A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton\u2019s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be\nOptions:\nA) deflected in the +x-direction\nB) deflected in the -x-direction\nC) deflected in the +y-direction\nD) deflected in the -y-direction",
+        "pred": "d",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "When a proton is accelerated through a potential difference, it gains kinetic energy. The direction of deflection in an electric or magnetic field depends on the proton's velocity and the orientation of these fields. Initially, with potential V, if the proton isn't deflected, its velocity must be perfectly aligned with the z-direction, and thus perpendicular to both E (in the x-direction) and B (in the y-direction). Increasing the potential difference to 2V doubles the proton's kinetic energy, which would increase its speed but not change its initial direction of motion. Since the proton moves in the +z-direction, neither the electric field (E) in the +x-direction nor the magnetic field (B) in the +y-direction would cause a deflection in the x or y-directions; the magnetic force is always perpendicular to the velocity and the electric force is along the direction of the electric field (x-direction) which doesn't initially affect a particle moving in the z-direction. Thus, increasing the kinetic energy wouldn't induce a deflection if the initial conditions didn't cause one. However, the question implies a change might occur due to the energy increase, which suggests a misunderstanding in the explanation\u2014typically, without initial deflection, doubling the energy wouldn't initiate deflection unless we consider relativistic effects or misalignment, but these aren't standard considerations under simple classical mechanics descriptions provided. Given the premise and understanding that the proton wasn't initially deflected, logically, none of the deflections A, B, C, or D should directly result just from doubling the potential difference without altering its trajectory relative to E and B fields, yet the question implies an expectation for a change. Given the constraints and assuming a misinterpretation in expecting a logical deflection based on pure energetics without considering the unchanged field orientations, the most direct application of logic without further specifics suggests no predictable deflection from the information given. However, to provide an answer within the framework of the options and assuming a misinterpretation in my explanation leading to no logical deflection from pure energetics increase, I'll align with the process of elimination based on the understanding that the proton\u2019s path isn\u2019t naturally altered by simply increasing speed in the given field orientations."
+    },
+    {
+        "question": "A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is\nOptions:\nA) 0.04 V\nB) 0.1 V\nC) 2.5 V\nD) 10 V",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To find the average induced EMF, we use Faraday's Law, which states that the induced EMF is equal to the negative rate of change of magnetic flux through the coil. The magnetic flux (\u03a6) is given by \u03a6 = NBA, where N is the number of turns, B is the magnetic field strength, and A is the area. The rate of change of flux is therefore (\u0394\u03a6/\u0394t) = N(A*\u0394B/\u0394t). Given values: N = 250 turns, A = 0.2 m\u00b2, \u0394B = 0.06 T - 0.01 T = 0.05 T, \u0394t = 0.25 s. Plugging these into the formula gives us (\u0394\u03a6/\u0394t) = 250 * (0.2 * 0.05 / 0.25) = 250 * 0.04 = 10 V."
+    },
+    {
+        "question": "Light of variable frequency shines on the metal surface of a photoelectric tube. Einstein\u2019s theory of the photoelectric effect predicts that the\nOptions:\nA) work function of the metal is proportional to the frequency\nB) work function of the metal is proportional to the wavelength\nC) current in the tube is a linear function of the wavelength\nD) potential difference necessary to stop the emitted electrons is a linear function of the frequency above the threshold frequency",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Einstein's photoelectric effect theory states that the maximum kinetic energy of the emitted electrons is directly proportional to the frequency of the incident light, not affected by the intensity. The work function (minimum energy required to remove an electron from the metal surface) is a property of the metal and is constant, not varying with frequency or wavelength. The current in the tube would depend on the number of electrons emitted, which is influenced by the intensity of light, not directly by the wavelength. The stopping potential, however, is related to the maximum kinetic energy of the electrons, which increases with frequency once above the threshold frequency. Thus, the potential needed to stop these electrons would indeed be a function of the frequency."
+    },
+    {
+        "question": "If the Sun were suddenly replaced by a black hole of the same mass, it would have a Schwarzschild radius of 3,000 m. What effect, if any, would this change have on the orbits of the planets?\nOptions:\nA) The planets would move directly toward the Sun.\nB) The planets would move in spiral orbits.\nC) The planets would oscillate about their former elliptical orbits.\nD) The orbits would remain unchanged.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "If the Sun is replaced by a black hole of the same mass, the gravitational pull on the planets would remain the same since the mass is unchanged, and gravity depends on mass not the physical size or type of celestial body. Therefore, the orbits defined by the gravitational force would not be affected. However, without the radiant energy from the Sun, the solar system would become dark, but the question specifically asks about the effect on the orbits, not the environmental changes."
+    },
+    {
+        "question": "At 20\u00b0C, a pipe open at both ends resonates at a frequency of 440 hertz. At what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20\u00b0C ?\nOptions:\nA) 414 Hz\nB) 427 Hz\nC) 433 Hz\nD) 440 Hz",
+        "pred": "c",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "The frequency of a resonating pipe is inversely proportional to the speed of sound. If the speed of sound decreases by 3%, the frequency will increase to maintain the same wave pattern. The original frequency is 440 Hz. To find the new frequency, we use the formula: New Frequency = Original Frequency * (Original Speed / New Speed). Given the speed decrease is 3%, the new speed is 97% of the original. Thus, New Frequency = 440 Hz * (1 / 0.97). Calculating this gives a value slightly higher than 440 Hz, indicating an error in the direct calculation approach since an inverse relationship should yield a decrease in frequency with a decrease in velocity. Correctly applying the inverse proportionality: New Frequency = 440 Hz * (0.97/1), correcting for the misinterpretation, yields the accurate decrease."
+    },
+    {
+        "question": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the detector, one after the other, the detector will detect photons\nOptions:\nA) exactly 10 times\nB) an average of 10 times, with an rms deviation of about 0.1\nC) an average of 10 times, with an rms deviation of about 1\nD) an average of 10 times, with an rms deviation of about 3",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "The quantum efficiency of 0.1 means that for every 10 photons, the detector is expected to detect 1 on average, given the randomness associated with quantum events. For 100 photons, we would expect 10 detections on average. The root mean square (rms) deviation for a binomial distribution is given by sqrt(np(1-p)), where n is the number of trials (photons), and p is the probability of success (detection efficiency). For n=100 and p=0.1, rms = sqrt(100*0.1*0.9) = sqrt(9) = 3. However, the phrasing 'rms deviation of about 3' suggests looking for an interpretation that matches typical language used in describing such statistical spreads, realizing the 'about' could be guiding towards considering it's an estimate or rounded description. Given the direct calculation though, the precise mathematical expectation doesn't directly map to the provided options in common language usage, but closest aligns with describing the expected average and a measure of spread around that average, indicating a misunderstanding in applying the rms concept directly to the options as presented. The key understanding here should emphasize expectation being close to 10 detections with a spread indicative of the scenario's stochastic nature, pointing out the need for careful matching between mathematical interpretations and the options' descriptive intents."
+    },
+    {
+        "question": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is\nOptions:\nA) (1/2) k T\nB) kT\nC) (3/2) k T\nD) 3kT",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "For a three-dimensional harmonic oscillator, each degree of freedom (x, y, z) has an average energy of (1/2)kT due to the equipartition theorem. Since there are three degrees of freedom, the total average energy would be 3 times (1/2)kT, which simplifies to 3kT."
+    },
+    {
+        "question": "A student makes 10 one-second measurements of the disintegration of a sample of a long-lived radioactive isotope and obtains the following values: 3, 0, 2, 1, 2, 4, 0, 1, 2, 5. How long should the student count to establish the rate to an uncertainty of 1 percent?\nOptions:\nA) 80 s\nB) 160 s\nC) 2,000 s\nD) 5,000 s",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To establish the rate to an uncertainty of 1 percent, we need a sufficient number of counts such that the square root of the number of counts (which represents the statistical uncertainty) is 1% of the expected mean count rate. Given the radioactive decay follows a Poisson process, the standard deviation (sqrt(N)) should be 1% of the mean (N/total time). The given data suggests an average count around 2 disintegrations per second over 10 seconds. To reduce the uncertainty to 1%, we calculate the necessary total counts required and derive the time needed based on the average count rate."
+    },
+    {
+        "question": "By definition, the electric displacement current through a surface S is proportional to the\nOptions:\nA) magnetic flux through S\nB) rate of change of the magnetic flux through S\nC) time integral of the magnetic flux through S\nD) rate of change of the electric flux through S",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The electric displacement current is related to the rate of change of electric flux, based on Maxwell's equations which show that a changing electric field induces a displacement current. This directly corresponds to the rate at which the electric field (and thus electric flux) changes through a given surface."
+    },
+    {
+        "question": "The negative muon, mu^-, has properties most similar to which of the following?\nOptions:\nA) Electron\nB) Meson\nC) Photon\nD) Boson",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The negative muon, mu^-, is a subatomic particle with properties similar to leptons. It has a negative electric charge like an electron but is much heavier. Electrons are also leptons, while mesons are composed of a quark and antiquark, photons are gauge bosons carrying the electromagnetic force, and bosons are particles with integer spin. Among the provided options, the electron shares the closest properties with the negative muon."
+    },
+    {
+        "question": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 4.0 is\nOptions:\nA) 1.2 x 10^9 m/s\nB) 3.0 x 10^8 m/s\nC) 1.5 x 10^8 m/s\nD) 1.0 x 10^8 m/s",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The speed of light in vacuum is approximately 3.0 x 10^8 m/s. When light travels through a medium with a dielectric constant (relative permittivity), its speed is reduced according to the formula c_medium = c_vacuum / sqrt(\u03b5_r), where c_medium is the speed of light in the medium, c_vacuum is the speed of light in vacuum, and \u03b5_r is the dielectric constant. Given \u03b5_r = 4.0, we can calculate the speed of light in this dielectric material."
+    },
+    {
+        "question": "The energy from electromagnetic waves in equilibrium in a cavity is used to melt ice. If the Kelvin temperature of the cavity is increased by a factor of two, the mass of ice that can be melted in a fixed amount of time is increased by a factor of\nOptions:\nA) 2\nB) 4\nC) 8\nD) 16",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "According to Stefan-Boltzmann Law, the energy radiated by a blackbody is proportional to the fourth power of its absolute temperature. Thus, if the temperature is doubled, the energy radiated (and thus available to melt ice) increases by 2^4 = 16 times. Therefore, the mass of ice that can be melted in a fixed amount of time, assuming all other conditions remain constant, would also increase by a factor of 16 due to the availability of more energy."
+    },
+    {
+        "question": "A resistor in a circuit dissipates energy at a rate of 1 W. If the voltage across the resistor is doubled, what will be the new rate of energy dissipation?\nOptions:\nA) 0.25 W\nB) 0.5 W\nC) 1 W\nD) 4 W",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The power dissipated by a resistor is given by P = V^2/R, where P is power, V is voltage, and R is resistance. If the voltage is doubled, the new power will be P_new = (2V)^2/R = 4V^2/R = 4P. Since the initial power dissipation is 1 W, the new rate will be 4 times that, which is 4 W."
+    },
+    {
+        "question": "A gas cell with an optical path length of 10 cm is placed in one arm of a Michelson interferometer. If the light source for the interferometer is a laser with wavelength 632.2 nm, then 100 fringes are counted as the gas cell is evacuated. What is the index of refraction of the original gas?\nOptions:\nA) 1.00063\nB) 1.00032\nC) 1.00016\nD) 0.99968",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "When a gas cell is introduced in one arm of a Michelson interferometer and fringes are counted as it's evacuated, the change in optical path difference (OPD) corresponds to the number of wavelengths of the light source that would fit into the cell due to the refractive index of the gas. The formula relating the number of fringes (N), wavelength (\u03bb), and the change in refractive index (\u0394n) for a given path length (L) is N = (\u0394n) * (L) / \u03bb. Given that 100 fringes are counted, L = 10 cm = 0.1 m, and \u03bb = 632.2 nm = 632.2e-9 m, we solve for \u0394n = N * \u03bb / L. The original index of refraction (n) of the gas would then be n = n_vacuum + \u0394n, where n_vacuum \u2248 1 for air. However, the direct calculation provides \u0394n, which isn't directly asked but rather the original n before evacuation. The approach needs adjustment to reflect the refractive index change causing the fringe shift directly."
+    },
+    {
+        "question": "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)\nOptions:\nA) 0.1 eV\nB) 1 eV\nC) 10 eV\nD) 100 eV",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To observe diffraction patterns, the de Broglie wavelength of the electrons should be comparable to the lattice spacing of the crystal. The de Broglie wavelength (\u03bb) can be calculated using the equation \u03bb = h/p, where h is Planck's constant and p is the momentum of the electron. The momentum p is related to the kinetic energy (KE) by p = \u221a(2mKE), where m is the electron mass. Given the lattice spacing of 0.4 nm, we need a wavelength of similar magnitude for diffraction. Let's estimate which energy would yield such a wavelength. Generally, for electron diffraction to be observable, the electron's kinetic energy needs to be in the range where its wavelength becomes comparable to atomic distances, typically a few tens of eV or more."
+    },
+    {
+        "question": "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk\u2019s total kinetic energy is rotational kinetic energy?\nOptions:\nA) 1/4\nB) 1/3\nC) 1/2\nD) 2/3",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "When a disk rolls without slipping, both translational and rotational kinetic energies contribute to its total kinetic energy. The total kinetic energy (KE_total) is the sum of the translational kinetic energy (KE_trans) and the rotational kinetic energy (KE_rot). For a solid disk, the moment of inertia I = (1/2)mr^2. The rotational kinetic energy is given by KE_rot = (1/2)I\u03c9^2 = (1/2)(1/2)mr^2(\u03c9^2) = (1/4)mr^2v^2, since v = r\u03c9 for rolling without slipping. The translational kinetic energy is KE_trans = (1/2)mv^2. Adding these gives KE_total = (1/2)mv^2 + (1/4)mv^2 = (3/4)mv^2. The fraction of the total kinetic energy that is rotational is therefore (1/4)mv^2 / (3/4)mv^2 = 1/3."
+    },
+    {
+        "question": "Blue light of wavelength 480 nanometers is most strongly reflected off a thin film of oil on a glass slide when viewed near normal incidence. Assuming that the index of refraction of the oil is 1.2 and that of the glass is 1.6, what is the minimum thickness of the oil film (other than zero) ?\nOptions:\nA) 150 nm\nB) 200 nm\nC) 300 nm\nD) 400 nm",
+        "pred": "c",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "For constructive interference to occur for blue light reflecting off the oil film, the path difference between the two reflected beams (one from the oil-glass interface and the other from the oil-air interface) should be an integer multiple of the light's wavelength in the film. Using the formula for the condition of constructive interference in thin films, 2nt = m\u03bb, where n is the refractive index of the film, t is the thickness of the film, and m is an integer (with m=1 for the first non-zero minimum thickness). Given n_oil = 1.2 and \u03bb = 480 nm, we solve for t when m=1. However, since the light reflects off two interfaces, the effective path difference is 2t, thus t = \u03bb/(2n) for the first non-zero minimum. Compute t with the given values."
+    },
+    {
+        "question": "A heat pump is to extract heat from an outdoor environment at 7\u00b0C and heat the environment indoors to 27\u00b0C. For each 15,000 J of heat delivered indoors, the smallest amount of work that must be supplied to the heat pump is approximately\nOptions:\nA) 500 J\nB) 1,000 J\nC) 1,100 J\nD) 2,000 J",
+        "pred": "c",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the smallest amount of work required, we can use the COP (Coefficient of Performance) formula for a heat pump, which is COP = Q_H/W, where Q_H is the heat delivered indoors and W is the work supplied. However, a more direct approach involves understanding that the efficiency of a Carnot heat engine (which sets the maximum efficiency limit for a heat pump's reverse process) is given by 1 - (T_C/T_H), where T_C is the cold temperature (7\u00b0C = 280 K) and T_H is the hot temperature (27\u00b0C = 300 K). The efficiency relates inversely to the work required for a given heat transfer in a heat pump scenario. Calculating the minimum work based on Carnot efficiency gives us W = Q_H * (T_C/T_H). Plugging in the values: W = 15000 J * (280 K / 300 K). This calculation will provide the minimum work needed."
+    },
+    {
+        "question": "The driver of a police car hears an echo of the car\u2019s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?\nOptions:\nA) 600 Hz\nB) 606 Hz\nC) 612 Hz\nD) 618 Hz",
+        "pred": "b",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "The Doppler effect affects the frequency of the wave when there is relative motion between the source and the observer. In this case, since the police car is moving towards the wall, both the incident wave and the reflected wave (echo) will experience the Doppler effect. However, the frequency shift for the incident wave and the reflected wave will be in the same direction, effectively doubling the frequency change perceived by the driver. The formula for the observed frequency (f') when the source is moving towards a stationary observer is f' = f * (v + vo) / (v - vs), where f is the emitted frequency, v is the speed of sound, vo is zero since the observer is stationary in this context, and vs is the speed of the source. However, since we're considering the echo, we essentially apply this formula twice (once for the forward journey and once for the return), meaning the factor affecting the frequency change would be squared in practice. But to simplify understanding in this context without complex calculations: moving towards the wall increases the frequency heard, and the returning echo, still perceived as moving towards due to reflection, increases it again. Let's estimate the magnitude of the increase without exact calculation, knowing it's a slight increase over 600 Hz given the relatively low speed of the car compared to the speed of sound."
+    },
+    {
+        "question": "A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?\nOptions:\nA) 150 m\nB) 288 m\nC) 360 m\nD) 450 m",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "To solve this, we use the concept of time dilation in special relativity. The time interval between two events is longer in a moving frame than in the rest frame. Here, the decay time in the rest frame is 2.0 ms, and we need to find the distance it travels in the lab frame before decaying. Given v = 0.60c, we calculate the Lorentz factor \u03b3 = 1 / sqrt(1 - v^2/c^2). The time in the lab frame (t_lab) is then t_rest * \u03b3. Distance = v * t_lab gives us the distance traveled in the lab frame before decay. Calculating these gives a distance much less than 360m, indicating an error in direct calculation without proper relativistic adjustment. The right approach involves understanding the direct relationship between time dilation and the observed lifetime in the lab frame leading to a direct proportional increase in distance based on velocity, not via direct multiplication with gamma due to misunderstanding the application. Let's correctly deduce: Since direct calculation isn't straightforward in this format and the intent was to illustrate thought process, the key insight missed direct formula application but fundamentally aimed at understanding time dilation impacts. For precise answer computation, recognize the need for using t_lab = t_rest / sqrt(1 - v^2/c^2) correctly to infer proportional increase in distance covered, hinting at a misstep in direct illustrative math without the precise equation. Given this reflection, the intended path was miscommunicated; the correct approach involves recognizing the decay happens according to the particle's own clock (rest frame time), implying distance covered in the lab frame is essentially v * t_rest without needing to explicitly dilate the time for distance unless considering observing the motion within the dilated time frame, which isn't the direct query here. Thus, the thought process outlined initially aimed to highlight relativity's role but incorrectly branched into complexity rather than directly translating the rest frame decay time into distance via simple velocity multiplication given the misunderstanding in applying dilation directly to distance in this context."
+    },
+    {
+        "question": "A tube of water is traveling at 1/2 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it. What is the speed of light in the water relative to the lab frame? (The index of refraction of water is 4/3.)\nOptions:\nA) 1/2 c\nB) 2/3 c\nC) 5/6 c\nD) 10/11 c",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "According to the relativistic addition of velocities, when two velocities are in the same direction, the formula is (u + v)/(1 + uv/c^2), where u is the velocity of the water in the lab frame (1/2 c), and v is the velocity of light in the water relative to the water frame (c/n), with n being the index of refraction. Plugging in the values gives: (1/2 c + c/(4/3))/(1 + (1/2 * c)*(c/(4/3))/c^2). Simplifying this results in the speed of light in the water relative to the lab frame. However, a more straightforward approach considering relativistic effects on light speed in media isn't necessary; instead, understanding that the refractive index directly tells us the ratio of the speed of light in a vacuum to the speed in the medium is key. Thus, the speed of light in water is c/4/3, and we adjust this for the frame of reference. Given the misdirection in my initial thought process, let's directly apply the concept of the refractive index correctly: Since the light already travels at c/4/3 in water, and our concern is the apparent speed relative to a moving frame, the light's speed doesn't add vectorially in the classical sense due to its constant nature in all frames. The correct approach involves recognizing the refractive property directly influences the observed speed in the lab frame, without needing relativistic velocity addition for light itself. The light's speed in the water doesn't change based on the water's motion but appears slower due to the refractive property. So, the task was to understand how the given velocity of the medium affects our perception of light's speed within it from the lab frame, realizing the need to correct my initial misuse of relativistic formulas\u4e0d\u5fc5\u8981\u7684 here."
+    },
+    {
+        "question": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately\nOptions:\nA) 0.1 GeV/c^2\nB) 0.2 GeV/c^2\nC) 0.5 GeV/c^2\nD) 1.0 GeV/c^2",
+        "pred": "b",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the rest mass, we can use the formula derived from the relativistic energy-momentum relation: E\u00b2 = (pc)\u00b2 + (mc\u00b2)\u00b2. Here, E is the total energy, p is the momentum, and m is the rest mass. We're given E = 5.0 GeV and p = 4.9 GeV/c. Rearranging for m, we get m = sqrt(E\u00b2 - (pc)\u00b2)/c\u00b2. Plugging the values, m \u2248 sqrt((5.0 GeV)\u00b2 - (4.9 GeV/c * c)\u00b2)/c\u00b2 = sqrt(25 - 24.01)/c\u00b2 = sqrt(0.99)/c\u00b2 \u2248 0.995 GeV/c\u00b2. Looking at the options, the closest to this calculation is around 0.2 GeV/c\u00b2, though the exact calculation suggests none of the provided options perfectly match the precise calculation, indicating an approximation or rounding in the thought process."
+    },
+    {
+        "question": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?\nOptions:\nA) 2\nB) 250\nC) 5,000\nD) 10,000",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The resolving power of a spectrometer is defined as the ratio of the wavelength being measured to the difference in wavelength that the instrument can resolve. This is given by R = \u03bb/\u0394\u03bb. Using the given wavelengths (500 nm and 502 nm), we calculate \u0394\u03bb = 502 nm - 500 nm = 2 nm. Substituting \u03bb = 500 nm, the resolving power R = 500 nm / 2 nm = 250."
+    },
+    {
+        "question": "The best type of laser with which to do spectroscopy over a range of visible wavelengths is\nOptions:\nA) a dye laser\nB) a helium-neon laser\nC) an excimer laser\nD) a ruby laser",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "For spectroscopy over a range of visible wavelengths, a laser source that is tunable across those wavelengths would be ideal. Dye lasers have a wide range of wavelengths they can be tuned to, covering the entire visible spectrum, making them suitable for such applications. Helium-neon lasers operate at specific wavelengths and are not tunable across a broad range. Excimer lasers typically emit ultraviolet light and are not ideal for the visible spectrum. Ruby lasers also have a fixed emission wavelength. Thus, the dye laser is the best choice."
+    },
+    {
+        "question": "The eigenvalues of a Hermitian operator are always\nOptions:\nA) real\nB) imaginary\nC) degenerate\nD) linear",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Hermitian operators are self-adjoint, meaning they are equal to their own conjugate transpose. This property ensures that the eigenvalues of a Hermitian operator are real numbers because the eigenvalue equation involves taking the conjugate transpose of the operator, which does not change the value of real eigenvalues."
+    },
+    {
+        "question": "A net force F_A acts on object A, and a net force F_B acts on object B. The mass of object B is twice the mass of object A, and the acceleration of object B is twice that of object A. Which of the following is true of forces F_A and F_B?\nOptions:\nA) F_B = 1/4 F_A\nB) F_B = 1/2 F_A\nC) F_B = 2F_A\nD) F_B = 4F_A",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Using Newton's second law (F = ma), we can set up a relationship between the forces and accelerations of objects A and B. Given that object B has twice the mass of object A (m_B = 2m_A) and twice the acceleration (a_B = 2a_A), we can write: F_A = m_A * a_A and F_B = m_B * a_B. Substituting the given relationships into these equations and setting them in proportion to each other gives us: F_B / F_A = (2m_A * 2a_A) / (m_A * a_A) = 4. Thus, F_B is four times F_A."
+    },
+    {
+        "question": "Under ideal conditions, the electric and magnetic fields inside a superconductor are zero. Maxwell\u2019s equations imply that which of the following must be true just outside the surface of the superconductor?\nOptions:\nA) B = 0\nB) B is perpendicular to the surface.\nC) B is tangential to the surface.\nD) B is time independent.",
+        "pred": "b",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "In a superconductor, the Meissner effect causes the expulsion of magnetic fields, leading to a perfectly diamagnetic material. This implies that the magnetic field lines are forced to be perpendicular to the surface, preventing them from penetrating into the superconductor. Maxwell's equations, particularly the curl of the magnetic field equation, relate the change in the magnetic field to the presence of current. At the surface of a superconductor, any magnetic field would need to be perpendicular to maintain the condition of zero magnetic field inside."
+    },
+    {
+        "question": "Two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground. From repeated measurement, the students estimate the uncertainty in the measured speed of the ball to be 10 percent. Which of the following gives the uncertainty in the kinetic energy of the ball? (Assume the uncertainty in the ball\u2019s mass is negligibly small.)\nOptions:\nA) 5%\nB) 10%\nC) 15%\nD) 20%",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The formula for kinetic energy is KE = 0.5 * m * v^2. Given the uncertainty in velocity (v) is 10%, we need to calculate the resulting uncertainty in KE. Since KE is proportional to the square of the velocity, the uncertainty in KE would be twice the uncertainty in velocity. However, the calculation for percentage uncertainty involves squaring the coefficient of 'v' in the KE equation (which is 2), leading to an uncertainty in KE that is not simply double but follows the square of the uncertainty in 'v'. Thus, if v has an uncertainty of 10%, KE uncertainty is (2*10%)^2 = 400%, but this interpretation misunderstands the propagation of error concept. Correctly, a 10% uncertainty in v leads to a 21% uncertainty in KE when applying the formula for propagating uncertainties ((\u0394v/v)^2 * 100%). However, this seems an overcomplication for the typical direct proportion reasoning in such multiple-choice contexts and might have led to confusion. The direct application often considered in basic physics problems, assuming linear relationships for simplicity in a choice setting like this, would inaccurately suggest 20%. Given the nuance and aiming for a straightforward approach without detailed propagation formula, let's reassess for clarity: Since KE depends on v^2, a 10% error in v would indeed roughly double when squared for energy (not accurately calculated but conceptualized for choice selection purpose here), leaning towards option D as indicative of a squared effect, acknowledging the explanation veered into incorrect precise calculation method initially."
+    },
+    {
+        "question": "A particle is constrained to move in a circle with a 10-meter radius. At one instant, the particle\u2019s speed is 10 meters per second and is increasing at a rate of 10 meters per second squared. The angle between the particle\u2019s velocity and acceleration vectors is\nOptions:\nA) 0\u00b0\nB) 30\u00b0\nC) 45\u00b0\nD) 60\u00b0",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The particle is moving in a circular path, implying centripetal acceleration. The given velocity and acceleration rates help us understand the dynamics. The velocity vector is tangential to the circle, and the acceleration has two components in the radial (towards the center) and tangential (perpendicular to the radius at that point) directions due to the changing speed. Since the speed is increasing, there is a non-zero tangential acceleration component. However, the angle between the velocity and acceleration vectors depends primarily on the direction of these vectors. Velocity is always tangent to the circle, and since acceleration has both radial and tangential components, but the question seems to imply a scenario akin to simple circular motion analysis where we typically consider instantaneous changes. For acceleration to increase the speed in circular motion, both components are relevant, but the question might be simplifying to consider only directionality for this instance. Given common physics interpretations, acceleration in circular motion, considering only direction without the nuance of increasing speed for a moment, would be directly towards the center for constant speed, leading to a right angle between velocity and acceleration. However, the increase in speed suggests additional tangential acceleration, complicating a straightforward application of typical angle considerations between velocity and centripetal acceleration. Yet, the primary direction of acceleration related to the change in velocity's magnitude doesn't typically dictate the angle between the velocity vector itself and the overall acceleration vector in the traditional sense presented in options; instead, it's about how these components align directionally. The description implies an atypical focus on acceleration's effect on speed without clarifying if this 'rate of increase' directly influences the angle queried. Traditional circular motion analyses where acceleration is purely centripetal (as when discussing the instantaneous direction without explicit focus on changing speed dynamics affecting angle measurement) would suggest a 90\u00b0 angle due to velocity being tangent and acceleration radial. However, the phrasing seems to invite confusion by mixing discussions of speed increase (implying tangential acceleration) with a direct query about the angle without explicit clarification on how this acceleration vector's composition affects the angle measurement as traditionally understood in basic circular motion contexts. Given this, and interpreting within standard physics frameworks for such queries, the focus should theoretically rest on the typical orthogonal relationship between tangential velocity and radial acceleration in uniform circular motion descriptions, despite the complexity introduced by the speed increase detail. Thus, interpreting for conventional understanding in the absence of further clarification directly adjusting our angle calculation basis for the speed increase component, we'd lean towards the classic orthogonal view between velocity and centripetal acceleration, acknowledging the complexity introduced doesn't straightforwardly map onto the provided angle options under standard interpretation without additional contextual guidance."
+    },
+    {
+        "question": "If the absolute temperature of a blackbody is increased by a factor of 3, the energy radiated per second per unit area does which of the following?\nOptions:\nA) Decreases by a factor of 81.\nB) Decreases by a factor of 9.\nC) Increases by a factor of 9.\nD) Increases by a factor of 81.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "According to Stefan-Boltzmann law, the energy radiated per second per unit area by a blackbody is proportional to the fourth power of its absolute temperature (E \u221d T^4). If the temperature is increased by a factor of 3, the new energy radiated would be proportional to (3T)^4 = 81T^4. This means the energy increases by a factor of 81."
+    },
+    {
+        "question": "A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is\nOptions:\nA) 0.04 V\nB) 0.1 V\nC) 2.5 V\nD) 10 V",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To find the average induced EMF, we use Faraday's Law, which states that the induced EMF is equal to the negative rate of change of magnetic flux. The magnetic flux through the coil is given by the formula \u03a6 = NBA, where N is the number of turns, B is the magnetic field strength, and A is the area. The rate of change of flux is therefore (\u0394\u03a6/\u0394t) = N(A*\u0394B/\u0394t). Plugging in the given values: N = 250 turns, A = 0.2 m^2, \u0394B = 0.06 T - 0.01 T = 0.05 T, \u0394t = 0.25 s, we get the average induced EMF as EMF = -N(A*\u0394B/\u0394t). Solving this gives EMF = -250 * (0.2 * 0.05 / 0.25) = -250 * 0.04 = -10 V. However, EMF is typically given as a positive value for magnitude, indicating the maximum potential for driving current, hence the answer without the negative sign."
+    },
+    {
+        "question": "Which of the following is true about any system that undergoes a reversible thermodynamic process?\nOptions:\nA) There are no changes in the internal energy of the system.\nB) The temperature of the system remains constant during the process.\nC) The entropy of the system and its environment remains unchanged.\nD) The entropy of the system and its environment must increase.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "In a reversible thermodynamic process, the system can return to its original state without causing any permanent changes in the system or its surroundings. This implies that the total entropy of the system and its environment remains unchanged. Options A and B are incorrect because internal energy and temperature can change in a reversible process, provided the entropy change is zero. Option D is incorrect because it suggests an increase in entropy, which is not the case for a reversible process."
+    },
+    {
+        "question": "The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?\nOptions:\nA) 50 Hz, 150 Hz, and 250 Hz only\nB) 100 Hz and 200 Hz only\nC) 150 Hz and 250 Hz only\nD) nan",
+        "pred": "a",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "In an open-ended pipe, all harmonics (odd and even) are produced. When one end is closed, only odd harmonics are sustained because the closed end creates a node for the standing wave. The given harmonics are at 50 Hz (1st harmonic), 100 Hz (2nd harmonic), 150 Hz (3rd harmonic), 200 Hz (4th harmonic), and 250 Hz (5th harmonic). Closing one end means the even harmonics (2nd and 4th) will not survive, leaving only the odd ones: 50 Hz, 150 Hz, and 250 Hz."
+    },
+    {
+        "question": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of\nOptions:\nA) gamma rays\nB) microwaves\nC) ultraviolet radiation\nD) visible light",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Nuclear emissions typically involve very high energies, much greater than those associated with electronic transitions in atoms which correspond to visible light, ultraviolet radiation, or microwaves. Gamma rays are the highest in energy on the electromagnetic spectrum and are therefore most likely to be emitted from a nucleus."
+    },
+    {
+        "question": "An organ pipe, closed at one end and open at the other, is designed to have a fundamental frequency of C (131 Hz). What is the frequency of the next higher harmonic for this pipe?\nOptions:\nA) 44 Hz\nB) 196 Hz\nC) 262 Hz\nD) 393 Hz",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "For a pipe closed at one end, the formula for the nth harmonic frequency is given by fn = n * v/(4L), where v is the speed of sound in the air and L is the length of the pipe. The fundamental frequency (first harmonic) is f1 = v/4L. The next higher harmonic is the second harmonic, which would be f2 = 2 * v/4L = v/2L. Given that the fundamental frequency is 131 Hz, the second harmonic frequency would be 2 * 131 Hz = 262 Hz."
+    },
+    {
+        "question": "A single-electron atom has the electron in the l = 2 state. The number of allowed values of the quantum number m_l is\nOptions:\nA) 1\nB) 2\nC) 3\nD) 5",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "For a given value of the angular momentum quantum number l, the magnetic quantum number m_l can have integer values ranging from -l to +l, inclusive. Given l = 2, we calculate the allowed m_l values as -2, -1, 0, 1, and 2."
+    },
+    {
+        "question": "Two simple pendulums A and B consist of identical masses suspended from strings of length L_A and L_B, respectively. The two pendulums oscillate in equal gravitational fields. If the period of pendulum B is twice the period of pendulum A, which of the following is true of the lengths of the two pendulums?\nOptions:\nA) L_B = 4L_A\nB) L_B = 2L_A\nC) L_B = L_A\nD) L_B = 1/2 L_A",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The period of a simple pendulum is given by T = 2\u03c0\u221a(L/g), where L is the length of the pendulum and g is the acceleration due to gravity. If the period of B is twice that of A, we can set up the equation 2T_A = T_B and substitute the formula for the period to find the relation between L_A and L_B. Solving 2 * \u221a(L_A/g) = \u221a(L_B/g) leads to L_B = 4L_A when squared and simplified."
+    },
+    {
+        "question": "According to the BCS theory, the attraction between Cooper pairs in a superconductor is due to\nOptions:\nA) the weak nuclear force\nB) the strong nuclear force\nC) vacuum polarization\nD) interactions with the ionic lattice",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The BCS theory explains superconductivity as a microscopic effect resulting from the formation of Cooper pairs. These pairs are formed due to the interaction between electrons and the crystal lattice's vibrations, also known as phonons. The theory does not attribute superconductivity to the weak or strong nuclear forces, nor directly to vacuum polarization."
+    },
+    {
+        "question": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the rod to measure its length to be 0.80 m?\nOptions:\nA) 0.50c\nB) 0.60c\nC) 0.70c\nD) 0.80c",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To solve this, we use the concept of length contraction in special relativity. The length contraction formula is L = L0 * sqrt(1 - v^2/c^2), where L is the contracted length, L0 is the proper length (length at rest), v is the velocity of the observer relative to the rod, and c is the speed of light. We rearrange to solve for v, given that L = 0.80 m and L0 = 1.00 m."
+    },
+    {
+        "question": "The energy required to remove both electrons from the helium atom in its ground state is 79.0 eV. How much energy is required to ionize helium (i.e., to remove one electron)?\nOptions:\nA) 24.6 eV\nB) 39.5 eV\nC) 51.8 eV\nD) 54.4 eV",
+        "pred": "b",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "The energy required to remove both electrons from helium is given as 79.0 eV. Since helium has two electrons, and the ionization energy refers to removing just one electron from a neutral atom, the energy required to ionize helium would be half of this value, assuming both electrons require the same amount of energy to be removed from their respective energy levels. Therefore, dividing 79.0 eV by 2 gives the energy needed for the first ionization. However, it's crucial to note that the actual energy required to remove the first electron (the ionization energy) is less than half of the double-ionization energy due to the increased attraction of the remaining electron to the nucleus after the first is removed. Nonetheless, for the purpose of selecting the closest approximation based on provided options and common understanding in this context: 79.0 eV / 2 = 39.5 eV."
+    },
+    {
+        "question": "At the present time, the temperature of the universe (i.e., the microwave radiation background) is about 3 K. When the temperature was 12 K, typical objects in the universe, such as galaxies, were\nOptions:\nA) one-quarter as distant as they are today\nB) one-half as distant as they are today\nC) separated by about the same distances as they are today\nD) two times as distant as they are today",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The question involves understanding the relationship between temperature and distance in the context of the expanding universe. The temperature of the cosmic microwave background radiation (CMB) is inversely proportional to the scale factor of the universe. As the universe expands, the CMB cools because its wavelength stretches. Thus, if the temperature was higher in the past (12 K compared to today's 3 K), the universe was smaller by a factor that corresponds to the temperature ratio. The temperature ratio 12 K / 3 K = 4 implies the distances were 1/4 what they are today, considering the direct correlation between temperature drop and increase in distance due to expansion."
+    },
+    {
+        "question": "By definition, the electric displacement current through a surface S is proportional to the\nOptions:\nA) rate of change of the electric flux through S\nB) electric flux through S\nC) time integral of the magnetic flux through S\nD) rate of change of the magnetic flux through S",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The electric displacement current is related to the time rate of change of the electric flux through a surface, as per Maxwell's equations. This directly corresponds to the definition of the displacement current term introduced by Maxwell to complete his set of equations for electromagnetism."
+    },
+    {
+        "question": "The suspension cable of a 1,000 kg elevator snaps, sending the elevator moving downward through its shaft. The emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft. If the elevator fell a distance of 100 m starting from rest, the heat that the brakes must dissipate to bring the elevator safely to rest is\nOptions:\nA) 100 J\nB) 1,000 J\nC) 10,000 J\nD) 1,000,000 J",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To find the heat dissipated by the brakes, we need to calculate the potential energy lost by the elevator as it falls, since this energy will be converted into heat by the brakes when stopping the elevator. The potential energy (PE) is given by PE = mgh, where m is the mass, g is the acceleration due to gravity (approximately 9.81 m/s\u00b2), and h is the height fallen. Given m = 1000 kg, g \u2248 9.81 m/s\u00b2, and h = 100 m, let's calculate PE and match it to the closest option."
+    },
+    {
+        "question": "The hydrogen lines observed in the spectrum of the quasar 3C9 are shifted so far into the red that their wavelengths are three times as long as those observed in the light from hydrogen atoms at rest in a laboratory on Earth. If it is assumed that the shift is entirely due to the relative motion of 3C9 and Earth, the relative speed of the quasar is\nOptions:\nA) 2c\nB) c\nC) 0.8c\nD) 0.5c",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "The redshift of light is given by the formula z = \u0394\u03bb/\u03bb, where \u0394\u03bb is the difference in wavelength, and \u03bb is the original wavelength. If the wavelengths are three times as long, this means the redshift z = 2 (since 3\u03bb - \u03bb = 2\u03bb, and 2\u03bb/\u03bb = 2). The redshift due to relative motion can be related to the relative speed by the formula z = v/c, where v is the relative speed and c is the speed of light. Solving for v gives v = zc. Plugging z = 2 into this formula yields v = 2c, however, this exceeds the speed of light, indicating a misunderstanding in applying the formula. The direct interpretation of 'three times as long' should be understood as a factor of increase, translating to a redshift z = 2, but we know nothing can exceed the speed of light. The correct interpretation for calculating relative velocity from redshift in this context is to recognize that a redshift of z = 2 implies the source is moving away at a speed where the observed wavelength is doubled, not tripled as initially stated. Thus, the calculation should reflect understanding redshift directly, where z = 2 implies the light has stretched to twice its original wavelength due to recession\u901f\u5ea6, translating correctly to understanding the provided options and physics principles involved."
+    },
+    {
+        "question": "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?\nOptions:\nA) 1 N\nB) 2 N\nC) 3 N\nD) 4 N",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The work done by the force is equal to the change in the box's kinetic energy. The initial kinetic energy is (1/2)*10kg*(1m/s)^2 = 5 J. The final kinetic energy is (1/2)*10kg*(2m/s)^2 = 20 J. The work done is thus 20J - 5J = 15J. Since work is also force times distance (W = F*d), we have 15J = F*5m, which gives F = 3N."
+    },
+    {
+        "question": "Two spaceships approach Earth with equal speeds, as measured by an observer on Earth, but from opposite directions. A meterstick on one spaceship is measured to be 60 cm long by an occupant of the other spaceship. What is the speed of each spaceship, as measured by the observer on Earth?\nOptions:\nA) 0.4c\nB) 0.5c\nC) 0.6c\nD) 0.7c",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "According to special relativity, length contraction is given by L = L0 * sqrt(1 - v^2/c^2), where L is the observed length, L0 is the proper length, v is the velocity of the object relative to the observer, and c is the speed of light. An observed length of 60 cm (L) implies a contraction to 60% of its original length (assuming the proper length of the meterstick is 100 cm). Setting up the equation 60 = 100 * sqrt(1 - v^2/c^2) and solving for v gives the speed of the spaceship. The 'opposite directions' part doesn't change the calculation since we're looking at the relative speed from Earth's frame. Solving for v from the equation leads to v = sqrt((1 - (L/L0)^2)*c^2). Plugging in the numbers: v = sqrt((1 - 0.6^2)*c^2) = sqrt(0.64*c^2) = 0.8c. However, this calculation was based on the assumption that we are looking for a direct result from a formula which seems to have been miscalculated in the explanation. The correct approach should show that a contraction to 60 cm means the relative speed causes a 40% reduction in length, implying a Lorentz factor sqrt(1 - v^2/c^2) = 0.6, leading to v = 0.8c, but this result exceeds the provided options indicating a misunderstanding in the direct application. The correct thought process should identify that a measurement of 60 cm instead of 100 cm implies a Lorentz factor that corresponds to a length contraction indicative of a velocity close to half the speed of light when considering common special relativity problems' typical structure. Thus, the correct interpretation aligns with option B, acknowledging a misstep in the direct calculation explanation."
+    },
+    {
+        "question": "The suspension cable of a 1,000 kg elevator snaps, sending the elevator moving downward through its shaft. The emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft. If the elevator fell a distance of 100 m starting from rest, the heat that the brakes must dissipate to bring the elevator safely to rest is\nOptions:\nA) 10,000 J\nB) 100,000 J\nC) 1,000,000 J\nD) 10,000,000 J",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To find the heat dissipated by the brakes, we need to calculate the potential energy lost by the elevator as it falls. This energy will be converted into kinetic energy and then dissipated as heat when the brakes are applied. The potential energy (PE) is given by PE = mgh, where m is mass, g is acceleration due to gravity (approximately 9.81 m/s^2 on Earth), and h is the height fallen. Substituting the given values: PE = 1000 kg * 9.81 m/s^2 * 100 m."
+    },
+    {
+        "question": "The mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kT because\nOptions:\nA) electrons have many more degrees of freedom than atoms do\nB) the electrons and the lattice are not in thermal equilibrium\nC) the electrons form a degenerate Fermi gas\nD) electrons in metals are highly relativistic",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The key to understanding this is the nature of conduction electrons in metals. They follow the rules of quantum mechanics, specifically the Pauli Exclusion Principle, which leads to a high concentration of electrons at the Fermi level, forming a Fermi gas. This means that even at room temperature, many electrons have energies far above what classical thermodynamics would predict (kT). Options A is incorrect because the comparison should be based on energy states, not degrees of freedom. Option B is incorrect because electrons and the lattice are in thermal equilibrium; it's their quantum behavior that sets them apart. Option D is not generally true for common metals under standard conditions; electrons need to approach very high speeds to be considered highly relativistic."
+    },
+    {
+        "question": "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?\nOptions:\nA) 1 N\nB) 2 N\nC) 3 N\nD) 4 N",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "To find the magnitude of the applied force, we can use the work-energy theorem which states that the work done on an object is equal to the change in its kinetic energy. The initial kinetic energy is (1/2)*m*v_initial^2 and the final kinetic energy is (1/2)*m*v_final^2. The work done by the force is also equal to the force times the distance the object moves while the force is applied (W = F*d). By setting the work equal to the change in kinetic energy and solving for F, we can find the magnitude of the force. Plugging in the values: m = 10 kg, v_initial = 1 m/s, v_final = 2 m/s, d = 5 m, we get: W = (1/2)*10*(2^2 - 1^2) = (1/2)*10*(4 - 1) = 15 J. Thus, F = W/d = 15/5 = 3 N."
+    },
+    {
+        "question": "Light of variable frequency shines on the metal surface of a photoelectric tube. Einstein\u2019s theory of the photoelectric effect predicts that the\nOptions:\nA) work function of the metal is proportional to the frequency\nB) work function of the metal is proportional to the wavelength\nC) current in the tube is a linear function of the wavelength\nD) potential difference necessary to stop the emitted electrons is a linear function of the frequency above the threshold frequency",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Einstein's photoelectric effect theory states that the maximum kinetic energy of the emitted electrons is directly proportional to the frequency of the incident light, not affected by the intensity. The work function is the minimum energy required to remove an electron from the metal surface and is a property of the metal itself, not dependent on the light's frequency or wavelength. The current in the tube would depend on the number of electrons emitted, which is influenced by the intensity of light, not its wavelength. The stopping potential, however, is related to the maximum kinetic energy of the electrons, hence it is directly linked to the frequency of light. If the frequency is above the threshold, increasing the frequency means increasing the maximum kinetic energy of the electrons, requiring a higher stopping potential."
+    },
+    {
+        "question": "A spring of force constant k is stretched a certain distance. It takes twice as much work to stretch a second spring by half this distance. The force constant of the second spring is\nOptions:\nA) k\nB) 2k\nC) 4k\nD) 8k",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "The work done in stretching a spring is given by the formula W = 0.5 * k * x^2, where W is the work, k is the force constant, and x is the distance stretched. If it takes twice as much work to stretch the second spring by half the distance, we can set up the equation 2 * (0.5 * k * (x/2)^2) = 0.5 * k2 * (x/2)^2 and solve for k2 relative to k. Simplifying, we find that k2 must be 4 times k to satisfy the condition."
+    },
+    {
+        "question": "An observer O at rest midway between two sources of light at x = 0 and x = 10 m observes the two sources to flash simultaneously. According to a second observer O', moving at a constant speed parallel to the x-axis, one source of light flashes 13 ns before the other. Which of the following gives the speed of O' relative to O?\nOptions:\nA) 0.13c\nB) 0.15c\nC) 0.36c\nD) 0.53c",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "According to the relativistic Doppler effect, the time difference observed by O' is due to the relative motion. The formula that connects the time difference with speed is \u0394t' = \u0394t * sqrt[(1 - v^2/c^2)/(1 + v^2/c^2)]. Given that \u0394t' = 13 ns and assuming the setup allows us to neglect the distance between the observers and the sources for simplicity in explanation, we solve for v. However, without explicit calculation, we can deduce the answer based on understanding that a small time difference implies a significant fraction of the speed of light, given the numbers provided and the context of special relativity equations involving time dilation effects. Among the options, option C seems most plausible considering how such effects scale, indicating a non-trivial fraction of the speed of light but not nearing the speed of light itself, fitting the scenario described."
+    },
+    {
+        "question": "The surface of the Sun has a temperature close to 6,000 K and it emits a blackbody (Planck) spectrum that reaches a maximum near 500 nm. For a body with a surface temperature close to 300 K, at what wavelength would the thermal spectrum reach a maximum?\nOptions:\nA) 10:00 PM\nB) 100 Pm\nC) 10 mm\nD) 100 mm",
+        "pred": "c",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "The wavelength at which a blackbody emits maximum radiation is given by Wien's displacement law, which states \u03bb_max = b/T, where \u03bb_max is the peak wavelength, T is the temperature in Kelvin, and b is a constant approximately equal to 2.9 mm*K. We need to calculate the peak wavelength for a 300 K body and choose the closest option."
+    },
+    {
+        "question": "Consider an electron in the n = 4, l = 1 state in hydrogen. Which of the following final states can NOT be reached by an allowed transition?\nOptions:\nA) n = 3, l = 2\nB) n = 3, l = 1\nC) n = 3, l = 0\nD) n = 2, l = 0",
+        "pred": "a",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "In a hydrogen atom, allowed transitions\u9075\u5faa\u7279\u5b9a\u7684\u91cf\u5b50\u6570\u53d8\u5316\u89c4\u5219, \u7279\u522b\u662f\u4e3b\u91cf\u5b50\u6570n\u5fc5\u987b\u51cf\u5c0f\uff08\u56e0\u4e3a\u80fd\u91cf\u91ca\u653e\uff09\uff0c\u4e14\u89d2\u91cf\u5b50\u6570l\u7684\u53d8\u5316\u53d7\u5230\u9009\u62e9\u5b9a\u5219\u7ea6\u675f\uff0c\u5373\u25b3l = \u00b11\u3002\u4ecen = 4, l = 1\u5f00\u59cb\uff0c\u6211\u4eec\u68c0\u67e5\u6bcf\u4e2a\u9009\u9879\u662f\u5426\u7b26\u5408\u8fd9\u4e9b\u89c4\u5219\u3002A\u9879\u4ecen = 4\u5230n = 3\u662f\u5141\u8bb8\u7684\uff0c\u4f46l\u4ece1\u53d8\u52302\u8fdd\u53cd\u4e86\u25b3l = \u00b11\u7684\u89c4\u5219\u3002B\u9879n\u51cf\u5c0f\u4e14l\u7684\u53d8\u5316\u7b26\u5408\u89c4\u5219\u3002C\u9879n\u51cf\u5c0f\uff0c\u4e14\u76f4\u63a5\u4ecel = 1\u5230l = 0\u4e5f\u662f\u5141\u8bb8\u7684\uff0c\u56e0\u4e3a\u8fd9\u7b26\u5408\u25b3l = -1\u3002D\u9879\u540c\u6837n\u51cf\u5c0f\uff0cl\u4ece1\u52300\u7b26\u5408\u89c4\u5219\u3002\u56e0\u6b64\uff0c\u4e0d\u7b26\u5408\u89c4\u5219\u7684\u662fA\u9879\u3002"
+    },
+    {
+        "question": "A single-electron atom has the electron in the l = 2 state. The number of allowed values of the quantum number m_l is\nOptions:\nA) 5\nB) 4\nC) 3\nD) 2",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The quantum number m_l represents the magnetic quantum number, which specifies the orbital orientation and can have integer values ranging from -l to +l, inclusive. Given that l = 2, the allowed m_l values are -2, -1, 0, +1, +2. Counting these gives us the total number of allowed values."
+    },
+    {
+        "question": "The driver of a police car hears an echo of the car\u2019s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?\nOptions:\nA) 588 Hz\nB) 594 Hz\nC) 600 Hz\nD) 612 Hz",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The Doppler effect affects the frequency of the wave when there is relative motion between the source and the observer. In this case, the police car is moving towards the wall, so the frequency of the sound waves bouncing back to the driver will be increased. The formula for the observed frequency (f') when the source is moving towards a stationary observer is f' = f * (v + vo) / (v - vs), where f is the emitted frequency, v is the speed of sound, vo is the speed of the observer (police car), and vs is the speed of the source (wall, assumed stationary here). Plugging in the values gives f' = 600Hz * (350m/s + 3.5m/s) / (350m/s - 0m/s) \u2248 612.14 Hz. The closest option to this calculated value is D."
+    },
+    {
+        "question": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are\nOptions:\nA) decreased by a factor of 9\nB) decreased by a factor of 49\nC) decreased by a factor of 81\nD) increased by a factor of 9",
+        "pred": "d",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "The Rydberg formula for the wavelength of spectral lines is given by 1/\u03bb = R * (1/n\u2081\u00b2 - 1/n\u2082\u00b2), where \u03bb is the wavelength, R is the Rydberg constant, and n\u2081 and n\u2082 are the principal quantum numbers. For hydrogen, R = 109737 cm\u207b\u00b9. For ions with only one electron like Li++, the formula modifies to use the reduced mass and effective nuclear charge. Given Z=3 for Li++, the energy levels scale as 1/(n\u00b2) for hydrogen would scale as 1/(3\u00b2n\u00b2) for Li++. Thus, the wavelengths would be inversely proportional to this scaling factor for energy levels, leading to a factor of 9 increase in the wavelengths compared to hydrogen. However, the question seems to be asking for a decrease, indicating a misunderstanding in the interpretation of the spectrum's identity. The correct physical interpretation should lead to understanding that if spectra were 'identical,' no such scaling would apply directly as posited; however, based on common misunderstandings in phrasing, the intended comparison likely refers to how the Li++ spectrum compares in terms of shift from a hypothetical base case, but the direct application suggests misalignment with standard physics descriptions. The response format requires selection from provided options, necessitating reevaluation within the context of the question as stated."
+    },
+    {
+        "question": "A photon strikes an electron of mass m that is initially at rest, creating an electron-positron pair. The photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon. The energy of the photon was\nOptions:\nA) mc^2\nB) 2mc^2\nC) 3mc^2\nD) 4mc^2",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "In the process described, conservation of energy and momentum applies. Initially, only the photon's energy is considered. After the interaction, we have three particles (two electrons and a positron) all moving with the same speed. The total energy of the three particles includes their rest masses (each electron and positron has a rest energy of mc^2) and their kinetic energies. Since the initial electron was at rest, its energy contribution is negligible. Thus, the energy of the photon must account for the creation of the two electron-positron pairs (4 times mc^2 for rest energies) plus some shared kinetic energy. However, the key here is understanding that creating matter from energy requires at least the rest energy of the particles created, which in this case implies creating two particles (an electron and a positron) each with energy mc^2, totaling 2mc^2, but considering the final state involves an additional electron, the minimum energy required reflects the creation of this extra particle as well, aligning with a higher energy requirement than initially considered for just creating a single pair. Given the specifics of the question and recognizing the oversight in the direct explanation, the correct interpretation should acknowledge the creation event necessitates accounting for all particles' rest energies post-interaction correctly. The proper approach recognizes the creation of an electron-positron pair (2mc^2) plus the kinetic energy imparted to the existing electron, implying a misunderstanding in the direct simplification provided. The accurate resolution involves ensuring the energy balance accounts for the conversion of the photon's energy entirely into mass and motion, implicating a need to reconsider the scenario's energetic demands more rigorously to align with fundamental principles, pointing back to reassessing the creation dynamics and resultant energy thresholds explicitly tied to the generation of the stated particle configuration from a singular photon event."
+    },
+    {
+        "question": "Which of the following lasers utilizes transitions that involve the energy levels of free atoms?\nOptions:\nA) Diode laser\nB) Dye laser\nC) Free-electron laser\nD) Gas laser",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. A diode laser uses transitions between electronic bands in a semiconductor material. A dye laser works through electronic transitions in dye molecules. A gas laser operates with transitions of electrons in the energy levels of atoms or molecules within a gas, but these are not necessarily free atoms. A free-electron laser employs a beam of accelerated electrons that are not bound in atoms, undergoing stimulated emission as they pass through a magnetic structure. Therefore, the laser type that involves transitions of free atoms would be the free-electron laser."
+    },
+    {
+        "question": "Unpolarized light is incident on a pair of ideal linear polarizers whose transmission axes make an angle of 45q with each other. The transmitted light intensity through both polarizers is what percentage of the incident intensity?\nOptions:\nA) 100%\nB) 75%\nC) 50%\nD) 25%",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "When unpolarized light passes through the first polarizer, it becomes polarized and its intensity is reduced by half. The second polarizer is oriented at a 45-degree angle to the first, so it will transmit half of the already polarized light. Therefore, the intensity of the light after passing through both polarizers is reduced by half twice, resulting in 25% of the original intensity."
+    },
+    {
+        "question": "Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?\nOptions:\nA) 500 Hz\nB) 1,750 Hz\nC) 2,750 Hz\nD) 3,500 Hz",
+        "pred": "b",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the frequency at which diffraction causes the sound to disappear at a given angle, we can use the diffraction equation derived from the relationship between wavelength, frequency, and the speed of sound. The condition for the first disappearance is when the path difference (related to the slit width and angle) equals half a wavelength. Thus, \u03bb = 2 * slit width / sin(\u03b8). Given the speed of sound (v = 350 m/s), we can find frequency (f) using v = f * \u03bb. Plugging in the values: \u03bb = 2 * 0.14m / sin(45\u00b0) = 0.28m / \u221a2 \u2248 0.20m. Then, f = 350m/s / 0.20m = 1750 Hz."
+    },
+    {
+        "question": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are\nOptions:\nA) decreased by a factor of 9\nB) decreased by a factor of 49\nC) decreased by a factor of 81\nD) increased by a factor of 9",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "The Rydberg formula for the wavelength of spectral lines is given by 1/\u03bb = R * (1/n\u2081\u00b2 - 1/n\u2082\u00b2), where \u03bb is the wavelength, R is the Rydberg constant, and n\u2081, n\u2082 are the principal quantum numbers. For hydrogen, R = 109737 cm\u207b\u00b9. For ions with more than one electron removed, like Li++, the effective nuclear charge Z seen by the outer electron increases. This alters the Rydberg constant to R' = R * (Z\u00b2), making transitions in Li++ akin to those in a hydrogen-like atom but scaled by Z\u00b2. Given Li++ has Z = 3, the wavelengths of its spectral lines would be scaled by a factor of 1/(3\u00b2) = 1/9 compared to those of hydrogen, meaning they are decreased by a factor of 9."
+    },
+    {
+        "question": "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk\u2019s total kinetic energy is rotational kinetic energy?\nOptions:\nA) 1/4\nB) 1/3\nC) 1/2\nD) 2/3",
+        "pred": "a",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "When a disk rolls without slipping, its total kinetic energy (KE) is the sum of its translational KE (1/2mv^2) and rotational KE (1/2I\u03c9^2). For a solid disk, I = 1/2mr^2. Given v = r\u03c9 for rolling without slipping, we can derive that the rotational KE is (1/2)(1/2mr^2)(v^2/r^2) = 1/4mv^2. Thus, the rotational KE is 1/4 of the translational KE. To find the fraction of the total KE that is rotational, we consider the total KE = 1/2mv^2 + 1/4mv^2 = 3/4mv^2, making the rotational KE 1/4 of the total KE."
+    },
+    {
+        "question": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 4.0 is\nOptions:\nA) 1.2 * 10^9 m/s\nB) 3.0 * 10^8 m/s\nC) 1.5 * 10^8 m/s\nD) 1.0 * 10^8 m/s",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The speed of light in vacuum is approximately 3.0 * 10^8 m/s. When light travels through a medium with a dielectric constant (relative permittivity), its speed is reduced according to the formula v = c / sqrt(\u03b5r), where v is the speed in the medium, c is the speed of light in vacuum, and \u03b5r is the dielectric constant. Given \u03b5r = 4.0, we calculate v = 3.0 * 10^8 m/s / sqrt(4.0)."
+    },
+    {
+        "question": "A 3-microfarad capacitor is connected in series with a 6-microfarad capacitor. When a 300-volt potential difference is applied across this combination, the total energy stored in the two capacitors is\nOptions:\nA) 0.09 J\nB) 0.18 J\nC) 0.27 J\nD) 0.41 J",
+        "pred": "b",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "To find the total energy stored in the capacitors, we first need to calculate the equivalent capacitance of the series connection, which is given by 1/C_eq = 1/C1 + 1/C2. Then, we use the formula for energy stored in a capacitor, E = 0.5 * C_eq * V^2. Plugging in the values: C1 = 3 \u03bcF, C2 = 6 \u03bcF, and V = 300 V. Equivalent capacitance, C_eq = (3+6)/(3*6) = 9/18 = 0.5 \u03bcF. Energy stored, E = 0.5 * 0.5 * (300)^2 = 0.5 * 0.5 * 90000 = 22500 J. However, my initial calculation skipped the microfarad conversion to farads. Let's correct that: C_eq = 0.5 \u03bcF = 0.5 * 10^-6 F. Correct energy calculation: E = 0.5 * 0.5 * 10^-6 * (300)^2 = 0.5 * 0.5 * 10^-6 * 90000 = 0.225 J, which rounds to the closest option."
+    },
+    {
+        "question": "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)\nOptions:\nA) 0.1 eV\nB) 1 eV\nC) 10 eV\nD) 100 eV",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "To observe diffraction patterns with electrons, the de Broglie wavelength of the electrons should be comparable to the lattice spacing of the crystal. The de Broglie wavelength (\u03bb) can be calculated using the equation \u03bb = h/p, where h is Planck's constant and p is the momentum of the electron. The momentum p is related to the kinetic energy (KE) by p = sqrt(2mKE), where m is the mass of the electron. Given that the lattice spacing is 0.4 nm, we need to find an energy that results in an approximate wavelength of this order. The energy options given are in eV, and we know that for typical electron diffraction experiments, the kinetic energy needs to be in the range where the wavelengths are on the order of atomic distances. Among the choices provided, 100 eV is a common order of magnitude that would yield such wavelengths."
+    },
+    {
+        "question": "Two identical satellites, A and B, are in circular orbits around Earth. The orbital radius of A is twice that of B. Which of the following gives the ratio of the angular momentum of A to the angular momentum of B?\nOptions:\nA) 4\nB) 2\nC) sqrt(2)\nD) 1/sqrt(2)",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "The angular momentum (L) of a satellite in a circular orbit around Earth is given by L = mvr, where m is the mass, v is the velocity, and r is the radius of the orbit. Since both satellites are identical, their masses (m) are the same. The orbital speed (v) of a satellite is given by v = sqrt(GM/r), where G is the gravitational constant and M is the mass of Earth. Thus, the angular momentum ratio of A to B is (mva)/(mvb) = (sqrt(GMa)/a)/(sqrt(GMb)/b) = sqrt(b/a). Given that the orbital radius of A is twice that of B (a = 2b), the ratio becomes sqrt(b/(2b)) = 1/sqrt(2)."
+    },
+    {
+        "question": "An object is thrown horizontally from the open window of a building. If the initial speed of the object is 20 m/s and it hits the ground 2.0 s later, from what height was it thrown? (Neglect air resistance and assume the ground is level.)\nOptions:\nA) 4.9 m\nB) 9.8 m\nC) 10.0 m\nD) 19.6 m",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "Using the given time and knowing that the object was thrown horizontally, we can determine the height it fell due to gravity using the formula: height = (1/2) * g * t^2, where g is the acceleration due to gravity (approximately 9.8 m/s^2) and t is the time. Plugging in the values: height = (1/2) * 9.8 m/s^2 * (2.0 s)^2 gives us the height."
+    },
+    {
+        "question": "In a nonrelativistic, one-dimensional collision, a particle of mass 2m collides with a particle of mass m at rest. If the particles stick together after the collision, what fraction of the initial kinetic energy is lost in the collision?\nOptions:\nA) 0\nB) 1/4\nC) 1/3\nD) 1/2",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "In an inelastic collision where objects stick together, the final kinetic energy is always less than the initial kinetic energy due to the conversion of some kinetic energy into other forms, typically heat or potential energy. By applying the conservation of momentum principle and comparing the initial and final kinetic energies, we find the fraction of the initial kinetic energy lost. For two particles of masses 2m and m, with the second at rest, the loss in kinetic energy can be calculated as follows: Initial KE = 0.5*(2m)*v^2 (since only the first particle has initial velocity v). After they stick together, the combined mass is 3m and their common velocity is v/3 due to momentum conservation (2mv = 3mv_final implies v_final = v/3). Final KE = 0.5*(3m)*(v/3)^2 = 0.5*m*v^2/3. The fraction lost is therefore 1 - (Final KE / Initial KE) = 1 - (1/3) = 2/3, but this exact fraction isn't listed, indicating a need to reevaluate the straightforward subtraction for direct comparison to options provided, specifically seeking the direct fraction of initial energy conserved or lost as per the question's intent. Given the standard approach to such problems, let's reassess to directly align with the question's phrasing: The reduction in KE should be seen from the perspective of the total system's initial energy being partially retained post-collision. Given my prior explanation inadvertently misaligned with direct option correlation, let's rectify: The correct interpretation seeks the fraction lost directly, recognizing my initial explanation aimed for a comparative reduction ratio yet didn't deliver the answer format as requested. Given the conservation principles correctly applied but not succinctly answered per format, revisiting the calculation's outcome interpretation is crucial. The correct deduction, focusing strictly on the question's ask, involves understanding the direct translation to the options presented. Considering the oversight, let's accurately match the calculation's implication to the question's expected format, realizing the calculation's essence was to discern energy loss fraction, directly translating to the options."
+    },
+    {
+        "question": "White light is normally incident on a puddle of water (index of refraction 1.33). A thin (500 nm) layer of oil (index of refraction 1.5) floats on the surface of the puddle. Of the following, the most strongly reflected wavelength is\nOptions:\nA) 500 nm\nB) 550 nm\nC) 600 nm\nD) 650 nm",
+        "pred": "a",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "To determine the most strongly reflected wavelength, we consider the conditions for constructive interference in thin-film interference. This occurs when the optical path difference (2nt) is equal to a half-integer multiple of the wavelength in the film (m\u03bb), where n is the refractive index of the film, t is the thickness of the film, and m is an integer. Given the indices of refraction for water and oil, and knowing that white light is incident, we're looking for the wavelength that satisfies this condition most closely, leading to maximum reflection. Since the oil film has a higher refractive index than water, it will cause more pronounced interference effects for wavelengths that align with its specific interference conditions. Among the options provided, the wavelength that best fits this condition would logically be closer to a quarter-wavelength within the oil film. Calculating this precisely requires knowing the refractive index of air and applying the formula, but intuitively, the shortest wavelength (highest frequency color) in the visible spectrum, which is towards the violet end, would experience stronger reflection due to the smaller path difference needed to create a half-integer wavelength condition. However, the exact numerical calculation isn't straightforward without detailed calculations, but given the options and understanding of interference principles, we can infer."
+    },
+    {
+        "question": "A nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field. The field has a strength of \u03c0/4 tesla and is perpendicular to the velocity of the particle. What is the particle\u2019s mass if it has a cyclotron frequency of 1,600 hertz?\nOptions:\nA) 2.5 * 10^-23 kg\nB) 1.2 * 10^-22 kg\nC) 3.3 * 10^-22 kg\nD) 5.0 * 10^-21 kg",
+        "pred": "c",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "The cyclotron frequency is given by f = qB/(2\u03c0m), where f is the frequency, q is the charge of the particle, B is the magnetic field strength, and m is the mass of the particle. We know the charge is twice that of an electron (q = 2e), the magnetic field B = \u03c0/4 T, and the frequency f = 1600 Hz. Plugging these values into the formula gives us the mass m. Solving for m gives m = (2e * 2\u03c0f)/(B). Using e = 1.6 * 10^-19 C and calculating yields the mass."
+    },
+    {
+        "question": "An airplane drops a payload while traveling due north, parallel to the ground, at a constant speed of 100 m/s. If air resistance is neglected, what is the velocity of the payload relative to the plane 4.0 s after it is released?\nOptions:\nA) 0\nB) 40 m/s down\nC) 80 m/s down\nD) 100 m/s north and 40 m/s down",
+        "pred": "d",
+        "gt": "b",
+        "em": false,
+        "f1": 0,
+        "thought": "Once the payload is dropped, it is subject only to gravity. Since the plane and the payload were initially moving together at 100 m/s north, the horizontal velocity of the payload relative to the plane remains 100 m/s north indefinitely. However, the vertical motion is accelerated due to gravity, which acts downwards at 9.8 m/s^2. After 4.0 seconds, the vertical velocity of the payload will be 9.8 m/s * 4.0 s = 39.2 m/s down, approximating to 40 m/s for the choices provided. There is no horizontal acceleration, so the horizontal component remains as it was when released. Thus, the payload's velocity relative to the plane has a northward component of 100 m/s and a downward component of approximately 40 m/s."
+    }
+]

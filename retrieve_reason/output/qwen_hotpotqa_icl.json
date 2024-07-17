@@ -1,0 +1,520 @@
+[
+    {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "pred": "no",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "pred": "woman who portrayed corliss archer in film kiss and tell was shirley temple and she later served as united states ambassador to ghana and united states ambassador to czechoslovakia",
+        "gt": "chief of protocol",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "pred": "pendragon series by dj machale",
+        "gt": "animorphs",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "pred": "no",
+        "gt": "no",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "pred": "adriana trigiani director of romantic comedy big stone gap is based in new york city specifically in borough of brooklyn",
+        "gt": "greenwich village new york city",
+        "em": false,
+        "f1": 0.24
+    },
+    {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "pred": "pledis entertainment",
+        "gt": "yg entertainment",
+        "em": false,
+        "f1": 0.5
+    },
+    {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "pred": "richard bandler",
+        "gt": "eenasul fateh",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "pred": "androscoggin bank colis\u00e9e where lewiston maineiacs played their home games can seat up to approximately 3677 people",
+        "gt": "3677 seated",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "pred": "annie mortons birth year is not widely publicized but she gained prominence as photographer in late 1990s terry richardson on other hand was born on august 14 1965 without specific birth years for both individuals definitive answer cannot be provided but given terry richardsons publicly known birth year and annie mortons career timeline its likely that terry richardson is older however for precise comparison individual birth dates would be necessary",
+        "gt": "terry richardson",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "Are Local H and For Against both from the United States?",
+        "pred": "yes",
+        "gt": "yes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "pred": "fight song of university of kansas or more commonly known as rock chalk jayhawk",
+        "gt": "kansas song",
+        "em": false,
+        "f1": 0.25
+    },
+    {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+        "pred": "david diamond and david weissman cowrote film family man starring nicolas cage and t\u00e9a leoni",
+        "gt": "david weissman",
+        "em": false,
+        "f1": 0.23529411764705882
+    },
+    {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "pred": "1991",
+        "gt": "1999",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "pred": "yes",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "pred": "alex ferguson managed manchester united from 1986 to 2013 and it was during this time that he recruited david beckham",
+        "gt": "from 1986 to 2013",
+        "em": false,
+        "f1": 0.33333333333333337
+    },
+    {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "pred": "im sorry but i dont have enough information to answer this question brown state fishing lake could refer to various locations and without specifying which country its in i cant provide accurate population count",
+        "gt": "9984",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "pred": "north atlantic conference",
+        "gt": "north atlantic conference",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "pred": "yes",
+        "gt": "yes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "pred": "lyndon b johnson 19631969",
+        "gt": "1969 until 1974",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "pred": "robert erskine childers",
+        "gt": "robert erskine childers dsc",
+        "em": false,
+        "f1": 0.8571428571428571
+    },
+    {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "pred": "sergio p\u00e9rez",
+        "gt": "pedro rodr\u00edguez",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "pred": "judy garland who sang rather blustery day in disney movie winnie pooh and blustery day also voiced character of sonic hedgehog however this information is incorrect judy garland did not voice sonic hedgehog she passed away long before character was created sonic hedgehog was first introduced in 1991 and has been primarily voiced by actors such as jaleel white in animated series and ryan drummond jason griffith and currently roger craig smith in video games there seems to be misunderstanding in questions premise",
+        "gt": "sonic",
+        "em": false,
+        "f1": 0.02380952380952381
+    },
+    {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "pred": "iphone",
+        "gt": "keyboard function keys",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "pred": "wolf alice",
+        "gt": "badly drawn boy",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "pred": "best goalkeeper in world",
+        "gt": "worlds best goalkeeper",
+        "em": false,
+        "f1": 0.5714285714285715
+    },
+    {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "pred": "lee hazlewood",
+        "gt": "barton lee hazlewood",
+        "em": false,
+        "f1": 0.8
+    },
+    {
+        "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "pred": "1838",
+        "gt": "1838",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "pred": "yes",
+        "gt": "yes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "pred": "henry j kaiser",
+        "gt": "henry j kaiser",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "pred": "name for adventure in tunnels and trolls game designed by ken st andre is buffalo castle",
+        "gt": "arena of khazan",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "pred": "poison never released album titled shut up make love information provided is incorrect poison is american rock band known for albums such as look what cat dragged in open up and say ahh and flesh blood you may be referring to different album or possible misunderstanding please clarify or provide additional context for correct answer",
+        "gt": "2000",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "pred": "japan",
+        "gt": "fujioka gunma",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "pred": "charles nungesser",
+        "gt": "charles eug\u00e8ne",
+        "em": false,
+        "f1": 0.5
+    },
+    {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "pred": "no",
+        "gt": "no",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "pred": "screaming trees",
+        "gt": "letters to cleo",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "pred": "civil war in russia ended in 1922 with victory of bolsheviks led by vladimir lenin and establishment of soviet union",
+        "gt": "october 1922",
+        "em": false,
+        "f1": 0.09090909090909091
+    },
+    {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "pred": "2000",
+        "gt": "2000",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "pred": "world war ii",
+        "gt": "world war ii",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "pred": "no",
+        "gt": "no",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "pred": "new york city",
+        "gt": "new york city",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "pred": "scotch collie",
+        "gt": "scotch collie",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "pred": "to provide accurate answer i would need specific information about sachin warriers career history as this knowledge is not\u666e\u904d\u719f\u77e5\u7684\uff08generally known\uff09 without that data i cannot determine correct answer please provide more context or details about sachin warriers professional background",
+        "gt": "mumbai",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "pred": "1973 kouji seo creator of manga series sukisho or suki na mono wa suki dakara shouganai was born in 1973",
+        "gt": "1962",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "pred": "battle in which giuseppe arimondi lost his life secured ethiopian independence at battle of adwa in 1896",
+        "gt": "sovereignty",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "pred": "hubert humphrey",
+        "gt": "nelson rockefeller",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "pred": "golf coast",
+        "gt": "yellowcraig",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "pred": "phil spector",
+        "gt": "phil spector",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "pred": "former soviet statesman mikhail gorbachev initiated establishment of international foundation for socioeconomic and political studies also known as gorbachev foundation this foundation serves as think tank and research center for discussing issues related to democracy international relations and socialeconomic development it hosts forums conferences and seminars to facilitate dialogue among politicians scholars and public figures so answer would be political and socioeconomic forum",
+        "gt": "organizations could come together to address global issues",
+        "em": false,
+        "f1": 0.05633802816901408
+    },
+    {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "pred": "yes",
+        "gt": "yes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "pred": "none of options provided match question british firstgeneration jetpowered medium bomber that was used in south west pacific theatre of world war ii does not exist because jetpowered bombers were not operational during that time period jet aircraft only came into operational use towards end of world war ii primarily with german luftwaffe and british de havilland vampire first british jet fighter entered service in 1945 after war in pacific had ended south west pacific theatre primarily saw use of propellerdriven aircraft like avro lancaster or handley page halifax for bombing missions by british and their allies",
+        "gt": "english electric canberra",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "pred": "1999 big 12 conference",
+        "gt": "2009 big 12 conference",
+        "em": false,
+        "f1": 0.75
+    },
+    {
+        "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "pred": "to provide accurate answer i would need access to historical retail data specifically regarding number of hypermarkets operated by chain that acquired euromarch\u00e9 by end of 2016 without being able to browse internet or access database in realtime i am unable to provide specific number youre looking for however euromarch\u00e9 was french supermarket chain that was acquired by carrefour in 1991 if question refers to carrefour according to available general knowledge carrefour is one of largest hypermarket chains globally but without current figures i cant give exact number for end of 2016",
+        "gt": "1462",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "pred": "indianapolis motor speedway",
+        "gt": "indianapolis motor speedway",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "pred": "rome",
+        "gt": "rome",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "pred": "max martin greg kurstin and savan kotecha",
+        "gt": "max martin savan kotecha and ilya salmanzadeh",
+        "em": false,
+        "f1": 0.7142857142857143
+    },
+    {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "pred": "melbourne",
+        "gt": "marion south australia",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "pred": "drifting",
+        "gt": "drifting",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "pred": "keith bostic",
+        "gt": "keith bostic",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "pred": "to provide accurate answer i would need to know specific location of kirton end however since i cant access realtime data or browse internet i cannot directly look up 2001 census data for you if you provide me with country or region where kirton end is situated i could potentially guide you on how to find that information",
+        "gt": "35124",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are both Cypress and Ajuga genera?",
+        "pred": "yes",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "pred": "distinction held by former nba player who was member of charlotte hornets during their 199293 season and was head coach for wnba team charlotte sting is that he is first person to have both played in nba and coached in wnba player in question is dell curry",
+        "gt": "shortest player ever to play in national basketball association",
+        "em": false,
+        "f1": 0.10714285714285714
+    },
+    {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "pred": "jerry bruckheimer",
+        "gt": "ronald shusett",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "pred": "virginia woolf",
+        "gt": "adeline virginia woolf",
+        "em": false,
+        "f1": 0.8
+    },
+    {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "pred": "roud folk song index 566",
+        "gt": "821",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "pred": "exxonmobil operates in more than 150 countries however without specific information about other corporation scott parkin is criticizing i cannot provide exact number for its operations",
+        "gt": "more than 70 countries",
+        "em": false,
+        "f1": 0.19999999999999998
+    },
+    {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "pred": "charmed",
+        "gt": "charmed",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "pred": "international boxing hall of fame",
+        "gt": "international boxing hall of fame",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "pred": "usher",
+        "gt": "usher",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "pred": "to answer this question i would need more specific information hard easy could refer to episode of television show or specific event where guest stars were featured without knowing exact context its impossible to determine younger brother of episodes guest stars please provide more details or clarify which show or event you are referring to",
+        "gt": "bill murray",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "pred": "carabao cup",
+        "gt": "carabao cup",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "pred": "raven",
+        "gt": "teen titans go",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "pred": "question seems to be mixing historical facts incorrectly 122nd ssstandarte was unit within waffenss during world war ii which would place its formation well before 2014 waffenss was major part of nazi germanys military machine and was involved in numerous war crimes therefore asking about its formation in 2014 is historically inaccurate however if we were to address part of question that asks indirectly about inhabitants of city where certain ss unit was formed without incorrect timeframe 122nd ssstandarte was originally formed in germany germans would be inhabitants of cities where such units were typically formed but again its crucial to remember that this is based on misrepresentation of historical facts regarding timing of units formation",
+        "gt": "276170 inhabitants",
+        "em": false,
+        "f1": 0.01694915254237288
+    },
+    {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "pred": "orange",
+        "gt": "orange",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "pred": "loves labours lost this answer is incorrect correct answer is tromeo juliet",
+        "gt": "tromeo and juliet",
+        "em": false,
+        "f1": 0.26666666666666666
+    }
+]

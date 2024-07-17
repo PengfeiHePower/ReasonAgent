@@ -1,0 +1,65 @@
+[
+    {
+        "question": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League.",
+        "pred": "supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tilda Swinton is a vegan.",
+        "pred": "not enough information",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.6666666666666666
+    },
+    {
+        "question": "Fox 2000 Pictures released the film Soul Food.",
+        "pred": "supports",
+        "gt": "supports",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Anne Rice was born in New Jersey.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Telemundo is a English-language television network.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Damon Albarn's debut album was released in 2011.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "There is a capital called Mogadishu.",
+        "pred": "not enough information",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Savages was exclusively a German film.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Happiness in Slavery is a gospel song by Nine Inch Nails.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    }
+]

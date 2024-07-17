@@ -1,0 +1,702 @@
+[
+    {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "pred": "lets think step by step scott derrickson is american filmmaker ed wood was also american filmmaker therefore scott derrickson and ed wood were of same nationality which is american",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "pred": "lets think step by step woman who portrayed corliss archer in film kiss and tell is shirley temple shirley temple later held diplomatic position as united states ambassador to ghana and czechoslovakia so government position she held was united states ambassador",
+        "gt": "chief of protocol",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "pred": "lets think step by step science fantasy young adult series that is told in first person and includes set of companion books focusing on enslaved worlds and alien species is likely lunar chronicles by marissa meyer this series features novels such as cinder scarlet cress and winter each named after fairy tale character but set in futuristic world with androids cyborgs and lunar colonies companion books fairest and stars above delve into backstories of characters and world which includes enslaved populations and various alien species answer lunar chronicles",
+        "gt": "animorphs",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "pred": "lets think step by step laleli mosque is located in fatih district of istanbul turkey esma sultan mansion on other hand is situated in ortak\u00f6y district of istanbul since fatih and ortak\u00f6y are two different neighborhoods in istanbul laleli mosque and esma sultan mansion are not located in same neighborhood answer no laleli mosque and esma sultan mansion are not located in same neighborhood",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "pred": "lets think step by step director of big stone gap adriana trigiani is based in new york city specifically she is from borough of brooklyn in new york city so answer is brooklyn",
+        "gt": "greenwich village new york city",
+        "em": false,
+        "f1": 0.15789473684210525
+    },
+    {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "pred": "lets think step by step 2014 ss is debut album of south korean boy group winner winner was formed by yg entertainment through survival program win who is next so group was formed by yg entertainment answer yg entertainment",
+        "gt": "yg entertainment",
+        "em": false,
+        "f1": 0.09756097560975609
+    },
+    {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "pred": "lets think step by step question refers to someone known by stage name aladdin who worked as consultant to help organizations enhance their performance this description matches subir chowdhury author quality management and leadership thought leader who used aladdin as stage name during period of his life when he was involved in magic performances however it seems there might be mixup in stage name provided subir chowdhury is more famously known for his work in quality management and not typically associated with stage name aladdin which is likely misattribution or misunderstanding in question given details provided and assuming aladdin was intended to refer to real figure in field of organizational improvement accurate association would be with subir chowdhury but without direct match to exact stage name aladdin answer there might be confusion in question as subir chowdhury renowned quality management consultant has been associated with stage name resembling aladdin due to his background in magic but he is not widely known by that exact name in his professional capacity as consultant therefore based on information given and common knowledge there isnt precise match for someone fitting both stage name aladdin and being prominent organizational performance consultant",
+        "gt": "eenasul fateh",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "pred": "lets think step by step lewiston maineiacs were junior ice hockey team that played in quebec major junior hockey league their home arena was androscoggin bank colis\u00e9e in lewiston maine colis\u00e9e had seating capacity of around 4000 people for hockey games so answer is approximately 4000 people",
+        "gt": "3677 seated",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "pred": "lets think step by step annie morton is model known for her work in 1990s terry richardson is photographer born on august 14 1965 without exact birth year for annie morton we cannot definitively determine who is older based on information provided however given prominence of mortons career in 1990s its likely she was born before or around same time as richardson potentially making her older or of similar age but without specific birth years conclusive determination cannot be made",
+        "gt": "terry richardson",
+        "em": false,
+        "f1": 0.04878048780487806
+    },
+    {
+        "question": "Are Local H and For Against both from the United States?",
+        "pred": "lets think step by step local h is american rock band formed in zion illinois united states for against is postpunk band from lincoln nebraska also in united states therefore both local h and for against are indeed from united states answer yes",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "pred": "lets think step by step university with its main campus in lawrence kansas and branch campuses in kansas city metropolitan area is university of kansas fight song of university of kansas is im jayhawk so answer is im jayhawk",
+        "gt": "kansas song",
+        "em": false,
+        "f1": 0.09756097560975609
+    },
+    {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+        "pred": "lets think step by step screenwriter with credits for evolution is don jakoby don jakoby cowrote film gone in 60 seconds which stars nicolas cage and t\u00e9a leoni so answer is don jakoby",
+        "gt": "david weissman",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "pred": "lets think step by step movie described is likely predator 1987 where arnold schwarzenegger plays role of dutch former special forces soldier but not new york police detective however considering most famous role that matches description provided would be john kimble in kindergarten cop 1990 but that doesnt fit context of guns n roses promoting movie of his more accurate match based on description given correcting detective detail would be end of days 1999 where he plays former new york city detective guns n roses performed promotional concert for end of days in 1999 where they played song oh my god which was featured on soundtrack of film so answer is 1999",
+        "gt": "1999",
+        "em": false,
+        "f1": 0.017699115044247787
+    },
+    {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "pred": "lets think step by step random house tower also known as park imperial is mixeduse building that includes residential apartments and office space 888 7th avenue is primarily office building both buildings are indeed used for real estate purposes with one focusing on mix of residential and commercial use and other primarily for commercial use so answer is yes both random house tower and 888 7th avenue are used for real estate",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "pred": "lets think step by step football manager who recruited david beckham was sir alex ferguson sir alex ferguson managed manchester united from 1986 to 2013 during this time he brought in david beckham to youth system in 1991 and beckham made his firstteam debut in 1992 so timeframe during which sir alex ferguson managed manchester united including when he recruited and managed david beckham is from 1986 to 2013",
+        "gt": "from 1986 to 2013",
+        "em": false,
+        "f1": 0.1095890410958904
+    },
+    {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "pred": "to answer this question i would need specific information about brown state fishing lake and which country it is located in without that data i cannot provide accurate number of inhabitants for country please provide more context or name of country where brown state fishing lake is situated",
+        "gt": "9984",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "pred": "lets think step by step vermont catamounts mens soccer team participates in ncaa division i sports and is part of america east conference america east conference was previously known as north atlantic conference from 1988 to 1996 therefore conference was formerly known as north atlantic conference",
+        "gt": "north atlantic conference",
+        "em": false,
+        "f1": 0.12244897959183672
+    },
+    {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "pred": "lets think step by step giuseppe verdi is indeed italian opera composer known for works such as rigoletto la traviata and aida ambroise thomas on other hand is french opera composer famous for operas like mignon and hamlet therefore both verdi and thomas are opera composers answer yes giuseppe verdi and ambroise thomas are both opera composers",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "pred": "lets think step by step roger o egeberg served as assistant secretary for health and scientific affairs under president lyndon b johnson lyndon b johnsons presidency spanned from 1963 to 1969 taking office after assassination of john f kennedy and serving one full term afterwards so years during which president served were 19631969",
+        "gt": "1969 until 1974",
+        "em": false,
+        "f1": 0.03571428571428571
+    },
+    {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "pred": "lets think step by step henry roth was american writer known for his novel call it sleep robert erskine childers was englishirish writer famous for his novel riddle of sands therefore writer who was from england is robert erskine childers",
+        "gt": "robert erskine childers dsc",
+        "em": false,
+        "f1": 0.13636363636363635
+    },
+    {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "pred": "lets think step by step force india driver born in 1990 refers to sergio p\u00e9rez besides sergio p\u00e9rez another notable mexican formula one driver who has held podium is pedro rodr\u00edguez so answer is pedro rodr\u00edguez",
+        "gt": "pedro rodr\u00edguez",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "pred": "lets think step by step singer of rather blustery day is sterling holloway who was voice actor known for his distinctive voice he voiced numerous characters throughout his career including character winnie pooh however question asks about hedgehog character he voiced sterling holloway did not voice notable hedgehog character confusion might arise from mixing up sterling holloways roles with other voice actors famous hedgehog character in animation is sonic hedgehog but he was not voiced by sterling holloway therefore based on information provided and sterling holloways known roles there doesnt seem to be correct answer to this question as it was likely based on misunderstanding sterling holloway is not known for voicing hedgehog character",
+        "gt": "sonic",
+        "em": false,
+        "f1": 0.017391304347826087
+    },
+    {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "pred": "lets think step by step apple remote was originally designed to control media playback on apple devices such as imac macbook apple tv and ipod hifi aside from apple remote itself other devices that can control these programs include infrared ir remotes compatible with specific apple device like universal remotes that can be programmed to mimic apple remote functions ios remote app which allows iphone ipad or ipod touch to control itunes and apple tv via wifi siri voice commands on compatible devices like latermodel apple tvs and iphones paired with apple tv which can be used to navigate and control media playback physical controls on apple devices themselves like touchpad on apple tv remote or keyboard and trackpad on mac given options provided in question format without specifying direct alternative device comprehensive answer would be other devices capable of controlling programs apple remote interacts with include infraredcompatible universal remotes ios remote app siri voice commands and builtin controls on apple devices",
+        "gt": "keyboard function keys",
+        "em": false,
+        "f1": 0.012121212121212121
+    },
+    {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "pred": "lets think step by step badly drawn boy stage name of damon gough is primarily known as solo artist with folk and indie rock style he often performs with just himself and his guitar occasionally backed by other musicians but typically maintaining minimal setup wolf alice on other hand is fourpiece band consisting of lead vocalistguitarist guitarist bassist and drummer they also sometimes incorporate additional instruments and sounds into their live shows comparing two wolf alice with at least four members playing different instruments simultaneously has higher instrumenttoperson ratio during their typical performances compared to badly drawn boy who often performs solo or with fewer additional musicians so answer is wolf alice",
+        "gt": "badly drawn boy",
+        "em": false,
+        "f1": 0.052173913043478265
+    },
+    {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "pred": "lets think step by step kasper schmeichels father is peter schmeichel iffhs international federation of football history statistics voted peter schmeichel as worlds best goalkeeper in 1992 so answer is worlds best goalkeeper",
+        "gt": "worlds best goalkeeper",
+        "em": false,
+        "f1": 0.16666666666666669
+    },
+    {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "pred": "lets think step by step writer of these boots are made for walkin is lee hazlewood lee hazlewood indeed passed away in 2007 so answer is lee hazlewood",
+        "gt": "barton lee hazlewood",
+        "em": false,
+        "f1": 0.12903225806451613
+    },
+    {
+        "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "pred": "lets think step by step virginia commonwealth university vcu was founded on may 2 1838 so answer is 1838",
+        "gt": "1838",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "pred": "lets think step by step dictyosperma is genus of flowering plants in palm family arecaceae huernia is also genus but in plant family apocynaceae both are indeed described as genera so answer is yes both dictyosperma and huernia are described as genus",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "pred": "lets think step by step kaiser ventures was founded by henry j kaiser who is indeed known as father of modern american shipbuilding for his contributions during world war ii so answer is henry j kaiser",
+        "gt": "henry j kaiser",
+        "em": false,
+        "f1": 0.15384615384615385
+    },
+    {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "pred": "lets think step by step tunnels trolls is roleplaying game designed by ken st andre within game adventures are typically referred to as solo adventures if they are designed to be played by single player or gm adventures if they require game master however without specifying particular adventure within game its difficult to provide exact name tunnels trolls has had numerous solo adventures published over years such as naked doom buffalo castle and city of terrors if youre looking for general term used in game adventures are commonly just called solos in tunnels trolls context so answer would be solos in reference to singleplayer adventures",
+        "gt": "arena of khazan",
+        "em": false,
+        "f1": 0.018518518518518517
+    },
+    {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "pred": "lets think step by step poison american rock band does not have album titled shut up make love their discography includes albums such as look what cat dragged in open up and say ahh flesh blood native tongue and hollyweird among others therefore there is no release date for poison album called shut up make love because it does not exist",
+        "gt": "2000",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "pred": "lets think step by step bucktick is japanese rock band therefore bucktick hails from japan",
+        "gt": "fujioka gunma",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "pred": "lets think step by step loiseau blanc white bird was biplane attempting to make first transatlantic flight from paris to new york in 1927 it was flown by charles nungesser french ace pilot from world war i and his navigator fran\u00e7ois coli therefore french ace pilot and adventurer who flew loiseau blanc is charles nungesser",
+        "gt": "charles eug\u00e8ne",
+        "em": false,
+        "f1": 0.03508771929824561
+    },
+    {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "pred": "lets think step by step freakonomics is american documentary based on book of same name by steven levitt and stephen dubner in realm of hackers however is australian documentary film directed by kevin anderson therefore they are not both american documentaries answer no",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "pred": "lets think step by step letters to cleo had five members screaming trees had four members therefore letters to cleo had more members than screaming trees final answer letters to cleo",
+        "gt": "letters to cleo",
+        "em": false,
+        "f1": 0.17647058823529413
+    },
+    {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "pred": "lets think step by step russian civil war in which alexander kerenskys provisional government was ultimately defeated by bolsheviks led by vladimir lenin ended in 1922 with establishment of soviet union so answer is 1922",
+        "gt": "october 1922",
+        "em": false,
+        "f1": 0.05405405405405405
+    },
+    {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "pred": "lets think step by step seven brief lessons on physics was written by carlo rovelli italian physicist to find out since when he has worked in france we need to look into his biography carlo rovelli started working in france at university of paris in 1988 so answer is 1988",
+        "gt": "2000",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "pred": "lets think step by step mention of 60 million casualties points to world war ii which had highest death toll in history including both military and civilian casualties therefore livesey hal war memorial commemorates fallen of world war ii so answer is world war ii",
+        "gt": "world war ii",
+        "em": false,
+        "f1": 0.125
+    },
+    {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "pred": "lets think step by step elko regional airport is located in elko nevada gerald r ford international airport is located in grand rapids michigan since one airport is in nevada and other is in michigan they are not both located in michigan final answer no both airports are not located in michigan",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "pred": "lets think step by step ralph hefferline was psychology professor who coauthored book personality theory and psychotherapy with william coulson and fritz perls he primarily taught at columbia university columbia university is located in new york city so answer is new york city",
+        "gt": "new york city",
+        "em": false,
+        "f1": 0.13043478260869565
+    },
+    {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "pred": "lets think step by step manchester terrier is breed that does not have gordon or irish setters in its ancestry scotch collie also known as rough collie or smooth collie has heritage that potentially includes various breeds in its development but it is not directly known for having gordon or irish setters as direct ancestors in significant way however considering questions options and without more specific historical breeding information most accurate answer based on breed characteristics would lean towards no specific breed definitively having gordon and irish setters as direct ancestors but given choice between two neither is clear match yet question requires answer given nature of breeding over time and possible crosses its hard to conclusively say either breed definitely has gordon or irish setters in their ancestry without genetic testing on individual dogs however since question necessitates choosing one scotch collie might be slightly more plausible option due to its history of being farm and herding dog where crosses with other breeds were more common though this is still speculative answer answer scotch collie with understanding that this choice is made under premise of speculative breeding histories and without concrete evidence pointing to direct ancestry from gordon or irish setters",
+        "gt": "scotch collie",
+        "em": false,
+        "f1": 0.0196078431372549
+    },
+    {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "pred": "lets think step by step sachin warrier is indian musician and not prominently known for his work as software engineer therefore without specific information on his software engineering career we cannot accurately determine headquarters of company he may have worked for in that capacity however if assuming this is hypothetical scenario or misinformation and we are to provide thought process rather than factual data one would typically research sachin warriers professional background specifically looking for software engineering roles and then identify respective companys headquarters since there is no public knowledge of sachin warrier working as software engineer for notable company we cannot conclude with factual answer based on given information",
+        "gt": "mumbai",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "pred": "lets think step by step japanese manga series described is likely is which features protagonist named ichitaka seto this manga is written and illustrated by masakazu katsura masakazu katsura was born on december 10 1962 so answer is 1962",
+        "gt": "1962",
+        "em": false,
+        "f1": 0.05
+    },
+    {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "pred": "lets think step by step giuseppe arimondi was italian general who fought in first italoethiopian war he lost his life during battle of adwa in 1896 battle of adwa was decisive victory for ethiopia as it secured ethiopias independence from italian colonial ambitions therefore battle in which giuseppe arimondi lost his life secured ethiopias independence answer ethiopias independence",
+        "gt": "sovereignty",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "pred": "lets think step by step alfred balk was involved with committee on employment of minority groups in news media which was active during 1960s us vice president at that time was hubert humphrey who served under president lyndon b johnson so answer is hubert humphrey",
+        "gt": "nelson rockefeller",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "pred": "lets think step by step dirleton is village in east lothian scotland and it is home to dirleton castle medieval fortress east lothian itself borders firth of forth coastal area to its south therefore medieval fortress in dirleton borders on south side of firth of forth answer firth of forth",
+        "gt": "yellowcraig",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "pred": "lets think step by step description provided points to song spanish harlem which was written by jerry leiber and phil spector this song was indeed inspired by words on tombstone and was first track on phil spectors box set back to mono so writers of song are jerry leiber and phil spector",
+        "gt": "phil spector",
+        "em": false,
+        "f1": 0.07407407407407407
+    },
+    {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "pred": "lets think step by step former soviet statesman who initiated forum is mikhail gorbachev he initiated forum of nobel peace laureates so type of forum he initiated is forum for nobel peace laureates",
+        "gt": "organizations could come together to address global issues",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "pred": "lets think step by step ferocactus is genus of cacti which are type of plant silene is genus of flowering plants in family caryophyllaceae therefore both ferocactus and silene are indeed types of plants so answer is yes",
+        "gt": "yes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "pred": "lets think step by step question refers to british firstgeneration jetpowered medium bomber used in south west pacific theatre of world war ii however this presents historical inconsistency because jetpowered aircraft did not see operational use during world war ii let alone in that specific theatre jetpowered bombers like english electric canberra only entered service after war in early 1950s therefore there is no british firstgeneration jet bomber that could have been used in world war ii confusion might arise from conflating time period of jetpowered aircraft with that of propellerdriven bombers which were indeed used in south west pacific theatre such as avro lancaster or handley page halifax but these are not jet aircraft so based on historical facts answer is that there was no british firstgeneration jetpowered medium bomber used in south west pacific theatre of world war ii",
+        "gt": "english electric canberra",
+        "em": false,
+        "f1": 0.04166666666666667
+    },
+    {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "pred": "lets think step by step colorado buffaloes football team competes in ncaa division i football bowl subdivision fbs they were part of big 12 conference until 2010 and then joined pac12 conference to find season where they had conference record of 26 in their 14th season within that conference we need to look at their records around transition period or specifically within conferences mentioned buffaloes 14th season in big 12 conference would have been 2010 season since they joined conference in 1996 checking their record for that year colorado indeed finished with 26 conference record in big 12 in 2010 therefore answer is 2010 season in big 12 conference",
+        "gt": "2009 big 12 conference",
+        "em": false,
+        "f1": 0.05309734513274336
+    },
+    {
+        "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "pred": "lets think step by step euromarch\u00e9 was bought by carrefour in 1991 to find out how many hypermarkets chain operated at end of 2016 we need to look up carrefours information for that time period as of end of 2016 carrefour operated around 4829 stores globally but to specify hypermarkets we need more precise figure unfortunately without realtime data access i cannot provide exact number of hypermarkets carrefour had at end of 2016 but its important to note that carrefour is one of largest hypermarket chains in world for precise answer historical records or specific database query would be necessary",
+        "gt": "1462",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "pred": "lets think step by step indianapolis motor speedway located in indianapolis indiana in midwestern united states hosts indianapolis 500 500mile race every may so answer is indianapolis motor speedway",
+        "gt": "indianapolis motor speedway",
+        "em": false,
+        "f1": 0.1875
+    },
+    {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "pred": "lets think step by step prince of tenors is nickname often associated with italian tenor luciano pavarotti one of famous operas by giacomo puccini that has been adapted into films is la boh\u00e8me luciano pavarotti starred in film version of la boh\u00e8me in 1988 this film was shot primarily in rome italy so city where prince of tenors starred in film based on puccini opera is rome",
+        "gt": "rome",
+        "em": false,
+        "f1": 0.029411764705882353
+    },
+    {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "pred": "lets think step by step ellie gouldings third studio album delirium included collaborations with various writers some notable writers she worked with on this album include max martin greg kurstin ryan tedder and savan kotecha so answer is max martin greg kurstin ryan tedder and savan kotecha among others",
+        "gt": "max martin savan kotecha and ilya salmanzadeh",
+        "em": false,
+        "f1": 0.17857142857142858
+    },
+    {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "pred": "lets think step by step australian city founded in 1838 that matches this description is adelaide within adelaide there is boarding school called prince alfred college which was opened by sir edwin smith former premier of south australia equivalent of statelevel prime minister school is named after prince alfred college in london though it should be noted that naming inspiration comes from royal personage prince alfred rather than exact duplication of school name in london nonetheless given details provided and adjusting for minor discrepancy answer is adelaide",
+        "gt": "marion south australia",
+        "em": false,
+        "f1": 0.044444444444444446
+    },
+    {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "pred": "lets think step by step d1nz refers to drift motorsport new zealand which is professional drifting championship drifting as motorsport is characterized by technique of oversteer where rear slip angle of car is greater than front slip angle causing car to slide or drift through corners primary oversteering technique associated with professional drifting is initiating and maintaining this controlled slide often involving techniques like clutch kicks ebrake initiations and scandinavian flicks however question seems to be asking for specific technique that series may be known for emphasizing in drifting culture one of fundamental techniques is feint drift or scandinavian flick which involves sudden steering input in opposite direction before turning into corner to unsettle car and initiate drift given that there isnt singular technique entire series is based on but rather encompasses all techniques within drifting its important to note that my thought process doesnt lead to precise singular answer as directly asked drifting competitions like d1nz feature various drift techniques and no single technique defines series exclusively given nature of question and assuming it expects more specific technique most recognizable technique associated with initiating drifts although not exclusive to d1nz would be scandinavian flick so if forced to choose answer could be interpreted as answer scandinavian flick",
+        "gt": "drifting",
+        "em": false,
+        "f1": 0.009569377990430623
+    },
+    {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "pred": "lets think step by step keith bostic was born on january 9 1956 jerry glanville was born on october 14 1941 since 1956 is later than 1941 keith bostic is younger than jerry glanville answer keith bostic is younger",
+        "gt": "keith bostic",
+        "em": false,
+        "f1": 0.09756097560975609
+    },
+    {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "pred": "lets think step by step to find population of city where kirton end is located according to 2001 census we first need to identify where kirton end is kirton end is small area within civil parish of kirton which is in lincolnshire england main town in this area is boston lincolnshire therefore to answer question we would look up 2001 census data for population of boston lincolnshire however without realtime access to databases i cannot provide exact figure normally one would consult historical census data records for this information so in practical situation you would check 2001 census records for boston lincolnshire to find population",
+        "gt": "35124",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are both Cypress and Ajuga genera?",
+        "pred": "lets think step by step cypress belongs to genus cupressus which consists of coniferous trees and shrubs ajuga on other hand is genus of herbaceous plants in mint family lamiaceae therefore while both are genera they belong to different plant families so answer is yes both cypress and ajuga are genera but of different plant families",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "pred": "lets think step by step former nba player who was member of charlotte hornets during their 199293 season and later became head coach for wnba team charlotte sting is dell curry he holds distinction of being alltime leading scorer for charlotte hornets now known as charlotte hornets previously bobcats additionally he is father of nba players stephen curry and seth curry so distinction held by him is being charlotte hornets alltime leading scorer",
+        "gt": "shortest player ever to play in national basketball association",
+        "em": false,
+        "f1": 0.024390243902439025
+    },
+    {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "pred": "lets think step by step jerry goldsmith composed music for numerous films throughout his career to provide specific answer we need to identify one of those films and its executive producer one notable film with score by jerry goldsmith is planet of apes 1968 executive producer of planet of apes was richard d zanuck so answer is richard d zanuck however its important to note that this answer applies specifically to planet of apes if you were asking about different film executive producer would be different",
+        "gt": "ronald shusett",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "pred": "lets think step by step emma bull american science fiction and fantasy author was born on december 13 1954 virginia woolf english modernist writer was born much earlier on january 25 1882 given these dates it is clear that virginia woolf was born earlier than emma bull answer virginia woolf",
+        "gt": "adeline virginia woolf",
+        "em": false,
+        "f1": 0.07547169811320754
+    },
+    {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "pred": "lets think step by step nursery rhyme that inspired poem what are little girls made of is what are little boys made of roud folk song index is comprehensive database of folk songs and their variations index number for what are little boys made of is 20666 therefore roud folk song index of nursery rhyme inspiring what are little girls made of is 20666",
+        "gt": "821",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "pred": "lets think step by step scott parkin is known for his activism against exxonmobil and halliburton halliburton is other corporation mentioned which operates in over 70 countries worldwide so answer is over 70 countries",
+        "gt": "more than 70 countries",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "pred": "lets think step by step rose mcgowan starred in wb supernatural drama series charmed where she played character paige matthews so answer is charmed",
+        "gt": "charmed",
+        "em": false,
+        "f1": 0.07999999999999999
+    },
+    {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "pred": "lets think step by step vince phillips held ibf junior welterweight title international boxing federation ibf is recognized by international boxing hall of fame so larger hall of fame that recognizes organization whose title he held is international boxing hall of fame",
+        "gt": "international boxing hall of fame",
+        "em": false,
+        "f1": 0.21276595744680848
+    },
+    {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "pred": "lets think step by step lead single from album confessions that got stuck behind another popular song for eight consecutive weeks on billboard hot 100 was yeah by usher song that kept it from number one spot was chingys right thurr therefore singer in question is usher",
+        "gt": "usher",
+        "em": false,
+        "f1": 0.04166666666666667
+    },
+    {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "pred": "lets think step by step to answer this question i would need to know specific guest stars of episode hard easy from whichever show or series is being referred to without that information its impossible to determine who their younger brother is please provide more context or specify which show and episode you are referring to",
+        "gt": "bill murray",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "pred": "lets think step by step football league cup known for sponsorship reasons as carabao cup in recent years is competition in which english football clubs compete however to specifically address 2017\u201318 season we need to consider sponsorship name for that period for 2017\u201318 season league cup was sponsored by carabao energy drink and thus was called carabao cup answer 2017\u201318 wigan athletic fc season competed in league cup known as carabao cup for sponsorship reasons",
+        "gt": "carabao cup",
+        "em": false,
+        "f1": 0.05194805194805195
+    },
+    {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "pred": "lets think step by step tara strong has voiced several major roles in animated series one of which is character raven in american animated television series teen titans which is indeed based on dc comics fictional superhero team so answer is teen titans",
+        "gt": "teen titans go",
+        "em": false,
+        "f1": 0.08695652173913045
+    },
+    {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "pred": "lets think step by step question seems to contain historical inaccuracy 122nd ssstandarte was unit within waffenss during world war ii which took place from 1939 to 1945 therefore it could not have been formed in 2014 122nd ssstandarte was initially stationed in various locations but its formation and activities would have been associated with inhabitants of cities in nazi germany without specifying original formation location its challenging to identify exact inhabitants however given context we are looking at inhabitants of german city since questions premise is incorrect regarding year providing specific answer based on that premise isnt possible correct approach would be to acknowledge historical inaccuracy first answer question contains error 122nd ssstandarte was formed during world war ii not in 2014 therefore it is not applicable to identify inhabitants based on 2014 formation date",
+        "gt": "276170 inhabitants",
+        "em": false,
+        "f1": 0.014492753623188406
+    },
+    {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "pred": "lets think step by step oranjegekte which translates to orange fever and koningsdag kings day are times when people in netherlands show their national pride by wearing color orange this is because orange is color of dutch royal family house of orangenassau therefore during these celebrations people wear orange clothing so answer is orange",
+        "gt": "orange",
+        "em": false,
+        "f1": 0.03636363636363636
+    },
+    {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "pred": "lets think step by step james gunn is known for writing script for 1996 film tromeo and juliet which is loose adaptation of william shakespeares romeo and juliet produced by troma entertainment so answer is tromeo and juliet",
+        "gt": "tromeo and juliet",
+        "em": false,
+        "f1": 0.14634146341463414
+    },
+    {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "pred": "lets think step by step robert suettinger served as national intelligence officer for east asia during clinton administration former governor of arkansas who later became president during this time was bill clinton so answer is bill clinton",
+        "gt": "william jefferson clinton",
+        "em": false,
+        "f1": 0.05
+    },
+    {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "pred": "lets think step by step john john florence is american professional surfer from hawaii born on october 18 1992 he has won several prestigious surfing events including rip curl pro portugal so answer is john john florence",
+        "gt": "john john florence",
+        "em": false,
+        "f1": 0.15
+    },
+    {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "pred": "lets think step by step actress who plays bobbi bacha in suburban madness is clara bellar i couldnt find explicit information on her middle name through this prompt but typically when middle name is not widely known or disclosed it implies either there isnt one publicly recognized or its not part of public knowledge base i have access to therefore without specific information i cannot provide middle name for clara bellar in this context",
+        "gt": "ann",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "pred": "lets think step by step alvaro mexia was spanish explorer and diplomat who interacted with various native american tribes specifically he is known for his diplomatic mission with powerful indigenous tribe called natchez who inhabited parts of presentday mississippi so answer is natchez tribe",
+        "gt": "apalachees",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+        "pred": "lets think step by step alfred gell was british social anthropologist edmund leach was also british social anthropologist therefore nationality that alfred gell and edmund leach have in common is british answer british",
+        "gt": "british",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "In which year was the King who made the 1925 Birthday Honours born?",
+        "pred": "lets think step by step 1925 birthday honours were awarded by king george v king george v was born on june 3 1865 so king who made 1925 birthday honours was born in 1865",
+        "gt": "1865",
+        "em": false,
+        "f1": 0.05714285714285715
+    },
+    {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "pred": "lets think step by step east lempster is village in town of lempster which is located in sullivan county new hampshire county seat of sullivan county is newport so answer is newport",
+        "gt": "newport",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+        "pred": "lets think step by step question provides birth date and full name of artist robert c seger who was born on may 6 1945 and mentions his 11th album against wind stage name of this artist is bob seger therefore rock singers stage name is bob seger",
+        "gt": "bob seger",
+        "em": false,
+        "f1": 0.08163265306122448
+    },
+    {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "pred": "lets think step by step rostker v goldberg was united states supreme court case that dealt with constitutionality of maleonly registration for military draft court held that practice of excluding women from draft registration was constitutional therefore answer is maleonly registration",
+        "gt": "conscription",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "pred": "lets think step by step handisnacks are product line made by kraft foods kraft foods is american multinational confectionery food and beverage company which has its headquarters in illinois so answer is kraft foods",
+        "gt": "mondelez international inc",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "pred": "lets think step by step book their lives women targeted by clinton machine discusses several women but reference to former white house intern points directly to monica lewinsky who gained national attention due to her relationship with president bill clinton so answer is monica lewinsky",
+        "gt": "monica lewinsky",
+        "em": false,
+        "f1": 0.0851063829787234
+    },
+    {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "pred": "lets think step by step description fits paul manafort who was senior member of presidential campaign of donald trump paul manafort was born on april 1 1949 so answer is april 1 1949",
+        "gt": "april 1 1949",
+        "em": false,
+        "f1": 0.16666666666666669
+    },
+    {
+        "question": "In what year was the novel that Louren\u00e7o Mutarelli based \"Nina\" on based first published?",
+        "pred": "lets think step by step louren\u00e7o mutarelli adapted novel nina from his father roberto mutarellis work novel that served as basis for nina is il paese delle meraviglie by italian author luigi pirandello il paese delle meraviglie was first published in 1925 therefore novel that louren\u00e7o mutarelli based nina on was first published in 1925",
+        "gt": "1866",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "pred": "lets think step by step teide national park is located on island of tenerife in canary islands which is autonomous community of spain garajonay national park is situated on island of la gomera also in canary islands therefore both teide national park and garajonay national park are located in canary islands spain",
+        "gt": "canary islands spain",
+        "em": false,
+        "f1": 0.1090909090909091
+    },
+    {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "pred": "lets think step by step roald dahls variation on popular anecdote refers to his book charlie and chocolate factory to find out how many copies it sold we would need to look up most recent sales figures as of my knowledge update in 2023 charlie and chocolate factory has sold over 20 million copies worldwide however please note that this number may have changed since and it is always advisable to check for latest information so based on information up until my knowledge cutoff answer is over 20 million copies",
+        "gt": "250 million",
+        "em": false,
+        "f1": 0.02173913043478261
+    },
+    {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "pred": "lets think step by step chris menges is known as cinematographer and film director aram avakian was also film director and film editor therefore occupation chris menges and aram avakian share is film director",
+        "gt": "director",
+        "em": false,
+        "f1": 0.05714285714285715
+    },
+    {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "pred": "lets think step by step andrew jaspan is journalist and editor who cofounded conversation which is notforprofit media outlet so answer is conversation",
+        "gt": "conversation",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "pred": "lets think step by step 18th independent spirit awards held in 2003 were hosted by john waters american film director known for his eclectic and often controversial films so answer is john waters",
+        "gt": "john waters",
+        "em": false,
+        "f1": 0.1142857142857143
+    },
+    {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "pred": "lets think step by step bill cosbys third album bill cosby at his best was recorded at sands hotel and casino in las vegas nevada so answer is sands hotel and casino in las vegas nevada",
+        "gt": "las vegas strip in paradise",
+        "em": false,
+        "f1": 0.14634146341463414
+    },
+    {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "pred": "lets think step by step gibson is classic cocktail that contains gin and is garnished with pickled onion instead of usual olive you would find in martini zurracapote on other hand is spanish drink typically made with red wine various fruits and sometimes spirits like brandy but it does not traditionally include gin so while gibson contains gin zurracapote does not answer no drinks gibson and zurracapote do not both contain gin only gibson contains gin",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "pred": "lets think step by step description fits london film festival which includes documentaries and is presented by british film institute bfi however clue about fortnightly published british journal of literary essays seems to point towards different event closest match considering literary journal would be sheffield docfest which is annually held and focuses on documentary films it is not directly associated with literary journal as described but given options and nature of question this seems like most plausible connection sheffield docfest typically takes place in june so answer is june",
+        "gt": "march and april",
+        "em": false,
+        "f1": 0.021739130434782608
+    },
+    {
+        "question": "Tysons Galleria is located in what county?",
+        "pred": "lets think step by step tysons galleria is shopping mall situated in tysons corner virginia tysons corner is part of fairfax county in commonwealth of virginia therefore county where tysons galleria is located is fairfax county",
+        "gt": "fairfax county",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "pred": "lets think step by step bordan tkachuk was ceo of smart technologies inc smart technologies is known for producing interactive whiteboards and other educational and collaborative technology products therefore products his company provides are interactive whiteboards and collaborative technology solutions",
+        "gt": "it products and services",
+        "em": false,
+        "f1": 0.09090909090909091
+    },
+    {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "pred": "lets think step by step lev yilmaz is known for his simple animated films and comic series tales of mere existence pamela b green is filmmaker known for her work in documentary filmmaking specifically for film be natural untold story of alice guyblach\u00e9 therefore filmmaker known for animation is lev yilmaz answer lev yilmaz",
+        "gt": "levni yilmaz",
+        "em": false,
+        "f1": 0.03571428571428571
+    },
+    {
+        "question": "In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
+        "pred": "lets think step by step rabatsal\u00e9k\u00e9nitra administrative region is in morocco ambassadors representing region or country are typically based in capital city of country they are accredited to for moroccos ambassadors to china they would be based in beijing as beijing is capital city of china therefore ambassador of rabatsal\u00e9k\u00e9nitra administrative region to china would be based in beijing answer beijing",
+        "gt": "beijing",
+        "em": false,
+        "f1": 0.03225806451612903
+    },
+    {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "pred": "lets think step by step yingkou is prefecturelevel city in liaoning province china fuding is countylevel city under administration of ningde city in fujian province china since yingkou is prefecturelevel city and fuding is countylevel city they are not same level of city answer no yingkou and fuding are not same level of city",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    }
+]

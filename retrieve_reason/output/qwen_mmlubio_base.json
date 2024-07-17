@@ -1,0 +1,639 @@
+[
+    {
+        "question": "In a population of giraffes, an environmental change occurs that favors individuals that are tallest. As a result, more of the taller individuals are able to obtain nutrients and survive to pass along their genetic information. This is an example of\nOptions:\nA) directional selection.\nB) stabilizing selection.\nC) sexual selection.\nD) disruptive selection.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "Which of the changes below following the start codon in an mRNA would most likely have the greatest deleterious effect?\nOptions:\nA) a deletion of a single nucleotide\nB) a deletion of a nucleotide triplet\nC) a single nucleotide substitution of the nucleotide occupying the first codon position\nD) a single nucleotide substitution of the nucleotide occupying the third codon position",
+        "pred": "b",
+        "gt": "a",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The energy given up by electrons as they move through the electron transport chain is used to\nOptions:\nA) break down glucose\nB) make glucose\nC) produce ATP\nD) make NADH",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "During the period when life is believed to have begun, the atmosphere on primitive Earth contained abundant amounts of all the following gases EXCEPT\nOptions:\nA) oxygen\nB) hydrogen\nC) ammonia\nD) methane",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "Convergent evolution is best exemplified by which of the following?\nOptions:\nA) The pectoral fins of fish and the front legs of cats\nB) The presence of a notochord in all chordate embryos\nC) The wings of an insect and the wings of a bird\nD) The leaves of an oak tree and the spines of a cactus",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following would most likely provide examples of mitotic cell divisions?\nOptions:\nA) cross section of muscle tissue\nB) cross section of an anther (site of pollen production in a flower)\nC) longitudinal section of a shoot tip\nD) cross section of a leaf",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Invertebrate immune systems possess which of the following?\nOptions:\nA) Cytotoxic T-lymphocytes\nB) Phagocytes\nC) B-cells\nD) Helper T-cells",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Two unrelated species evolve in a way that makes them more similar.\nOptions:\nA) Divergent evolution\nB) Convergent evolution\nC) Parallel evolution\nD) Coevolution",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is the most likely benefit of periodic natural wildfires in some forest ecosystems?\nOptions:\nA) The fires remove dead and decaying plant matter, reducing the risk of more intense and destructive fires.\nB) The fires leach nutrients from the soil\u201a preventing the germination of plants that might compete with native species.\nC) The fires drive off herbivores whose plant-based diets reduce the amount of vegetation.\nD) The fires dry out the soil and decrease the chance of flooding after heavy rains.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "In a hypothetical environment, fishes called pike-cichlids are visual predators of algae-eating fish (i.e., they locate their prey by sight). If a population of algae-eaters experiences predation pressure from pike-cichlids, which of the following should least likely be observed in the algae-eater population over the course of many generations?\nOptions:\nA) Selection for drab coloration of the algae-eaters\nB) Selection for nocturnal algae-eaters (active only at night)\nC) Selection for larger female algae-eaters, bearing broods composed of more, and larger, young\nD) Selection for algae-eaters that become sexually mature at smaller overall body sizes",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A man contracts the same flu strain for the second time in a single winter season. The second time he experiences fewer symptoms and recovers more quickly. Which cells are responsible for this rapid recovery?\nOptions:\nA) Helper T cells\nB) Cytotoxic T cells\nC) Memory cells\nD) Plasma cells",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The same gene that causes various coat patterns in wild and domesticated cats also causes the cross-eyed condition in these cats, the cross-eyed condition being slightly maladaptive. In a hypothetical environment, the coat pattern that is associated with crossed eyes is highly adaptive, with the result that both the coat pattern and the cross-eyed condition increase in a feline population over time. Which statement is supported by these observations?\nOptions:\nA) Evolution is progressive and tends toward a more perfect population.\nB) Phenotype is often the result of compromise.\nC) Natural selection reduces the frequency of maladaptive genes in populations over the course of time.\nD) Polygenic inheritance is generally maladaptive, and should become less common in future generations.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements is correct?\nOptions:\nA) Water flows from hypertonic to hypotonic.\nB) Germinating seeds use less oxygen than do nongerminating seeds.\nC) The rate of transpiration decreases with an increase in air movement.\nD) Smaller DNA fragments migrate more rapidly than do larger DNA fragments on gel electrophoresis.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A gas phase is generally absent from which of the following biogeochemical cycles?\nOptions:\nA) Water\nB) Carbon\nC) Sulfur\nD) Phosphorus",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is a property that is shared by Zika fever\u201a West Nile fever\u201a and malaria?\nOptions:\nA) The diseases are caused by viruses.\nB) The diseases occur only in individuals who visit or live in tropical countries.\nC) The pathogens that cause the diseases have developed resistance to antibiotics.\nD) The pathogens that cause the diseases are primarily transmitted by the bite of an infected mosquito.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "If the HMS Beagle had completely bypassed the Galapagos Islands, Darwin would have had a much poorer understanding of the\nOptions:\nA) relative stability of a well-adapted population's numbers over many generations.\nB) ability of populations to undergo modification as they adapt to a particular environment.\nC) tendency of organisms to produce the exact number of offspring that the environment can support.\nD) unlimited resources that support population growth in most natural environments.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements about lipids is correct?\nOptions:\nA) Unsaturated fatty acids are linked to heart disease.\nB) Lipids make up most cell surface receptors.\nC) Phospholipids are water soluble.\nD) Steroids are lipids that consist of glycerol and fatty acids.",
+        "pred": "b",
+        "gt": "c",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "All of the following are examples of connective tissue EXCEPT\nOptions:\nA) ligaments\nB) muscle\nC) blood\nD) cartilage",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "When the first tiny prokaryotic cell took up residence inside a larger prokaryotic cell, it heralded the advent of the eukaryotic cell and led to an explosion of new life on Earth. Since then, most cells on Earth have internal organelles. Which of the following best summarizes an advantage of having internal membranes and organelles?\nOptions:\nA) DNA can reproduce more efficiently.\nB) Even though prokaryotes do not have mitochondria, they contain structures that carry out the same function.\nC) Organelles separate specific reactions in the cell and increase metabolic efficiency.\nD) Compartmentalization enables prokaryotes to reproduce more quickly.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is correct about vaccination?\nOptions:\nA) It increases the number of different receptors that recognize a particular pathogen.\nB) It increases the number of different macrophages specific to the antigen.\nC) It increases the number of epitopes that the immune system can recognize.\nD) It increases the number of lymphocytes with receptors that can recognize and bind to the antigen.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The calypso orchid, Calypso bulbosa, grows in close association with mycorrhizae fungi. The fungi penetrate the roots of the flower and take advantage of the plant's food resources. The fungi concentrate rare minerals, such as phosphates, in the roots and make them readily accessible to the orchid. This situation is an example of\nOptions:\nA) parasitism\nB) commensalism\nC) mutualism\nD) endosymbiosis",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Mules are relatively long-lived and hardy organisms that cannot, generally speaking, perform successful meiosis. Consequently, which statement about mules is true?\nOptions:\nA) They have a relative evolutionary fitness of zero.\nB) Their offspring have less genetic variation than the parents.\nC) Mutations cannot occur in their genomes.\nD) If crossing-over happens in mules, then it must be limited to prophase of mitosis.",
+        "pred": "b",
+        "gt": "a",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "ADH is a hormone secreted by the kidneys that reduces the amount of water excreted in the urine. ADH is released in times of dehydration. This is an example of\nOptions:\nA) innate behavior.\nB) maintaining homeostasis.\nC) failure to respond to the environment.\nD) positive feedback.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements best describes what a Barr body is and its significance?\nOptions:\nA) It is an inactivated Y chromosome and results in a man being sterile.\nB) It is an inactivated Y chromosome, and the person who has it appears female.\nC) It is an inactivated X chromosome and results in females with half their cells having one X inactivated and the other half of their cells having the other X inactivated.\nD) It is an inactivated X chromosome and results in females who are sterile.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A heterotroph\nOptions:\nA) obtains its energy from sunlight, harnessed by pigments\nB) obtains its energy by oxidizing organic molecules\nC) makes organic molecules from CO2\nD) obtains its energy by consuming exclusively autotrophs",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following reactions occurs in the forward direction during glycolysis but in the reverse direction during fermentation?\nOptions:\nA) pyruvate \u2192 lactate\nB) pyruvate \u2192 ethanol\nC) NAD+ + H+ + 2e- \u2192 NADH\nD) ADP + P \u2192 ATP",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A researcher grows a population of ferns in her laboratory. She notices, after a few generations, a new variant that has a distinct phenotype. When she tries to breed the original phenotype with the new one, no offspring are produced. When she breeds the new variants, however, offspring that look like the new variant result. What originally caused the change in the variant?\nOptions:\nA) Karyotyping\nB) Balance polymorphism\nC) Mutation\nD) Polyploidy",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements most accurately explains what EcoR1 is?\nOptions:\nA) It is a bacterium that lives in the human large intestine.\nB) It is the best-studied bacteriophage, a virus that attacks E. coli.\nC) It is a restriction enzyme extracted from E. coli.\nD) It is a type of DNA used extensively in research.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The development of an egg without fertilization is known as\nOptions:\nA) meiosis\nB) parthenogenesis\nC) embryogenesis\nD) vegetative propagation",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In minks, the gene for brown fur (B) is dominant over the gene for silver fur (b). Which set of genotypes represents a cross that could produce offspring with silver fur from parents that both have brown fur?\nOptions:\nA) BB BB\nB) BB Bb\nC) Bb Bb\nD) Bb bb",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to\nOptions:\nA) frequency-dependent selection.\nB) artificial selection.\nC) sexual selection.\nD) natural selection.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following best explains why a population is described as the evolutionary unit?\nOptions:\nA) Genetic changes can only occur at the population level.\nB) The gene pool in a population remains fixed over time.\nC) Natural selection affects individuals, not populations.\nD) Individuals cannot evolve, but populations can.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "If, on average, 46% of the loci in a species' gene pool are heterozygous, then the average homozygosity of the species should be\nOptions:\nA) 23%\nB) 46%\nC) 54%\nD) 92%",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following contributes the MOST to genetic variability in a population?\nOptions:\nA) Sporulation\nB) Binary fission\nC) Vegetative propagation\nD) Mutation",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements most detracts from the claim that the human appendix is a completely vestigial organ?\nOptions:\nA) The appendix can be surgically removed with no immediate ill effects.\nB) The appendix might have been larger in fossil hominids.\nC) The appendix has a substantial amount of defensive lymphatic tissue.\nD) Individuals with a larger-than-average appendix leave fewer offspring than those with a below-average-sized appendix.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "According to the heterotroph hypothesis, which event had to occur before oxygen filled the atmosphere?\nOptions:\nA) Heterotrophs had to remove carbon dioxide from the air.\nB) Autotrophs, which make their own food, had to evolve.\nC) Heterotrophs had to evolve.\nD) Autotrophs had to convert atmospheric nitrogen to nitrate.",
+        "pred": "c",
+        "gt": "b",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Two related species evolve in a way that makes them less similar.\nOptions:\nA) Divergent evolution\nB) Convergent evolution\nC) Parallel evolution\nD) Coevolution",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "Which of the following statements best summarizes evolution as it is viewed today?\nOptions:\nA) It is goal-directed.\nB) It represents the result of selection for acquired characteristics.\nC) It is synonymous with the process of gene flow.\nD) It is the differential survival and reproduction of the most-fit phenotypes.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Mosquitoes resistant to the pesticide DDT first appeared in India in 1959 within 15 years of widespread spraying of the insecticide. Which of the following statement best explains how the resistant mosquitoes arose?\nOptions:\nA) Some mosquitoes experienced a mutation after being exposed to DDT that made them resistant to the insecticide. Then their population expanded because these moquitoes had no competition.\nB) Some mosquitoes were already resistant to DDT when DDT was first sprayed. Then their population expanded because all the susceptible mosquitoes had been exterminated.\nC) DDT is generally a very effective insecticide. One can only conclude that it was manufactured improperly.\nD) Although DDT is effective against a wide range of insects, it is not effective against mosquitoes.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "DNA sequences in many human genes are very similar to the sequences of corresponding genes in chimpanzees. The most likely explanation for this result is that\nOptions:\nA) humans and chimpanzees share a relatively recent common ancestor.\nB) humans evolved from chimpanzees.\nC) chimpanzees evolved from humans.\nD) convergent evolution led to the DNA similarities.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "Yeast cells carry out both aerobic and anaerobic respiration. A yeast cell that is fed on glucose is moved from an aerobic to an anaerobic environment. Which of the following statements is correct and gives the correct reason for it?\nOptions:\nA) The cell dies because it cannot make ATP.\nB) The cell would need to consume glucose at a much greater rate because aerobic respiration is much more efficient as compared with anaerobic respiration.\nC) The cell would need to consume another food source other than glucose because it will not be able to make adequate ATP with only glucose.\nD) The cell will begin to divide rapidly because larger cells require more oxygen and glucose than smaller ones.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?\nOptions:\nA) Tundra\nB) Tiaga\nC) Tropical rainforest\nD) Temperate deciduous forest",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which statement about variation is true?\nOptions:\nA) All phenotypic variation is the result of genotypic variation.\nB) All genetic variation produces phenotypic variation.\nC) All nucleotide variability results in neutral variation.\nD) All new alleles are the result of nucleotide variability.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following best explains why people can digest starch but cannot digest cellulose even though both molecules are composed of glucose monomers?\nOptions:\nA) The bonds linking the monomers of starch differ in shape from the bonds linking the monomers of cellulose.\nB) Molecules of starch are much smaller than molecules of cellulose.\nC) Starch is an intracellular molecule, while cellulose is an extracellular molecule.\nD) Starch is hydrated by water, but cellulose is not.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "In humans, fertilization normally occurs in the\nOptions:\nA) ovary\nB) fallopian tube\nC) uterus\nD) placenta",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is a biotic factor that could affect the growth rate of a population?\nOptions:\nA) Volcanic eruption\nB) Glacier melting\nC) Destruction of the ozone layer\nD) Sudden reduction in the animal food resource",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "As a young biologist, Charles Darwin had expected the living plants of temperate South America would resemble those of temperate Europe, but he was surprised to find that they more closely resembled the plants of tropical South America. The biological explanation for this observation is most properly associated with the field of\nOptions:\nA) meteorology.\nB) embryology.\nC) vertebrate anatomy.\nD) biogeography.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "It has been observed that organisms on islands are different from, but closely related to, similar forms found on the nearest continent. This is taken as evidence that\nOptions:\nA) 0\nB) common environments are inhabited by the same organisms.\nC) the islands were originally part of the continent.\nD) the island forms and mainland forms are converging.",
+        "pred": "c",
+        "gt": "a",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Krebs cycle in humans occurs in the\nOptions:\nA) mitochondrial matrix\nB) inner mitochondrial membrane\nC) outer mitochondrial membrane\nD) intermembrane space",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "Ichthyosaurs were aquatic dinosaurs. Fossils show us that they had dorsal fins and tails, as do fish, even though their closest relatives were terrestrial reptiles that had neither dorsal fins nor aquatic tails. The dorsal fins and tails of ichthyosaurs and fish are\nOptions:\nA) homologous.\nB) examples of convergent evolution.\nC) adaptations to a common environment.\nD) B and C only",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Two trees of the same species growing close together will use the same resources, such as light, water, and nutrients. If any of these resources becomes limiting, then each tree will receive less of it than if the trees were growing farther apart. This scenario is an example of which of the following?\nOptions:\nA) Parasitism\nB) Commensalism\nC) Natural selection\nD) Intraspecific competition",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Short sequence by promoter that assists transcription by interacting with regulatory proteins.\nOptions:\nA) Enhancer\nB) Repressor\nC) Operator\nD) Promoter",
+        "pred": "a",
+        "gt": "c",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Catastrophism, meaning the regular occurrence of geological or meteorological disturbances (catastrophes), was Cuvier's attempt to explain the existence of\nOptions:\nA) evolution.\nB) the fossil record.\nC) uniformitarianism.\nD) the origin of new species.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Hydrangea flowers have one gene for flower color. Plants of the same genetic variety have flowers that range in color from blue to pink with the color varying due to the type of soil in which they are grown. Which of the following statement best explains this phenomenon?\nOptions:\nA) The alleles for flower color show incomplete dominance where neither trait is dominant; expression of the genes shows a blending of traits.\nB) The alleles for flower color are codominant; both traits show depending on the environment.\nC) In this case, the environment alters the expression of a trait.\nD) The genes for flower color show polygenic inheritance.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "When imbalances occur in the sex ratio of sexual species that have two sexes (i.e., other than a 50:50 ratio), the members of the minority sex often receive a greater proportion of care and resources from parents than do the offspring of the majority sex. This is most clearly an example of\nOptions:\nA) sexual selection.\nB) disruptive selection.\nC) balancing selection.\nD) frequency-dependent selection.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Although mutations occur at a regular and predictable rate, which of the following statements is the LEAST likely reason the frequency of mutation appears to be low?\nOptions:\nA) Some mutations produce alleles that are recessive and may not be expressed.\nB) Some undesirable phenotypic traits may be prevented from reproducing.\nC) Some mutations cause such drastic phenotypic changes that they are removed from the gene pool.\nD) The predictable rate of mutation results in ongoing variability in a gene pool.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Crossover would most likely occur in which situation?\nOptions:\nA) Two genes (1 and 2) are located right next to each other on chromosome A.\nB) Gene 1 is located on chromosome A, and gene 2 is on chromosome B.\nC) Genes 1 and 2 are located near each other on the X chromosome.\nD) Gene 1 is located on chromosome A; gene 2 is located far away but on the same chromosome.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which aspects of cell structure best reveals the unity of all life?\nOptions:\nA) All cells are surrounded by a plasma membrane.\nB) All cells have at least one nucleus.\nC) All cells carry out cellular respiration in mitochondria.\nD) The surface-to-volume ratio of all cells is the same.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "This biome contains plants whose roots cannot go deep due to the presence of a permafrost.\nOptions:\nA) Desert\nB) Tundra\nC) Taiga\nD) Deciduous forests",
+        "pred": "b",
+        "gt": "c",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "This biome contains trees that drop their leaves during the winter months.\nOptions:\nA) Desert\nB) Tundra\nC) Taiga\nD) Deciduous forests",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "All of the following play a role in morphogenesis EXCEPT\nOptions:\nA) apoptosis\nB) homeotic genes\nC) operons\nD) inductive effects",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Most animal cells, regardless of species, are relatively small and about the same size. Relative to larger cells, why is this?\nOptions:\nA) Smaller cells avoid excessive osmosis and subsequent lysis.\nB) Smaller cells have a smaller surface-to-volume ratio.\nC) Smaller cells have a larger surface-to-volume ratio.\nD) Smaller cells fit together more tightly.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is (are) required when performing a polymerase chain reaction (P C R) on a DNA sample?\nOptions:\nA) Reverse transcriptase\nB) A vacuum chamber\nC) Primers complementary to certain portions of the DNA\nD) DNA ligase",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Each of the following has a better chance of influencing gene frequencies in small populations than in large populations, but which one most consistently requires a small population as a precondition for its occurrence?\nOptions:\nA) Mutation\nB) Non-random mating\nC) Genetic drift\nD) Natural selection",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "No two people are genetically identical, except for identical twins. The chief cause of genetic variation among human individuals is\nOptions:\nA) new mutations that occurred in the preceding generation.\nB) the reshuffling of alleles in sexual reproduction.\nC) genetic drift due to the small size of the population.\nD) geographic variation within the population.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Two genes (B and E) determine coat color in Labrador retrievers. Alleles B and b code for how much melanin is present. The dominant allele B codes for black fur, the recessive allele b codes for brown hair. A second gene consisting of two alleles, E and e, codes for the deposition of pigment in the hair. In this case, the alleles for pigment deposition (E or e) are said to be epistatic to the gene that codes for black or brown pigment. If the dominant allele (E) is not present, regardless of the genotype at the black/brown locus, the animal's fur will be yellow.\nOptions:\nA) BBEe will be brown.\nB) BbEe will be brown.\nC) Bbee will be brown.\nD) BBee will be yellow.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following statements is NOT correct about ancient Earth?\nOptions:\nA) Earth was formed about 4? billion years ago.\nB) Amino acid synthesis could have been stimulated by volcanic eruption.\nC) The first cells formed about 3? billion years ago, according to the fossil record.\nD) The presence of free oxygen facilitated the rapid formation of organic molecules.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In modern terminology, diversity is understood to be a result of genetic variation. Sources of variation for evolution include all of the following except\nOptions:\nA) mistakes in translation of structural genes.\nB) mistakes in DNA replication.\nC) translocations and mistakes in meiosis.\nD) recombination at fertilization.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0
+    },
+    {
+        "question": "DDT was once considered a \"silver bullet\" that would permanently eradicate insect pests. Today, instead, DDT is largely useless against many insects. Which of these would have been required for this pest eradication effort to be successful in the long run?\nOptions:\nA) Larger doses of DDT should have been applied.\nB) All habitats should have received applications of DDT at about the same time.\nC) The frequency of DDT application should have been higher.\nD) None of the individual insects should have possessed genomes that made them resistant to DDT.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Within a few weeks of treatment with the drug 3TC, a patient's HIV population consists entirely of 3TC-resistant viruses. How can this result best be explained?\nOptions:\nA) HIV can change its surface proteins and resist vaccines.\nB) The patient must have become reinfected with 3TC-resistant viruses.\nC) HIV began making drug-resistant versions of reverse transcriptase in response to the drug.\nD) A few drug-resistant viruses were present at the start of treatment, and natural selection increased their frequency.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The higher the proportion of loci that are \"fixed\" in a population, the lower is that population's\nOptions:\nA) nucleotide variability.\nB) genetic polyploidy.\nC) average heterozygosity.\nD) A and C only",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The resting membrane potential depends on which of the following? I. Active transport II. Selective permeability III. Differential distribution of ions across the axonal membrane\nOptions:\nA) III only\nB) I and II only\nC) II and III only\nD) I, II, and III",
+        "pred": "c",
+        "gt": "d",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which of the following statements about the light-dependent reactions of photosynthesis is correct?\nOptions:\nA) They provide the carbon that becomes incorporated into sugar.\nB) They produce PGA, which is converted to glucose by carbon fixation in the light-independent reactions.\nC) Water is split apart, providing hydrogen ions and electrons to NADP for temporary storage.\nD) They occur in the stroma of chloroplasts.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "When we say that an individual organism has a greater fitness than another individual, we specifically mean that the organism\nOptions:\nA) lives longer than others of its species.\nB) competes for resources more successfully than others of its species.\nC) mates more frequently than others of its species.\nD) leaves more viable offspring than others of its species.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Most Swiss starlings produce four to five eggs in each clutch. Those producing fewer or more than this have reduced fitness. Which of the following terms best describes this?\nOptions:\nA) artificial selection\nB) directional selection\nC) stabilizing selection\nD) disruptive selection",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "When driving from east to west in the U.S. from a forest ecosystem to grasslands, trees gradually give way to grasses. Which of the following is the critical factor responsible for this shift?\nOptions:\nA) Amount of sunlight\nB) Availability of oxygen\nC) Availability of water\nD) Length of growing season",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Within a cell, the amount of protein synthesized using a given mRNA molecule depends in part on which of the following?\nOptions:\nA) DNA methylation suppresses the expression of genes.\nB) Transcription factors mediate the binding of RNA polymerase and the initiation of transcription, which will determine how much protein is manufactured.\nC) The speed with which mRNA is degraded will determine how much protein is synthesized.\nD) The location and number of ribosomes in a cell will solely determine how much protein is synthesized.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "All of the following are modes of asexual reproduction EXCEPT\nOptions:\nA) sporulation\nB) fission\nC) budding\nD) meiosis",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A rooster with gray feathers and a hen with the same phenotype produce 17 gray, 7 black, and 8 white chicks. What is the simplest explanation for the inheritance of these colors in chickens?\nOptions:\nA) The trait for gray is epistatic over the trait for black.\nB) The trait for gray is epistatic over the trait for white.\nC) The traits for black and white color demonstrate incomplete dominance.\nD) The traits for black and white color demonstrate codominance.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following principles is NOT part of Darwin's theory of evolution by natural selection?\nOptions:\nA) Evolution is a gradual process that occurs over a long period of time.\nB) Every population has tremendous variation.\nC) Mutations are the main source of all variation in a population.\nD) Organisms will overpopulate area, giving rise to competition.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In Darwin's thinking, the more closely related two different organisms are, the\nOptions:\nA) more similar their habitats are.\nB) less similar their DNA sequences are.\nC) more recently they shared a common ancestor.\nD) less likely they are to have the same genes in common.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following is most likely to increase the rate of diffusion of an uncharged solute across the plasma membrane of a cell?\nOptions:\nA) Decreasing the number of different solutes in the solution that bathes the cells\nB) Increasing the concentration gradient of the solute across the membrane\nC) Increasing the ratio of phospholipids to proteins in the membrane\nD) Decreasing the membrane potential across the membrane",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In a certain pond, there are long-finned fish and short-finned fish. A horrific summer thunderstorm leads to the death of a disproportionate number of long-finned fish to the point where the relative frequency of the two forms has drastically shifted. This is an example of\nOptions:\nA) gene flow.\nB) natural selection.\nC) genetic drift.\nD) stabilizing selection.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A form of species interaction in which one of the species benefits while the other is unaffected is called\nOptions:\nA) parasitism.\nB) mutualism.\nC) commensalism.\nD) symbiosis.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In reference to a segment of DNA, which of the following molecules contains the fewest number of nucleotides?\nOptions:\nA) a single strand of the original DNA segment\nB) a single strand of the original DNA segment after a point mutation\nC) the primary RNA transcript (before splicing) from the original DNA\nD) a single strand of complementary DNA (cDNA) made from the original DNA",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "All viruses contain at least these two principal components:\nOptions:\nA) DNA and proteins\nB) nucleic acid and a capsid\nC) DNA and cell membrane\nD) RNA and cell wall",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Imagine an organism whose 2n = 96. Meiosis would leave this organism\u2019s cells with how many chromosomes?\nOptions:\nA) 192\nB) 96\nC) 48\nD) 24",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following represents an idea that Darwin learned from the writings of Thomas Malthus?\nOptions:\nA) All species are fixed in the form in which they are created.\nB) Populations tend to increase at a faster rate than their food supply normally allows.\nC) Earth changed over the years through a series of catastrophic upheavals.\nD) The environment is responsible for natural selection.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following would most likely describe the fate of a vesicle formed as a result of phagocytosis?\nOptions:\nA) The vesicle merges with a mitochondrion.\nB) The vesicle merges with a lysosome.\nC) The vesicle is shuttled to the nucleus, and its contents become part of the nucleolus.\nD) The vesicle releases its contents to the cytoplasm to be digested.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of\nOptions:\nA) directional selection.\nB) stabilizing selection.\nC) disruptive selection.\nD) sympatric speciation.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which of the following theories is based on the notion that mitochondria and chloroplasts evolved from prokaryotic cells?\nOptions:\nA) Fluid mosaic model\nB) Endosymbiotic model\nC) Taxonomic model\nD) Respiration feedback model",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0
+    }
+]

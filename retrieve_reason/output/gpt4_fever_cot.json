@@ -1,0 +1,702 @@
+[
+    {
+        "question": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League.",
+        "pred": "lets think step by step colin kaepernick did become starting quarterback for 49ers but without specific information about which season of 49ers was their 63rd in national football league we cannot confirm or refute this claim so answer is not enough info",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.13333333333333333
+    },
+    {
+        "question": "Tilda Swinton is a vegan.",
+        "pred": "lets think step by step there is no widely available information that confirms or denies that tilda swinton is vegan so answer is not enough info",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.20689655172413793
+    },
+    {
+        "question": "Fox 2000 Pictures released the film Soul Food.",
+        "pred": "lets think step by step fox 2000 pictures is division of 20th century fox that specializes in making films soul food is 1997 american comedydrama film produced by kenneth babyface edmonds tracey edmonds and robert teitel and released by fox 2000 pictures so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.042553191489361694
+    },
+    {
+        "question": "Anne Rice was born in New Jersey.",
+        "pred": "lets think step by step anne rice was born and raised in new orleans louisiana not in new jersey so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.07692307692307691
+    },
+    {
+        "question": "Telemundo is a English-language television network.",
+        "pred": "lets think step by step telemundo is american spanishlanguage terrestrial television network so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.11764705882352941
+    },
+    {
+        "question": "Damon Albarn's debut album was released in 2011.",
+        "pred": "lets think step by step damon albarn known for his work with blur and gorillaz released his debut solo album everyday robots in 2014 not in 2011 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "There is a capital called Mogadishu.",
+        "pred": "lets think step by step mogadishu is indeed capital of somalia so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.125
+    },
+    {
+        "question": "Savages was exclusively a German film.",
+        "pred": "lets think step by step savages is 2012 american crime thriller film directed by oliver stone it is not exclusively german film so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07407407407407407
+    },
+    {
+        "question": "Happiness in Slavery is a gospel song by Nine Inch Nails.",
+        "pred": "lets think step by step happiness in slavery is song by nine inch nails from their ep broken it is not gospel song but rather falls under genres of industrial rock and metal so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.05
+    },
+    {
+        "question": "Andrew Kevin Walker is only Chinese.",
+        "pred": "lets think step by step andrew kevin walker is american screenwriter known for his work on films like se7en his nationality is american not chinese so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "Shooter is about an expert marksman who tries to stop the assassination of the president.",
+        "pred": "lets think step by step shooter is film and tv series about expert marksman living in exile who is coaxed back into action after learning of plot to kill president so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "House is a sitcom.",
+        "pred": "lets think step by step house is medical drama series not sitcom so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "The Cretaceous ended.",
+        "pred": "lets think step by step cretaceous is geological period that indeed ended about 66 million years ago so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.0909090909090909
+    },
+    {
+        "question": "Murda Beatz's real name is Marshall Mathers.",
+        "pred": "lets think step by step murda beatzs real name is shane lindstrom not marshall mathers so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "Nicholas Brody is a character on Homeland.",
+        "pred": "lets think step by step nicholas brody is indeed character on television show homeland so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.10526315789473684
+    },
+    {
+        "question": "Charles Manson has been proven innocent of all crimes.",
+        "pred": "lets think step by step charles manson was convicted of firstdegree murder and conspiracy to commit murder for deaths of seven people in late 1960s he was never proven innocent of these crimes so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.052631578947368425
+    },
+    {
+        "question": "Sean Penn is only ever a stage actor.",
+        "pred": "lets think step by step sean penn is wellknown actor who has appeared in numerous films such as mystic river and milk for which he won academy awards therefore it is not accurate to say he is only stage actor so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.044444444444444446
+    },
+    {
+        "question": "Don Bradman retired from soccer.",
+        "pred": "lets think step by step don bradman was australian cricketer not soccer player so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "L.A. Reid has served as the CEO of Arista Records for four years.",
+        "pred": "lets think step by step la reid served as ceo of arista records from 2000 to 2004 so he has served as ceo of arista records for four years so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Brad Wilk helped co-found Rage in 1962.",
+        "pred": "lets think step by step brad wilk is musician known for being drummer of band rage against machine however this band was formed in 1991 not 1962 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "CBS is the network that aired The Millers.",
+        "pred": "lets think step by step millers is american sitcom that was created by greg garcia series ran from october 3 2013 to july 18 2015 on cbs so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "Annette Badland was in the 2015 NBA Finals.",
+        "pred": "lets think step by step annette badland is british actress known for her roles in television and film not for participating in sports events such as nba finals so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.05714285714285714
+    },
+    {
+        "question": "Edgar Wright is a person.",
+        "pred": "lets think step by step edgar wright is known british filmmaker which confirms he is person so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.09523809523809523
+    },
+    {
+        "question": "Ann Richards was professionally involved in politics.",
+        "pred": "lets think step by step ann richards was 45th governor of texas serving from 1991 to 1995 being governor is political position so she was professionally involved in politics so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "Drake Bell put out an EP.",
+        "pred": "lets think step by step drake bell has released several eps including reminder in 2011 so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "Janet Leigh was incapable of writing.",
+        "pred": "lets think step by step janet leigh actress wrote two novels and memoir which indicates that she was capable of writing so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07692307692307693
+    },
+    {
+        "question": "Sim\u00f3n Bol\u00edvar is only known as Sim\u00f3n Bol\u00edvar.",
+        "pred": "lets think step by step sim\u00f3n bol\u00edvar is also known as el libertador which means liberator so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.09523809523809523
+    },
+    {
+        "question": "Bermuda Triangle is in the western part of the Himalayas.",
+        "pred": "lets think step by step bermuda triangle is region in western part of north atlantic ocean not in himalayas so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Colin Kaepernick became a starter during the 49ers 63rd season in the Republican Party.",
+        "pred": "lets think step by step colin kaepernick is professional football player and became starter for san francisco 49ers but there is no connection between this and 49ers 63rd season in republican party as 49ers are football team not political entity so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.04255319148936171
+    },
+    {
+        "question": "Marnie was directed by someone who was \"The Master of Nothing\".",
+        "pred": "lets think step by step marnie was directed by alfred hitchcock who is often referred to as master of suspense not master of nothing so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.06451612903225806
+    },
+    {
+        "question": "Advertising is a personal message.",
+        "pred": "lets think step by step advertising is typically means of communication with users of product or service advertisements are messages paid for by those who send them and are intended to inform or influence people who receive them they are not typically personal but are meant for mass consumption so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.037037037037037035
+    },
+    {
+        "question": "Hot Right Now is mistakenly attributed to DJ Fresh.",
+        "pred": "lets think step by step hot right now is song by dj fresh featuring vocals from rita ora it is not mistakenly attributed to dj fresh he is indeed artist of song so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05405405405405406
+    },
+    {
+        "question": "Private Lives is a three act play from 1930.",
+        "pred": "lets think step by step private lives is play by no\u00ebl coward it was first performed in london in 1930 however it is not specified whether it is three act play so answer is not enough info",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.15
+    },
+    {
+        "question": "Giada at Home was only available on DVD.",
+        "pred": "lets think step by step giada at home is television show that aired on food network it was not only available on dvd but also broadcasted on television so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "Harold Macmillan was born on February 20, 1894.",
+        "pred": "lets think step by step harold macmillan was indeed born on february 10 1894 so answer is supports",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Aristotle spent time in Athens.",
+        "pred": "lets think step by step aristotle did spend time in athens greece he was student at platos academy in athens and later opened his own school there lyceum so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "David Packouz refused to be an entrepreneur.",
+        "pred": "lets think step by step david packouz is known for being entrepreneur specifically in arms industry as depicted in film war dogs therefore claim that he refused to be entrepreneur is refuted by his known career history so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.047619047619047616
+    },
+    {
+        "question": "Magic Johnson did not play for the Lakers.",
+        "pred": "lets think step by step magic johnson is retired professional basketball player who spent his entire career with los angeles lakers so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07692307692307693
+    },
+    {
+        "question": "Tenacious D started in 1997.",
+        "pred": "lets think step by step tenacious d is american comedy rock duo formed in los angeles california in 1994 so claim that tenacious d started in 1997 is incorrect so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "James VI and I was a major advocate of a single parliament for Scotland and England.",
+        "pred": "lets think step by step james vi and i was indeed major advocate for single parliament for scotland and england this is known as union of crowns which occurred in 1603 so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "Marcus Bentley is a broadcaster.",
+        "pred": "lets think step by step marcus bentley is british actor broadcaster and voiceover artist he is known for narrating reality television series big brother uk so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "Saxony is in Ireland.",
+        "pred": "lets think step by step saxony is federal state in eastern germany not in ireland so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "In the End has baseball in it.",
+        "pred": "lets think step by step in end is song by linkin park there is no mention or reference to baseball in song or its music video so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Mel B released a song on Virgin Records in 2007.",
+        "pred": "lets think step by step mel b released her second album la state of mind under label amber caf\u00e9 which is not virgin records and that was in 2005 not 2007 so answer is refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Noah Cyrus is a younger sister of Macy Grey.",
+        "pred": "lets think step by step noah cyrus is known to be younger sister of miley cyrus not macy grey so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Mohra is a truck.",
+        "pred": "lets think step by step mohra is 1994 indian action thriller film it is not truck so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.09523809523809523
+    },
+    {
+        "question": "Hourglass is performed by a Russian singer-songwriter.",
+        "pred": "lets think step by step without specific information about song hourglass and its performer we cannot determine if it is performed by russian singersongwriter so answer is not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Shane Black was born in 1961.",
+        "pred": "lets think step by step shane black was born on december 16 1961 so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.1111111111111111
+    },
+    {
+        "question": "A View to a Kill is an action movie.",
+        "pred": "lets think step by step view to kill is 1985 james bond film james bond films are typically categorized as action films so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Papua comprised all of Indonesia.",
+        "pred": "lets think step by step papua is province of indonesia it does not comprise all of indonesia which has over 17000 islands and many provinces so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "There are not rumors that Augustus' wife, Livia, poisoned him.",
+        "pred": "lets think step by step there are indeed rumors that livia wife of augustus may have poisoned him however these are unproven and remain as speculation so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06451612903225806
+    },
+    {
+        "question": "Jennifer Lopez made a single.",
+        "pred": "lets think step by step jennifer lopez is wellknown singer and actress who has released numerous singles throughout her career so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.07999999999999999
+    },
+    {
+        "question": "A working animal is trained to perform life saving tasks.",
+        "pred": "lets think step by step working animal is animal usually domesticated that is kept by humans and trained to perform tasks they may be close to handler such as guide dogs or they may be animals trained to carry out tasks independently such as search and rescue dogs so some working animals are indeed trained to perform lifesaving tasks so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Billboard Dad is a genre of music.",
+        "pred": "lets think step by step billboard dad is 1998 directtovideo comedy film not genre of music so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.08695652173913045
+    },
+    {
+        "question": "Vedam was written and directed by Christopher Nolan.",
+        "pred": "lets think step by step vedam is 2010 indian telugulanguage film written and directed by krish not christopher nolan so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Men in Black II stars eight children.",
+        "pred": "lets think step by step men in black ii is movie primarily starring will smith and tommy lee jones there is no information available that suggests it stars eight children so answer is not enough info",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.15384615384615385
+    },
+    {
+        "question": "Sancho Panza is a character in Don Quixote.",
+        "pred": "lets think step by step sancho panza is indeed character in novel don quixote by miguel de cervantes so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.08695652173913045
+    },
+    {
+        "question": "Magic Johnson was a tap dancer.",
+        "pred": "lets think step by step magic johnson is known as former professional basketball player and is currently entrepreneur there is no public record or information that suggests he was tap dancer so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "The Adventures of Pluto Nash was reviewed by Ron Underwood.",
+        "pred": "lets think step by step ron underwood is director and not film critic and he directed adventures of pluto nash however there is no information available that he reviewed film so answer is not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hedda Gabler's world premiere took place at the Battle of Hastings.",
+        "pred": "lets think step by step battle of hastings was historical event that took place in 1066 while hedda gabler is play written by henrik ibsen in late 19th century world premiere of hedda gabler took place in munich in 1891 not at battle of hastings so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.039999999999999994
+    },
+    {
+        "question": "Brazzers is a company.",
+        "pred": "lets think step by step brazzers is indeed company it is pornographic production company based in montreal canada so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.08695652173913045
+    },
+    {
+        "question": "Tim Roth is an English actor.",
+        "pred": "lets think step by step tim roth was born in dulwich london england and he is known for his acting career so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.07692307692307693
+    },
+    {
+        "question": "Juventus F.C. rejected their traditional black-and-white-striped home uniform in 1903.",
+        "pred": "lets think step by step juventus fc has been known for their blackandwhitestriped home uniform since 1903 but there is no information available that suggests they rejected this uniform in that year so answer is not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ernest Medina participated in the My Lai Massacre.",
+        "pred": "lets think step by step ernest medina was captain in us army who was in charge of unit that committed my lai massacre in vietnam so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "Viola Davis appeared in Kate & Leopold as Darth Maul.",
+        "pred": "lets think step by step viola davis is actress known for her roles in various films and tv shows kate leopold is romanticcomedy film darth maul however is character from star wars franchise not from kate leopold therefore claim that viola davis appeared in kate leopold as darth maul is incorrect so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.034482758620689655
+    },
+    {
+        "question": "Jenna Jameson worked as a glamor model and a stripper.",
+        "pred": "lets think step by step jenna jameson is former pornographic film actress businesswoman and television personality she started acting in erotic videos in 1993 after having worked as stripper and glamor model so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05405405405405406
+    },
+    {
+        "question": "New Orleans Pelicans compete in the National Football Association.",
+        "pred": "lets think step by step new orleans pelicans are professional basketball team that competes in national basketball association nba not national football association so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07142857142857142
+    },
+    {
+        "question": "Caroline Kennedy is a Catholic.",
+        "pred": "lets think step by step caroline kennedy is member of kennedy family who are known for their catholic faith she was also educated at catholic schools so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Starrcade was an annual professional wrestling event that began in 1988.",
+        "pred": "lets think step by step starrcade is indeed professional wrestling event but it actually began in 1983 not 1988 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Jack Falahee is a person who acts.",
+        "pred": "lets think step by step jack falahee is known for his role as connor walsh on abc television legal drama how to get away with murder so he is indeed actor so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "Seohyun is a dog.",
+        "pred": "lets think step by step seohyun is south korean singer and actress she is not dog so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.09523809523809523
+    },
+    {
+        "question": "Steve Wozniak was born after the Apple II came out.",
+        "pred": "lets think step by step steve wozniak was born on august 11 1950 apple ii was released in 1977 therefore steve wozniak was born before apple ii came out so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "A&E is a cable and satellite television network.",
+        "pred": "lets think step by step ae is indeed cable and satellite television network that broadcasts variety of programming including original series documentaries and reality shows so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "L.A. Reid has served as the president of a record label.",
+        "pred": "lets think step by step la reid has served as president of arista records island def jam music group and epic records so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.07407407407407407
+    },
+    {
+        "question": "Veeram is something other than an Indian Tamil film.",
+        "pred": "lets think step by step veeram is known as indian tamillanguage action film directed by siva and produced by vijaya productions there might be other things named veeram but without specific information we cannot confirm or refute claim so answer is not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Home for the Holidays stars an American actress.",
+        "pred": "lets think step by step home for holidays is 1995 film that stars american actress holly hunter so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.0909090909090909
+    },
+    {
+        "question": "Taran Killam is an American writer.",
+        "pred": "lets think step by step taran killam is known as american actor comedian and writer therefore claim that taran killam is american writer supports observation",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.07692307692307693
+    },
+    {
+        "question": "Jayasudha is an actor that stars in Daag.",
+        "pred": "lets think step by step jayasudha is indian film actress who predominantly appears in telugu cinema however there is no information available that she starred in movie daag so answer is not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "XHamster's The Sex Factor forces eight men and eight women to battle to become a porn star.",
+        "pred": "lets think step by step sex factor is webbased reality porn show produced by xhamster where eight men and eight women compete to become porn star so answer is supports",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "John Dolmayan was born on July 15, 1873.",
+        "pred": "lets think step by step john dolmayan is drummer of band system of down which was formed in 1990s its highly unlikely that he was born in 1873 however his exact birth date is july 15 1973 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.047619047619047616
+    },
+    {
+        "question": "Despicable Me 2 was directed by a lake.",
+        "pred": "lets think step by step despicable me 2 was directed by pierre coffin and chris renaud who are people not lake so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07692307692307693
+    },
+    {
+        "question": "Island Records is a music school.",
+        "pred": "lets think step by step island records is known as major record label that is division of universal music group it is not music school so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "Sikkim is a part of the World Bank.",
+        "pred": "lets think step by step world bank is international financial institution that provides loans and grants to governments of poorer countries for purpose of pursuing capital projects sikkim is state in india not financial institution or country therefore answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.04545454545454545
+    },
+    {
+        "question": "Christa McAuliffe taught social studies at Concord High School.",
+        "pred": "lets think step by step christa mcauliffe was indeed social studies teacher at concord high school in new hampshire before she was selected for nasa teacher in space project so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "Ron Weasley is a President.",
+        "pred": "lets think step by step ron weasley is character from harry potter series written by jk rowling there is no information or context within series that suggests ron weasley becomes president so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Reign Over Me was released in 2017.",
+        "pred": "lets think step by step reign over me is 2007 american drama film not released in 2017 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.0909090909090909
+    },
+    {
+        "question": "Colin Kaepernick is a poker player.",
+        "pred": "lets think step by step colin kaepernick is known as professional american football quarterback not as poker player so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.08695652173913045
+    },
+    {
+        "question": "Sheryl Lee has yet to appear in a film as of 2016.",
+        "pred": "lets think step by step sheryl lee has appeared in several films prior to 2016 including twin peaks fire walk with me in 1992 and backbeat in 1994 so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "Matteo Renzi is German.",
+        "pred": "lets think step by step matteo renzi is italian politician who served as prime minister of italy from february 2014 until december 2016 he is not german so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.0625
+    },
+    {
+        "question": "The Road to El Dorado stars Tim Allen.",
+        "pred": "lets think step by step road to el dorado is animated film by dreamworks and its main characters are voiced by kevin kline and kenneth branagh not tim allen so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.05555555555555555
+    },
+    {
+        "question": "The highest point of the Hindu Kush is Everest.",
+        "pred": "lets think step by step highest point of hindu kush is tirich mir not mount everest mount everest is located in himalayas not hindu kush so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "Same Old Love is disassociated from Selena Gomez.",
+        "pred": "lets think step by step same old love is song recorded by american singer selena gomez so claim that same old love is disassociated from selena gomez is refuted so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05882352941176471
+    },
+    {
+        "question": "The heart beats at a resting rate close to 22 beats per minute.",
+        "pred": "lets think step by step average resting heart rate for adults including olderaged adults is between 60 and 100 beats per minute therefore resting heart rate close to 22 beats per minute is significantly lower than average so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.047619047619047616
+    },
+    {
+        "question": "Weekly Idol is hosted by Yoo Jae Suk.",
+        "pred": "lets think step by step weekly idol is south korean variety show which was hosted by comedian jeong hyeongdon and rapper defconn until 2018 yoo jae suk is wellknown south korean comedian and host but he is not host of weekly idol so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.042553191489361694
+    },
+    {
+        "question": "Heavy Metal music was developed in the early 1970's.",
+        "pred": "lets think step by step heavy metal music indeed originated in late 1960s and early 1970s with bands like black sabbath and led zeppelin often credited as pioneers of genre so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.05714285714285715
+    },
+    {
+        "question": "Bermuda Triangle is also known by another name.",
+        "pred": "lets think step by step bermuda triangle is also known as devils triangle so answer is supports",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.1111111111111111
+    },
+    {
+        "question": "Ashton Kutcher was directed by George Clooney.",
+        "pred": "lets think step by step ashton kutcher is actor who has worked with many directors however there is no record of him being directed by george clooney in any film or television project so answer is refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Topman has clothing outlets in six Irish cities and towns.",
+        "pred": "lets think step by step without specific information about locations of topmans outlets in ireland we cannot confirm or refute this claim so answer is not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Wales' population changed.",
+        "pred": "lets think step by step without specific information or data about population of wales at two different points in time we cannot determine if population has changed so answer is not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tool has won three Oscars.",
+        "pred": "lets think step by step tool is rock band and oscars are awards for cinematic achievements therefore its not possible for tool to have won any oscars so answer is refutes",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.0625
+    }
+]

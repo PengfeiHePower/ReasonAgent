@@ -1,0 +1,128 @@
+[
+    {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "pred": "b",
+        "gt": "conscription",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "pred": "mondelez international",
+        "gt": "mondelez international, inc.",
+        "em": false,
+        "f1": 0.8
+    },
+    {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "pred": "monica lewinsky",
+        "gt": "monica lewinsky",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "pred": "1948-05-29",
+        "gt": "april 1, 1949",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "In what year was the novel that Louren\u00e7o Mutarelli based \"Nina\" on based first published?",
+        "pred": "1933",
+        "gt": "1866",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "pred": "canary islands",
+        "gt": "canary islands, spain",
+        "em": false,
+        "f1": 0.8
+    },
+    {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "pred": "c",
+        "gt": "250 million",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "pred": "cinematographer",
+        "gt": "director",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "pred": "the conversation",
+        "gt": "the conversation",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "pred": "paul thomas anderson",
+        "gt": "john waters",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "pred": "d",
+        "gt": "las vegas strip in paradise",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "pred": "b",
+        "gt": "no",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "pred": "june",
+        "gt": "march and april",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tysons Galleria is located in what county?",
+        "pred": "fairfax county",
+        "gt": "fairfax county",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "pred": "consumer electronics",
+        "gt": "it products and services",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "pred": "a",
+        "gt": "levni yilmaz",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "In which city is the ambassador of the Rabat-Sal\u00e9-K\u00e9nitra administrative region to China based?",
+        "pred": "d",
+        "gt": "beijing",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "pred": "no",
+        "gt": "no",
+        "em": true,
+        "f1": 1.0
+    }
+]

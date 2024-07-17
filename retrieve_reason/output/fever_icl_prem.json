@@ -1,0 +1,702 @@
+[
+    {
+        "question": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Tilda Swinton is a vegan. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Fox 2000 Pictures released the film Soul Food. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Anne Rice was born in New Jersey. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Telemundo is a English-language television network. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Damon Albarn's debut album was released in 2011. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "There is a capital called Mogadishu. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Savages was exclusively a German film. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Happiness in Slavery is a gospel song by Nine Inch Nails. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Andrew Kevin Walker is only Chinese. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Shooter is about an expert marksman who tries to stop the assassination of the president. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "House is a sitcom. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Cretaceous ended. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Murda Beatz's real name is Marshall Mathers. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Nicholas Brody is a character on Homeland. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Charles Manson has been proven innocent of all crimes. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Sean Penn is only ever a stage actor. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Don Bradman retired from soccer. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "L.A. Reid has served as the CEO of Arista Records for four years. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Brad Wilk helped co-found Rage in 1962. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "CBS is the network that aired The Millers. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Annette Badland was in the 2015 NBA Finals. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Edgar Wright is a person. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ann Richards was professionally involved in politics. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Drake Bell put out an EP. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Janet Leigh was incapable of writing. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Sim\u00f3n Bol\u00edvar is only known as Sim\u00f3n Bol\u00edvar. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Bermuda Triangle is in the western part of the Himalayas. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Colin Kaepernick became a starter during the 49ers 63rd season in the Republican Party. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Marnie was directed by someone who was \"The Master of Nothing\". The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Advertising is a personal message. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hot Right Now is mistakenly attributed to DJ Fresh. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Private Lives is a three act play from 1930. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Giada at Home was only available on DVD. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Harold Macmillan was born on February 20, 1894. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Aristotle spent time in Athens. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "David Packouz refused to be an entrepreneur. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Magic Johnson did not play for the Lakers. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Tenacious D started in 1997. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "James VI and I was a major advocate of a single parliament for Scotland and England. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Marcus Bentley is a broadcaster. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Saxony is in Ireland. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "In the End has baseball in it. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Mel B released a song on Virgin Records in 2007. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Noah Cyrus is a younger sister of Macy Grey. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Mohra is a truck. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hourglass is performed by a Russian singer-songwriter. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Shane Black was born in 1961. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A View to a Kill is an action movie. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Papua comprised all of Indonesia. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "There are not rumors that Augustus' wife, Livia, poisoned him. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Jennifer Lopez made a single. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A working animal is trained to perform life saving tasks. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Billboard Dad is a genre of music. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Vedam was written and directed by Christopher Nolan. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Men in Black II stars eight children. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Sancho Panza is a character in Don Quixote. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Magic Johnson was a tap dancer. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The Adventures of Pluto Nash was reviewed by Ron Underwood. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hedda Gabler's world premiere took place at the Battle of Hastings. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Brazzers is a company. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tim Roth is an English actor. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Juventus F.C. rejected their traditional black-and-white-striped home uniform in 1903. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ernest Medina participated in the My Lai Massacre. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Viola Davis appeared in Kate & Leopold as Darth Maul. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Jenna Jameson worked as a glamor model and a stripper. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "New Orleans Pelicans compete in the National Football Association. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Caroline Kennedy is a Catholic. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Starrcade was an annual professional wrestling event that began in 1988. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Jack Falahee is a person who acts. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Seohyun is a dog. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Steve Wozniak was born after the Apple II came out. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "A&E is a cable and satellite television network. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "L.A. Reid has served as the president of a record label. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Veeram is something other than an Indian Tamil film. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Home for the Holidays stars an American actress. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Taran Killam is an American writer. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Jayasudha is an actor that stars in Daag. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "XHamster's The Sex Factor forces eight men and eight women to battle to become a porn star. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "John Dolmayan was born on July 15, 1873. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Despicable Me 2 was directed by a lake. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Island Records is a music school. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Sikkim is a part of the World Bank. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Christa McAuliffe taught social studies at Concord High School. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ron Weasley is a President. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Reign Over Me was released in 2017. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Colin Kaepernick is a poker player. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Sheryl Lee has yet to appear in a film as of 2016. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Matteo Renzi is German. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The Road to El Dorado stars Tim Allen. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The highest point of the Hindu Kush is Everest. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Same Old Love is disassociated from Selena Gomez. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "The heart beats at a resting rate close to 22 beats per minute. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Weekly Idol is hosted by Yoo Jae Suk. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Heavy Metal music was developed in the early 1970's. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Bermuda Triangle is also known by another name. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Ashton Kutcher was directed by George Clooney. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "not enough info",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Topman has clothing outlets in six Irish cities and towns. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Wales' population changed. The answer is 2024.",
+        "pred": "not enough info",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tool has won three Oscars. The answer is 2024.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    }
+]

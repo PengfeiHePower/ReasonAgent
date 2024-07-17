@@ -1,0 +1,548 @@
+[
+    {
+        "question": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League.",
+        "pred": "to determine if there is observation that supports or refutes claim we would need to look up information about colin kaepernicks career and when he became starting quarterback for san francisco 49ers as well as history of 49ers in nfl to identify their 63rd season colin kaepernick took over as starting quarterback for san francisco 49ers during 2012 nfl season 49ers were established in 1946 as part of allamerica football conference aafc and joined nfl in 1950 to find their 63rd season in nfl we count from 1950 1950 was their 1st season in nfl therefore their 63rd season in nfl would be in 2012 1950 62 2012 given this information kaepernick did indeed become starting quarterback during 49ers 63rd season in national football league which supports claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Tilda Swinton is a vegan.",
+        "pred": "not enough information to determine if tilda swinton is vegan we would need direct statement from her or reliable source confirming her dietary preferences without such information we cannot definitively say whether she is vegan or not",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.1
+    },
+    {
+        "question": "Fox 2000 Pictures released the film Soul Food.",
+        "pred": "supports fox 2000 pictures did indeed release film soul food movie which is drama about experiences of africanamerican family was directed by george tillman jr and was released on april 25 1997 in united states by fox 2000 pictures subsidiary of 20th century fox therefore observation supports claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.04081632653061225
+    },
+    {
+        "question": "Anne Rice was born in New Jersey.",
+        "pred": "refutes anne rice was actually born in new orleans louisiana not in new jersey",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.11764705882352941
+    },
+    {
+        "question": "Telemundo is a English-language television network.",
+        "pred": "refutes telemundo is not englishlanguage television network it is spanishlanguage network that primarily broadcasts programming in spanish",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.1111111111111111
+    },
+    {
+        "question": "Damon Albarn's debut album was released in 2011.",
+        "pred": "refutes claim that damon albarns debut album was released in 2011 is incorrect damon albarn frontman of band blur and cofounder of gorillaz released his first solo studio album everyday robots on april 25 2014 prior to this he had been involved in numerous projects and releases with his bands but 2011 does not mark release of his debut album as solo artist",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03125
+    },
+    {
+        "question": "There is a capital called Mogadishu.",
+        "pred": "there is capital called mogadishu supports claim mogadishu is indeed capital city of somalia",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.13333333333333333
+    },
+    {
+        "question": "Savages was exclusively a German film.",
+        "pred": "refutes claim that savages was exclusively german film can be refuted by fact that savages is 2012 american crime thriller film directed by oliver stone based on novel of same name by don winslow film stars taylor kitsch aaron taylorjohnson and blake lively and it was produced in united states with englishlanguage cast therefore it is not exclusively german film",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03278688524590164
+    },
+    {
+        "question": "Happiness in Slavery is a gospel song by Nine Inch Nails.",
+        "pred": "refutes happiness in slavery is not gospel song it is industrial rock song by nine inch nails song was released on their ep broken in 1992 and is known for its intense and controversial themes which are quite contrary to uplifting messages typically found in gospel music",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.04
+    },
+    {
+        "question": "Andrew Kevin Walker is only Chinese.",
+        "pred": "refutes andrew kevin walker is not only chinese he is american screenwriter known for writing screenplay for film seven 1995 among other works his background and nationality are clearly not chinese hence statement refutes claim",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "Shooter is about an expert marksman who tries to stop the assassination of the president.",
+        "pred": "not enough information to determine if there is observation that supports or refutes claim we would need specific claim to evaluate against given information statement provided is description of plot of hypothetical work presumably movie or book called shooter involving expert marksman attempting to prevent assassination of president without specific claim to assess we cannot determine if any evidence supports or refutes it",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "House is a sitcom.",
+        "pred": "",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "The Cretaceous ended.",
+        "pred": "",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Murda Beatz's real name is Marshall Mathers.",
+        "pred": "refutes claim that murda beatzs real name is marshall mathers is incorrect murda beatz is canadian record producer and dj whose real name is shane lee lindstrom marshall mathers is real name of rapper eminem",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05555555555555556
+    },
+    {
+        "question": "Nicholas Brody is a character on Homeland.",
+        "pred": "supports nicholas brody is indeed character on television series homeland he is portrayed by actor damian lewis and is one of main characters in show particularly in its early seasons brody is united states marine corps scout sniper who returns home after being held captive by alqaeda for eight years and series explores his complex story and its implications on national security",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.031746031746031744
+    },
+    {
+        "question": "Charles Manson has been proven innocent of all crimes.",
+        "pred": "refutes charles manson was convicted of multiple counts of firstdegree murder and conspiracy to commit murder in 1971 for his role in tatelabianca murders he was not proven innocent of all crimes rather evidence and trial led to his conviction and he spent rest of his life in prison until his death in 2017",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03636363636363636
+    },
+    {
+        "question": "Sean Penn is only ever a stage actor.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Don Bradman retired from soccer.",
+        "pred": "refutes claim don bradman is widely known as one of greatest cricket players in history not soccer player his career and achievements are associated with cricket so statement about him retiring from soccer would refute claim assuming claim is suggesting he had career in soccer to retire from",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.0392156862745098
+    },
+    {
+        "question": "L.A. Reid has served as the CEO of Arista Records for four years.",
+        "pred": "not enough information to determine if there is observation that supports or refutes claim we would need specific information about la reids tenure at arista records without actual records or statements verifying duration of his service as ceo we cannot confirm or deny claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.08510638297872342
+    },
+    {
+        "question": "Brad Wilk helped co-found Rage in 1962.",
+        "pred": "refutes claim that brad wilk helped cofound rage in 1962 is incorrect rage against machine often abbreviated as rage was not formed until 1991 brad wilk is indeed drummer for rage against machine but he joined band when it was formed in 1991 not in 1962",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.042553191489361694
+    },
+    {
+        "question": "CBS is the network that aired The Millers.",
+        "pred": "supports",
+        "gt": "supports",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Annette Badland was in the 2015 NBA Finals.",
+        "pred": "refutes annette badland is actress and nba finals is basketball championship event there is no known connection between her and participating in professional sports event like nba finals therefore observation refutes claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Edgar Wright is a person.",
+        "pred": "supports statement edgar wright is person is factual claim that can be supported by fact that edgar wright is indeed real human being he is wellknown film director screenwriter and producer known for works such as shaun of dead hot fuzz and baby driver since there is ample evidence to confirm his existence and humanity observation supports claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.03389830508474576
+    },
+    {
+        "question": "Ann Richards was professionally involved in politics.",
+        "pred": "supports ann richards was indeed professionally involved in politics she was prominent democratic politician from texas who served as state treasurer of texas from 1983 to 1991 and then as 45th governor of texas from 1991 to 1995 her political career and public service are welldocumented supporting claim that she had professional career in politics",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.03571428571428572
+    },
+    {
+        "question": "Drake Bell put out an EP.",
+        "pred": "not enough information to determine if there is observation that supports or refutes claim that drake bell put out ep extended play i would need to search for evidence such as official announcements music platform listings or news articles confirming release without conducting such search i cannot confirm validity of statement",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.038461538461538464
+    },
+    {
+        "question": "Janet Leigh was incapable of writing.",
+        "pred": "not enough information to determine whether observation supports or refutes claim that janet leigh was incapable of writing we would need specific evidence about her writing abilities without any additional information or evidence provided we cannot make determination janet leigh was actress known for her work in films like psycho but her writing capabilities are not commonly discussed or documented in this context to assess her writing ability we would require direct examples of her writing reviews or testimonials from those who worked with her on written projects",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.02247191011235955
+    },
+    {
+        "question": "Sim\u00f3n Bol\u00edvar is only known as Sim\u00f3n Bol\u00edvar.",
+        "pred": "not enough information statement sim\u00f3n bol\u00edvar is only known as sim\u00f3n bol\u00edvar is not something that can be straightforwardly supported or refuted without additional context sim\u00f3n bol\u00edvar is historical figure widely recognized as key leader in spanish american wars of independence but claim seems to suggest inquiry into his aliases or titles which were numerous for instance he was also known as el libertador liberator and had other names and titles attributed to him throughout his life and in various cultural and historical contexts without specifying what only known as sim\u00f3n bol\u00edvar is meant to exclude its impossible to determine if there is observation to support or refute claim more information would be needed about what other names or titles are being considered",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Bermuda Triangle is in the western part of the Himalayas.",
+        "pred": "refutes bermuda triangle is not located in western part of himalayas bermuda triangle is region in western part of north atlantic ocean roughly bounded by miami bermuda and puerto rico known for unexplained disappearances of ships and aircraft himalayas on other hand are mountain range in asia stretching from nepal to bhutan and are not associated with bermuda triangle",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03333333333333333
+    },
+    {
+        "question": "Colin Kaepernick became a starter during the 49ers 63rd season in the Republican Party.",
+        "pred": "refutes claim that colin kaepernick became starter during 49ers 63rd season in republican party is false and can be refuted colin kaepernick is american football player known for his time with san francisco 49ers in national football league nfl which is sports organization and not affiliated with republican party his starting role in nfl has no connection to republican partys seasons or history therefore observation contradicts claim by correctly associating kaepernicks career with football and not politics",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.025
+    },
+    {
+        "question": "Marnie was directed by someone who was \"The Master of Nothing\".",
+        "pred": "refutes claim that marnie was directed by someone who was master of nothing is likely intended to be negative remark suggesting director was not skilled or accomplished however marnie is wellknown psychological thriller film from 1964 directed by alfred hitchcock who is widely regarded as one of greatest and most influential directors in cinematic history therefore this observation refutes claim as hitchcocks reputation and body of work demonstrate mastery rather than lack thereof",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.02631578947368421
+    },
+    {
+        "question": "Advertising is a personal message.",
+        "pred": "refutes claim advertising is personal message",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.2857142857142857
+    },
+    {
+        "question": "Hot Right Now is mistakenly attributed to DJ Fresh.",
+        "pred": "not enough information to determine if observation supports or refutes claim that hot right now is mistakenly attributed to dj fresh we would need more context or evidence without additional information on who correct artist is or source of attribution error we cannot make conclusion",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.04347826086956522
+    },
+    {
+        "question": "Private Lives is a three act play from 1930.",
+        "pred": "not enough information",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.6666666666666666
+    },
+    {
+        "question": "Giada at Home was only available on DVD.",
+        "pred": "not enough information to determine whether statement giada at home was only available on dvd is supported refuted or if theres not enough information we would need more context or specific data about availability of show giada at home this could include details about its release on other formats like streaming platforms tv broadcasts or online purchases without this information we cannot conclusively say if claim is true false or if theres insufficient evidence to decide",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Harold Macmillan was born on February 20, 1894.",
+        "pred": "there is not enough information to determine if observation supports or refutes claim statement provided is fact about harold macmillans birthdate but without additional context or another claim to compare it against we cannot evaluate whether this information serves to support or refute anything",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.044444444444444446
+    },
+    {
+        "question": "Aristotle spent time in Athens.",
+        "pred": "supports aristotle was indeed known to have spent significant amount of time in athens he was born in stagira but he moved to athens at age of 17 to study at platos academy where he remained for about 20 years after leaving athens he later returned when invited by king of macedonia and he established his own school lyceum in athens therefore statement that aristotle spent time in athens is supported by historical facts",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.026666666666666665
+    },
+    {
+        "question": "David Packouz refused to be an entrepreneur.",
+        "pred": "not enough information to determine whether there is observation that supports or refutes claim that david packouz refused to be entrepreneur we would need specific information about his actions statements or decisions regarding entrepreneurship without such details its impossible to conclude whether he refused to be entrepreneur or not",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.039999999999999994
+    },
+    {
+        "question": "Magic Johnson did not play for the Lakers.",
+        "pred": "refutes magic johnson is known to have played for los angeles lakers throughout his nba career he is one of most iconic players in lakers history and was key member of their championship teams in 1980s",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05405405405405406
+    },
+    {
+        "question": "Tenacious D started in 1997.",
+        "pred": "not enough information as ai i dont have realtime data verification capabilities however i can tell you that tenacious d comedic rock duo consisting of jack black and kyle gass did indeed form in late 1990s according to historical information they first performed as tenacious d in 1994 but their popularity rose significantly after their tv series premiered on hbo in 1997 therefore claim that tenacious d started in 1997 could be seen as partially correct if referring to their rise to fame but not entirely accurate if considering their formation without additional context on what started means precisely in claim its not possible to definitively support or refute statement",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "James VI and I was a major advocate of a single parliament for Scotland and England.",
+        "pred": "supports james vi of scotland became james i of england in 1603 uniting two crowns but not countries parliaments he did indeed advocate for single parliament for both scotland and england as part of his vision of united britain this is evidenced by his attempts to create more centralized government and his promotion of policies that would bring two nations closer together such as 1604 act of union which aimed to align legal systems and establish more uniformed rule across his realms although he was not successful in fully realizing this goal during his reign his efforts laid groundwork for future unions including acts of union in 1707 which finally established parliament of great britain therefore observation supports claim that james vi and i was major advocate for single parliament for scotland and england",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.014814814814814815
+    },
+    {
+        "question": "Marcus Bentley is a broadcaster.",
+        "pred": "not enough information to determine if statement marcus bentley is broadcaster is supported or refuted by observation we would need specific piece of evidence or information about marcus bentleys profession without that additional context or evidence we cannot conclude whether he is indeed broadcaster or not",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Saxony is in Ireland.",
+        "pred": "refutes saxony is not in ireland saxony is state in eastern germany while ireland is island nation in north atlantic separate from european mainland",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07999999999999999
+    },
+    {
+        "question": "In the End has baseball in it.",
+        "pred": "not enough information statement in end has baseball in it is unclear and lacks context if in end refers to specific context like movie song book or event additional information is needed to determine if there is indeed baseball involved without that context we cannot conclude whether there is observation that supports or refutes claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.06896551724137931
+    },
+    {
+        "question": "Mel B released a song on Virgin Records in 2007.",
+        "pred": "not enough information",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Noah Cyrus is a younger sister of Macy Grey.",
+        "pred": "refutes macy gray is not related to noah cyrus noah cyrus is younger sister of miley cyrus",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.1111111111111111
+    },
+    {
+        "question": "Mohra is a truck.",
+        "pred": "not enough information statement mohra is truck is claim that requires additional context or evidence to determine its accuracy without further details or observation it is impossible to conclude whether this claim is supported or refuted",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Hourglass is performed by a Russian singer-songwriter.",
+        "pred": "not enough information",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Shane Black was born in 1961.",
+        "pred": "not enough information",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "A View to a Kill is an action movie.",
+        "pred": "supports claim that view to kill is action movie is accurate it is james bond film released in 1985 starring roger moore as iconic british spy movie features typical elements of action genre including highspeed chases explosive stunts and intense fight scenes which are characteristic of both james bond franchise and action movies in general therefore there is sufficient information to support this claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Papua comprised all of Indonesia.",
+        "pred": "refutes papua is region located in eastern part of indonesia consisting of two provinces papua and west papua it does not comprise all of indonesia indonesia is vast country that includes thousands of islands and 37 provinces stretching from sabang in west to merauke in east therefore statement that papua comprised all of indonesia is incorrect",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.03389830508474576
+    },
+    {
+        "question": "There are not rumors that Augustus' wife, Livia, poisoned him.",
+        "pred": "not enough information to determine whether there are observations that support or refute claim that there were no rumors about augustus wife livia poisoning him we would need historical records accounts or other evidence from time of augustus and livia without specific historical references to examine we cannot conclude whether such rumors existed or not",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Jennifer Lopez made a single.",
+        "pred": "not enough information to determine if there is observation that supports or refutes claim that jennifer lopez made single we would need more specific information such as title of single release date or any details about its production and release without this information we cannot conclusively say whether claim is supported or refuted however given jennifer lopezs career as singer it is plausible that she has released singles but we need concrete evidence to make definitive judgment",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.025641025641025647
+    },
+    {
+        "question": "A working animal is trained to perform life saving tasks.",
+        "pred": "supports statement working animal is trained to perform lifesaving tasks aligns with definition and known roles of many working animals for example search and rescue dogs are trained to locate missing people sometimes in disaster zones or avalanche sites which can be lifesaving actions guide dogs assist individuals with visual impairments helping them navigate safely thus preventing injuries or worse therapy animals while not necessarily trained for direct lifesaving tasks contribute to mental wellbeing of people which can indirectly save lives by reducing stress and promoting healing therefore there is evidence to support claim that working animals are indeed trained to perform tasks that can save lives",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.01818181818181818
+    },
+    {
+        "question": "Billboard Dad is a genre of music.",
+        "pred": "refutes billboard dad is not genre of music it is title of 1998 american family comedy film starring olsen twins marykate and ashley olsen film has no direct association with music genres",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.05714285714285714
+    },
+    {
+        "question": "Vedam was written and directed by Christopher Nolan.",
+        "pred": "refutes vedam is actually telugu film directed by krish jagarlamudi not christopher nolan christopher nolan is known for directing films like inception interstellar and dark knight trilogy",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.07142857142857142
+    },
+    {
+        "question": "Men in Black II stars eight children.",
+        "pred": "refutes claim that men in black ii stars eight children is incorrect men in black ii is science fiction comedy film released in 2002 directed by barry sonnenfeld and starring will smith and tommy lee jones as main characters agents j and k respectively film does not feature eight children as its main cast it primarily focuses on two adult agents of secret organization that monitors and regulates extraterrestrial activity on earth therefore observation refutes claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.02531645569620253
+    },
+    {
+        "question": "Sancho Panza is a character in Don Quixote.",
+        "pred": "supports sancho panza is indeed character in novel don quixote by miguel de cervantes he is loyal squire of titular character don quixote",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.08333333333333333
+    },
+    {
+        "question": "Magic Johnson was a tap dancer.",
+        "pred": "refutes magic johnson is widely known as former professional basketball player entrepreneur and hivaids activist there is no widely known or documented evidence to support claim that he was tap dancer therefore based on available information this statement refutes claim",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.04878048780487806
+    },
+    {
+        "question": "The Adventures of Pluto Nash was reviewed by Ron Underwood.",
+        "pred": "not enough information statement provided does not include any information about whether review was positive negative or neutral without knowing content of review we cannot determine if it supports or refutes any specific claim about adventures of pluto nash",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05
+    },
+    {
+        "question": "Hedda Gabler's world premiere took place at the Battle of Hastings.",
+        "pred": "refutes claim that hedda gablers world premiere took place at battle of hastings is incorrect hedda gabler is play written by norwegian playwright henrik ibsen which was first published in 1890 and premiered in 1891 at residenztheater in munich germany battle of hastings on other hand occurred in 1066 and marked norman conquest of england these two events are unrelated historically and contextually",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03125
+    },
+    {
+        "question": "Brazzers is a company.",
+        "pred": "supports statement brazzers is company is factual claim that can be verified brazzers is indeed company specifically adult entertainment production company known for its pornographic films and websites therefore observation supports claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.06060606060606061
+    },
+    {
+        "question": "Tim Roth is an English actor.",
+        "pred": "supports tim roth is indeed english actor known for his roles in films such as reservoir dogs pulp fiction and rob roy as well as television series lie to me he was born in dulwich london england which confirms his english heritage",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.046511627906976744
+    },
+    {
+        "question": "Juventus F.C. rejected their traditional black-and-white-striped home uniform in 1903.",
+        "pred": "refutes claim states that juventus fc rejected their traditional blackandwhitestriped home uniform in 1903 however historical records show that juventus adopted blackandwhite stripes in 1903 inspired by notts county fc english team therefore observation contradicts claim indicating that claim is refuted",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.047619047619047616
+    },
+    {
+        "question": "Ernest Medina participated in the My Lai Massacre.",
+        "pred": "there is evidence that supports claim that ernest medina participated in my lai massacre medina was commanding officer of charlie company which was responsible for massacre that occurred on march 16 1968 in village of my lai during vietnam war while medina was not convicted of directly participating in killings he was courtmartialed and found not guilty of murder but guilty of failing to control his men and of allowing massacre to occur this suggests that while he may not have personally killed anyone his role as leader was seen as contributory to events at my lai therefore based on information available it can be said that there is supporting evidence for his involvement albeit indirectly in massacre",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.01680672268907563
+    },
+    {
+        "question": "Viola Davis appeared in Kate & Leopold as Darth Maul.",
+        "pred": "refutes viola davis did not appear in kate leopold as darth maul viola davis is acclaimed actress known for her roles in films such as help and fences while darth maul is character from star wars franchise portrayed by actor ray park in film star wars episode i \u2013 phantom menace kate leopold is romantic comedy film that does not feature either viola davis or darth maul",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.028571428571428574
+    },
+    {
+        "question": "Jenna Jameson worked as a glamor model and a stripper.",
+        "pred": "supports statement jenna jameson worked as glamor model and stripper is claim about jenna jamesons past occupations jenna jameson is known publicly for her career in adult entertainment industry she has indeed worked as glamour model appearing in numerous adult magazines and as stripper before gaining fame in pornography therefore there is ample evidence to support this claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.03389830508474576
+    },
+    {
+        "question": "New Orleans Pelicans compete in the National Football Association.",
+        "pred": "refutes new orleans pelicans actually compete in national basketball association nba not national football association",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.125
+    },
+    {
+        "question": "Caroline Kennedy is a Catholic.",
+        "pred": "not enough information to determine if caroline kennedy is catholic we would need specific information about her religious affiliation without such information we cannot confirm or refute claim",
+        "gt": "not enough info",
+        "em": false,
+        "f1": 0.12903225806451613
+    },
+    {
+        "question": "Starrcade was an annual professional wrestling event that began in 1988.",
+        "pred": "refutes claim states that starrcade began in 1988 but according to historical records starrcade was actually annual professional wrestling event that originated much earlier first starrcade event was held on november 24 1983 by jim crockett promotions which later became part of world championship wrestling wcw therefore observation contradicts claim indicating that start year of starrcade was not 1988 but 1983",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.03225806451612903
+    },
+    {
+        "question": "Jack Falahee is a person who acts.",
+        "pred": "supports statement jack falahee is person who acts is claim that suggests jack falahee is actor given that jack falahee is known for his acting work particularly for his role as connor walsh in tv series how to get away with murder there is observation that supports this claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.039999999999999994
+    },
+    {
+        "question": "Seohyun is a dog.",
+        "pred": "refutes claim that seohyun is dog is refuted by fact that seohyun is human being specifically south korean singer and actress known as member of girl group girls generation",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.06666666666666667
+    },
+    {
+        "question": "Steve Wozniak was born after the Apple II came out.",
+        "pred": "refutes steve wozniak cofounder of apple inc was born on august 11 1950 apple ii which he helped design was released on april 16 1977 therefore steve wozniak was born well before apple ii came out",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0.05405405405405406
+    },
+    {
+        "question": "A&E is a cable and satellite television network.",
+        "pred": "not enough information statement ae is cable and satellite television network is claim that requires verification without additional context or evidence i cannot determine if this is true or false to make determination i would need to reference external data or have prior knowledge about ae networks broadcasting platform",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "L.A. Reid has served as the president of a record label.",
+        "pred": "not enough information to determine if there is observation that supports or refutes claim that la reid has served as president of record label we would need specific evidence such as statement from reliable source confirming his tenure at particular record label in presidential capacity or official announcement biography or news article detailing his role without such information provided we cannot conclusively support or refute claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0.02985074626865672
+    },
+    {
+        "question": "Veeram is something other than an Indian Tamil film.",
+        "pred": "refutes",
+        "gt": "refutes",
+        "em": true,
+        "f1": 1.0
+    },
+    {
+        "question": "Home for the Holidays stars an American actress.",
+        "pred": "not enough information statement home for holidays stars american actress is claim that requires verification without additional context or specific details about movie home for holidays including its cast its impossible to determine whether claim is supported or refuted based on information provided further research would be needed to identify lead actors in film and their nationalities to ascertain validity of claim",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Taran Killam is an American writer.",
+        "pred": "not enough information to determine if statement taran killam is american writer is supported or refuted by evidence we would need specific information about taran killams professional background specifically regarding his work as writer without that information we cannot conclude whether he is indeed american writer or not taran killam is known primarily as actor and comedian having been cast member on saturday night live but this doesnt necessarily refute claim that he might also be writer additional information is required to make determination",
+        "gt": "supports",
+        "em": false,
+        "f1": 0
+    },
+    {
+        "question": "Jayasudha is an actor that stars in Daag.",
+        "pred": "not enough information i cannot determine if statement is true or false based on information provided to assess whether jayasudha stars in daag i would need access to data about films cast or additional context that confirms or denies her involvement in movie",
+        "gt": "refutes",
+        "em": false,
+        "f1": 0
+    }
+]

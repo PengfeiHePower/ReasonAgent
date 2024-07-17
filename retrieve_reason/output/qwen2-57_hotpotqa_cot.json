@@ -1,0 +1,258 @@
+[
+    {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "pred": "a",
+        "gt": "yes",
+        "em": false,
+        "f1": 0,
+        "thought": "Scott Derrickson is American, Ed Wood is American"
+    },
+    {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "pred": "lorien legacies",
+        "gt": "animorphs",
+        "em": false,
+        "f1": 0,
+        "thought": "The description matches the science fantasy young adult series 'Lorien Legacies' written by Pittacus Lore, which is told in first person and has a set of companion books called 'Legacies' narrating the stories of enslaved worlds and alien species."
+    },
+    {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "pred": "new york city",
+        "gt": "greenwich village, new york city",
+        "em": false,
+        "f1": 0.7499999999999999,
+        "thought": "The question asks for the New York city where the director of 'Big Stone Gap' is based. I know that the director of this movie is Adriana Trigiani, who is based in New York City. The answer should be the name of this city."
+    },
+    {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "pred": "label a",
+        "gt": "yg entertainment",
+        "em": false,
+        "f1": 0,
+        "thought": "Let me recall the information about South Korean boy groups. 2014 S/S is the debut album of a South Korean boy group that was formed by a label. I need to identify which label this group belongs to from the given options."
+    },
+    {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "pred": "d",
+        "gt": "eenasul fateh",
+        "em": false,
+        "f1": 0,
+        "thought": "First, identify the person known by the stage name Aladin. Next, determine if this person was also a consultant helping organizations improve their performance. Then, match the correct label from options [A,B,C,D]."
+    },
+    {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "pred": "scotch collie",
+        "gt": "scotch collie",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The question asks for the dog whose ancestors include Gordon and Irish Setters among the given options. The Gordon Setter and the Irish Setter are breeds, not related to the Manchester Terrier or the Scotch Collie. I know that the Scotch Collie is a mix between a Border Collie and a Rough Collie, but it's not directly related to Gordon and Irish Setters. However, the Gordon Setter is part of the collie family tree. Therefore, the Scotch Collie's ancestors would include Gordon Setters if we consider the broader family tree of setters."
+    },
+    {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "pred": "d",
+        "gt": "sovereignty",
+        "em": false,
+        "f1": 0,
+        "thought": "Giuseppe Arimondi was an Italian military officer who fought for Ethiopia. He lost his life in the Battle of Adwa. The Battle of Adwa secured Ethiopia's independence from Italy. Therefore, the answer is the option that represents Ethiopia's independence."
+    },
+    {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "pred": "b",
+        "gt": "nelson rockefeller",
+        "em": false,
+        "f1": 0,
+        "thought": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media during the time Nelson Rockefeller was the United States Vice President."
+    },
+    {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "pred": "firth of forth",
+        "gt": "yellowcraig",
+        "em": false,
+        "f1": 0,
+        "thought": "The medieval fortress in Dirleton, East Lothian, Scotland is Dirleton Castle. It borders on the south side of the Dirleton village and the Firth of Forth coastal area."
+    },
+    {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "pred": "d",
+        "gt": "organizations could come together to address global issues",
+        "em": false,
+        "f1": 0,
+        "thought": "Consider the historical figures associated with former Soviet statesmen and their initiatives. Identify the most likely option that represents a type of forum initiated by such a figure."
+    },
+    {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "pred": "milan",
+        "gt": "rome",
+        "em": false,
+        "f1": 0,
+        "thought": "First, identify the 'Prince of tenors.' That would be Luciano Pavarotti. Next, find out which city he starred in a film based on an opera by Giacomo Puccini. Pavarotti starred in the film 'Puccini - His Women' which was set in various cities but primarily focused on Milan, where Puccini lived and composed many of his operas. Since the question doesn't specify which opera the film is based on, we can assume it's a general reference to Puccini's life and works, with a strong association to Milan."
+    },
+    {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "pred": "a list of writers and producers who worked on the album",
+        "gt": "max martin, savan kotecha and ilya salmanzadeh",
+        "em": false,
+        "f1": 0.125,
+        "thought": "Ellie Goulding's third studio album, Delirium, featured collaborations with a variety of writers and producers. Some of the notable contributors include Greg Kurstin, Jim Irvin, and Starsmith."
+    },
+    {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "pred": "victoria",
+        "gt": "marion, south australia",
+        "em": false,
+        "f1": 0,
+        "thought": "First, identify the Australian city founded in 1838. Among the given options, only Melbourne fits this criterion. Next, find out which city contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name. Only Geelong Grammar School in Victoria, associated with Robert Menzies, matches this description. Therefore, the answer should be a city in Victoria."
+    },
+    {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "pred": "drifting",
+        "gt": "drifting",
+        "em": true,
+        "f1": 1.0,
+        "thought": "D1NZ is a New Zealand drifting championship series. Drifting involves oversteering techniques. The options provided are likely labels for different types of oversteer techniques used in drifting."
+    },
+    {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "pred": "jerry goldsmith was the composer for the film 'planet of the apes' (1968). the executive producer of this film was mort abrahams.",
+        "gt": "ronald shusett",
+        "em": false,
+        "f1": 0,
+        "thought": "First, identify the film with a score composed by Jerry Goldsmith. Then, find out who the executive producer of that film is."
+    },
+    {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "pred": "charmed",
+        "gt": "charmed",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Rose McGowan is best known for her role in the WB supernatural drama series 'Charmed'."
+    },
+    {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "pred": "international boxing hall of fame",
+        "gt": "international boxing hall of fame",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Vince Phillips was a professional boxer who held the WBC junior welterweight title. The WBC, or World Boxing Council, is one of the major organizations that sanction boxing matches and award world titles. The World Boxing Council is recognized by the International Boxing Hall of Fame. Therefore, the answer is that Vince Phillips held a junior welterweight title recognized by the International Boxing Hall of Fame."
+    },
+    {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "pred": "usher",
+        "gt": "usher",
+        "em": true,
+        "f1": 1.0,
+        "thought": "The question asks for the name of the singer whose song was released as the lead single from the album 'Confessions' and had a popular song stuck behind for eight consecutive weeks. The album 'Confessions' belongs to Usher. Therefore, the answer is Usher."
+    },
+    {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "pred": "unknown due to lack of specific information about the episode guest stars.",
+        "gt": "bill murray",
+        "em": false,
+        "f1": 0,
+        "thought": "The question asks for the younger brother of the episode guest stars of 'The Hard Easy.' However, no specific names or details are provided about the episode guest stars. Without this information, it is impossible to determine the younger brother. Therefore, I cannot provide an answer with the given data."
+    },
+    {
+        "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "pred": "carabao cup",
+        "gt": "carabao cup",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Wigan Athletic F.C. competes in English football leagues. The question asks about the name of the league cup for sponsorship reasons in the 2017-18 season. This would likely be the EFL Cup, previously known as the League Cup. Sponsorship deals can change, but for this period, it was known as the Carabao Cup."
+    },
+    {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "pred": "bill clinton",
+        "gt": "william jefferson clinton",
+        "em": false,
+        "f1": 0.4,
+        "thought": "Robert Suettinger served as the National Intelligence Officer for East Asia at the National Intelligence Council from 2000 to 2003. To find out under which former Governor of Arkansas he worked, we need to identify who was the President of the United States during that time period. George W. Bush was the President of the United States from January 20, 1993, to January 20, 2001. Bill Clinton was the Governor of Arkansas before becoming President. Since Robert Suettinger served as the National Intelligence Officer during 2000-2003, it means he worked under the presidency of Bill Clinton, who was a former Governor of Arkansas."
+    },
+    {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "pred": "the answer is c. the surfer who fits this description is john john florence.",
+        "gt": "john john florence",
+        "em": false,
+        "f1": 0.4,
+        "thought": "The question asks for an American professional Hawaiian surfer born on 18 October 1992 who won the Rip Curl Pro Portugal. I need to identify the correct individual from the given options. Let me check the provided choices."
+    },
+    {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "pred": "joelle l\u00e9andre",
+        "gt": "ann",
+        "em": false,
+        "f1": 0,
+        "thought": "First, identify the actress who plays Bobbi Bacha in Suburban Madness. Then, find her full name to determine the middle name."
+    },
+    {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "pred": "kuna people",
+        "gt": "apalachees",
+        "em": false,
+        "f1": 0,
+        "thought": "Alvaro Mexia was a Panamanian diplomat and botanist. He conducted a diplomatic mission with the Kuna people, an indigenous group in Panama. Therefore, the answer should reflect this information."
+    },
+    {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "pred": "claremont",
+        "gt": "newport",
+        "em": false,
+        "f1": 0,
+        "thought": "East Lempster, New Hampshire is located in the county of Sullivan County. I need to find the county seat of Sullivan County."
+    },
+    {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "pred": "a",
+        "gt": "conscription",
+        "em": false,
+        "f1": 0,
+        "thought": "Rostker v. Goldberg was a Supreme Court case that addressed the constitutionality of the US Military Selective Service System's practice of drafting only men, as it excluded women from being drafted. The court ruled that this practice was constitutional based on the rationale that women were not eligible for combat roles at the time."
+    },
+    {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "pred": "the canary islands, spain",
+        "gt": "canary islands, spain",
+        "em": false,
+        "f1": 1.0,
+        "thought": "Teide National Park is located on the island of Tenerife in the Canary Islands, Spain. Garajonay National Park is located on the island of La Gomera in the Canary Islands, Spain."
+    },
+    {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "pred": "cinematographer",
+        "gt": "director",
+        "em": false,
+        "f1": 0,
+        "thought": "Chris Menges and Aram Avakian both shared the occupation of cinematographer."
+    },
+    {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "pred": "the conversation",
+        "gt": "the conversation",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Andrew Jaspan co-founded The Conversation, a not-for-profit media outlet."
+    },
+    {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "pred": "sahara hotel and casino, las vegas",
+        "gt": "las vegas strip in paradise",
+        "em": false,
+        "f1": 0.3636363636363636,
+        "thought": "Bill Cosby's third album, 'To Russell, My Brother, Whom I Slept With', was recorded at the Sahara Hotel and Casino in Las Vegas."
+    },
+    {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "pred": "c",
+        "gt": "it products and services",
+        "em": false,
+        "f1": 0,
+        "thought": "Bordan Tkachuk was the CEO of a company that provides technology products."
+    },
+    {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "pred": "a",
+        "gt": "levni yilmaz",
+        "em": false,
+        "f1": 0,
+        "thought": "Lev Yilmaz is known for his animated films such as 'Drop Fox' and 'Tales of the Lost Formics', while there is no information suggesting that Pamela B. Green is specifically known for animation."
+    }
+]

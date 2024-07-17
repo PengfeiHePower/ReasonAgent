@@ -1,0 +1,802 @@
+[
+    {
+        "question": "In a population of giraffes, an environmental change occurs that favors individuals that are tallest. As a result, more of the taller individuals are able to obtain nutrients and survive to pass along their genetic information. This is an example of\nOptions:\nA) directional selection.\nB) stabilizing selection.\nC) sexual selection.\nD) disruptive selection.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. The question describes a scenario where an environmental change favors one extreme phenotype over others - in this case, taller giraffes. This leads to an increase in the frequency of the genes associated with this phenotype in the population over time. This is a classic example of directional selection, where one extreme phenotype is favored over all others. Therefore, the correct answer is Option A."
+    },
+    {
+        "question": "Which of the changes below following the start codon in an mRNA would most likely have the greatest deleterious effect?\nOptions:\nA) a deletion of a single nucleotide\nB) a deletion of a nucleotide triplet\nC) a single nucleotide substitution of the nucleotide occupying the first codon position\nD) a single nucleotide substitution of the nucleotide occupying the third codon position",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. We first need to understand the effects of each type of mutation on the mRNA sequence. A deletion of a single nucleotide or a nucleotide triplet would cause a frameshift mutation, which would alter all the codons downstream and likely result in a nonfunctional protein. A single nucleotide substitution at the first or third position of a codon could potentially change the amino acid coded for, but the third position is often less critical due to the degeneracy of the genetic code. Therefore, the most deleterious effect would likely result from a deletion of a single nucleotide, which would cause a frameshift mutation."
+    },
+    {
+        "question": "The energy given up by electrons as they move through the electron transport chain is used to\nOptions:\nA) break down glucose\nB) make glucose\nC) produce ATP\nD) make NADH",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The electron transport chain is a series of protein complexes and electron carrier molecules within the mitochondrial membrane that generate energy through the redox reactions that occur during a process called oxidative phosphorylation. The energy given up by electrons as they move through the electron transport chain is used to pump protons across the mitochondrial membrane, creating a proton gradient. This gradient is then used to produce ATP, the cell's main source of energy. Therefore, the correct answer is Option C (Produce ATP)."
+    },
+    {
+        "question": "During the period when life is believed to have begun, the atmosphere on primitive Earth contained abundant amounts of all the following gases EXCEPT\nOptions:\nA) oxygen\nB) hydrogen\nC) ammonia\nD) methane",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. The primitive Earth's atmosphere, during the time when life is believed to have begun, was devoid of oxygen. Instead, it was composed of gases like hydrogen, ammonia, and methane. Therefore, the gas that was not abundant during this period is oxygen."
+    },
+    {
+        "question": "Convergent evolution is best exemplified by which of the following?\nOptions:\nA) The pectoral fins of fish and the front legs of cats\nB) The presence of a notochord in all chordate embryos\nC) The wings of an insect and the wings of a bird\nD) The leaves of an oak tree and the spines of a cactus",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Convergent evolution refers to the process where organisms not closely related independently evolve similar traits as a result of having to adapt to similar environments or ecological niches. It is not about common ancestry but about similar solutions to environmental challenges. The wings of an insect and the wings of a bird are a classic example of convergent evolution. Both have evolved the ability to fly, but they have done so independently of each other. Therefore, the correct answer is Option C."
+    },
+    {
+        "question": "Which of the following would most likely provide examples of mitotic cell divisions?\nOptions:\nA) cross section of muscle tissue\nB) cross section of an anther (site of pollen production in a flower)\nC) longitudinal section of a shoot tip\nD) cross section of a leaf",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Mitotic cell divisions are most commonly associated with areas of active growth and development in an organism. Among the options provided, a longitudinal section of a shoot tip (Option C) would most likely provide examples of mitotic cell divisions. This is because shoot tips, or apical meristems, are the primary sites of cell division and growth in plants."
+    },
+    {
+        "question": "Invertebrate immune systems possess which of the following?\nOptions:\nA) Cytotoxic T-lymphocytes\nB) Phagocytes\nC) B-cells\nD) Helper T-cells",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Invertebrates do not have the adaptive immune system that vertebrates do, which includes B-cells, T-cells, and cytotoxic T-lymphocytes. However, they do have innate immune responses, which include the use of phagocytes to engulf and destroy pathogens. Therefore, the correct answer is B) Phagocytes."
+    },
+    {
+        "question": "Two unrelated species evolve in a way that makes them more similar.\nOptions:\nA) Divergent evolution\nB) Convergent evolution\nC) Parallel evolution\nD) Coevolution",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question describes a scenario where two unrelated species evolve to become more similar. This is a classic example of convergent evolution, where different species independently evolve similar traits as a result of having to adapt to similar environments or ecological niches."
+    },
+    {
+        "question": "Which of the following is the most likely benefit of periodic natural wildfires in some forest ecosystems?\nOptions:\nA) The fires remove dead and decaying plant matter, reducing the risk of more intense and destructive fires.\nB) The fires leach nutrients from the soil\u201a preventing the germination of plants that might compete with native species.\nC) The fires drive off herbivores whose plant-based diets reduce the amount of vegetation.\nD) The fires dry out the soil and decrease the chance of flooding after heavy rains.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. Natural wildfires, while destructive, can have beneficial effects on forest ecosystems. They can help clear out dead and decaying plant matter, which can reduce the risk of more intense and destructive fires in the future. This is because accumulated dead plant matter can serve as fuel for fires, and removing this fuel can help keep future fires in check. Therefore, Option A (The fires remove dead and decaying plant matter, reducing the risk of more intense and destructive fires) is the most likely benefit of periodic natural wildfires in some forest ecosystems."
+    },
+    {
+        "question": "In a hypothetical environment, fishes called pike-cichlids are visual predators of algae-eating fish (i.e., they locate their prey by sight). If a population of algae-eaters experiences predation pressure from pike-cichlids, which of the following should least likely be observed in the algae-eater population over the course of many generations?\nOptions:\nA) Selection for drab coloration of the algae-eaters\nB) Selection for nocturnal algae-eaters (active only at night)\nC) Selection for larger female algae-eaters, bearing broods composed of more, and larger, young\nD) Selection for algae-eaters that become sexually mature at smaller overall body sizes",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first consider the nature of the predation pressure. Pike-cichlids are visual predators, meaning they locate their prey by sight. Therefore, any adaptations that make the algae-eaters less visible or less available during the pike-cichlids' active hunting times would likely be beneficial. Drab coloration (Option A) and nocturnal activity (Option B) would both make the algae-eaters less visible. Becoming sexually mature at smaller sizes (Option D) could potentially reduce visibility as well. However, having larger females that bear more and larger young (Option C) would not necessarily provide any protection from a visual predator and might even make the algae-eaters more visible. Therefore, Option C is the least likely to be observed in response to predation pressure from pike-cichlids."
+    },
+    {
+        "question": "A man contracts the same flu strain for the second time in a single winter season. The second time he experiences fewer symptoms and recovers more quickly. Which cells are responsible for this rapid recovery?\nOptions:\nA) Helper T cells\nB) Cytotoxic T cells\nC) Memory cells\nD) Plasma cells",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The man's immune system was able to respond more quickly and effectively the second time he was infected with the same flu strain. This is due to the adaptive immune response, which creates memory cells after the first infection. These memory cells recognize the same pathogen upon re-exposure and mount a faster and stronger immune response, leading to quicker recovery. Therefore, the cells responsible for this rapid recovery are memory cells."
+    },
+    {
+        "question": "The same gene that causes various coat patterns in wild and domesticated cats also causes the cross-eyed condition in these cats, the cross-eyed condition being slightly maladaptive. In a hypothetical environment, the coat pattern that is associated with crossed eyes is highly adaptive, with the result that both the coat pattern and the cross-eyed condition increase in a feline population over time. Which statement is supported by these observations?\nOptions:\nA) Evolution is progressive and tends toward a more perfect population.\nB) Phenotype is often the result of compromise.\nC) Natural selection reduces the frequency of maladaptive genes in populations over the course of time.\nD) Polygenic inheritance is generally maladaptive, and should become less common in future generations.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The scenario describes a situation where a gene that causes a slightly maladaptive trait (crossed eyes) is increasing in frequency because it is linked to a highly adaptive trait (a certain coat pattern). This suggests that the overall phenotype of the cats (coat pattern and eye condition) is a compromise between the adaptive and maladaptive traits. Therefore, the statement that is supported by these observations is Option B (Phenotype is often the result of compromise)."
+    },
+    {
+        "question": "Which of the following statements is correct?\nOptions:\nA) Water flows from hypertonic to hypotonic.\nB) Germinating seeds use less oxygen than do nongerminating seeds.\nC) The rate of transpiration decreases with an increase in air movement.\nD) Smaller DNA fragments migrate more rapidly than do larger DNA fragments on gel electrophoresis.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first evaluate each statement for its scientific accuracy. Option A is incorrect because water flows from hypotonic to hypertonic, not the other way around. Option B is incorrect because germinating seeds use more oxygen due to increased metabolic activity. Option C is incorrect because the rate of transpiration increases with an increase in air movement. Option D is correct because in gel electrophoresis, smaller DNA fragments do migrate more rapidly than larger ones due to their smaller size."
+    },
+    {
+        "question": "A gas phase is generally absent from which of the following biogeochemical cycles?\nOptions:\nA) Water\nB) Carbon\nC) Sulfur\nD) Phosphorus",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand what a biogeochemical cycle is. It is a pathway by which a chemical substance moves through both the biotic (biosphere) and abiotic (lithosphere, atmosphere, and hydrosphere) components of Earth. Now, we need to identify which of the given cycles does not have a gas phase. The water cycle includes water vapor, the carbon cycle includes carbon dioxide, and the sulfur cycle includes sulfur dioxide. However, the phosphorus cycle primarily involves the movement of phosphorus through the lithosphere and biosphere, not the atmosphere. Phosphorus is typically found in solid and liquid states, such as in rocks and water bodies, but not in a gaseous state."
+    },
+    {
+        "question": "Which of the following is a property that is shared by Zika fever\u201a West Nile fever\u201a and malaria?\nOptions:\nA) The diseases are caused by viruses.\nB) The diseases occur only in individuals who visit or live in tropical countries.\nC) The pathogens that cause the diseases have developed resistance to antibiotics.\nD) The pathogens that cause the diseases are primarily transmitted by the bite of an infected mosquito.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Zika fever and West Nile fever are caused by viruses, while malaria is caused by a parasite, so option A is incorrect. These diseases can occur in individuals who visit or live in tropical countries, but they can also occur in other regions, so option B is incorrect. Antibiotic resistance is a concern for bacterial infections, not viral or parasitic infections, so option C is incorrect. Zika fever, West Nile fever, and malaria are all primarily transmitted by the bite of an infected mosquito, so option D is correct."
+    },
+    {
+        "question": "If the HMS Beagle had completely bypassed the Galapagos Islands, Darwin would have had a much poorer understanding of the\nOptions:\nA) relative stability of a well-adapted population's numbers over many generations.\nB) ability of populations to undergo modification as they adapt to a particular environment.\nC) tendency of organisms to produce the exact number of offspring that the environment can support.\nD) unlimited resources that support population growth in most natural environments.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The Galapagos Islands were crucial to Darwin's development of the theory of evolution by natural selection. The islands' unique species and environments provided key evidence for the ability of populations to modify and adapt to their specific environments over time. This is where Darwin observed finches with different beak shapes adapted to different food sources, leading to his insights on adaptive evolution. Therefore, if the HMS Beagle had bypassed the Galapagos Islands, Darwin would have had a much poorer understanding of the ability of populations to undergo modification as they adapt to a particular environment. So, the answer is Option B."
+    },
+    {
+        "question": "Which of the following statements about lipids is correct?\nOptions:\nA) Unsaturated fatty acids are linked to heart disease.\nB) Lipids make up most cell surface receptors.\nC) Phospholipids are water soluble.\nD) Steroids are lipids that consist of glycerol and fatty acids.",
+        "pred": "none of the options",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. We first need to understand the properties of lipids. Lipids are a diverse group of hydrophobic molecules, and they include fats, waxes, sterols, fat-soluble vitamins (such as vitamins A, D, E, and K), monoglycerides, diglycerides, triglycerides, phospholipids, and others. The main biological functions of lipids include storing energy, signaling, and acting as structural components of cell membranes. Now, let's evaluate the options. Option A is incorrect because unsaturated fatty acids are generally considered healthier than saturated ones. Option B is incorrect because proteins make up most cell surface receptors, not lipids. Option C is incorrect because phospholipids, while having a hydrophilic (water-attracting) head, are not water soluble due to their hydrophobic (water-repelling) tails. Option D is incorrect because steroids are not composed of glycerol and fatty acids, but rather of four fused carbon rings. Therefore, none of the options are correct."
+    },
+    {
+        "question": "All of the following are examples of connective tissue EXCEPT\nOptions:\nA) ligaments\nB) muscle\nC) blood\nD) cartilage",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Connective tissue is a type of tissue that provides support and structure to other tissues and organs in the body. Examples of connective tissue include ligaments, blood, and cartilage. However, muscle is not a type of connective tissue, but rather, it is a type of tissue that is responsible for producing force and motion. Therefore, the correct answer is Option B."
+    },
+    {
+        "question": "The light reactions of photosynthesis supply the Calvin cycle with which of the following?\nOptions:\nA) The light reactions provide oxygen for the light-independent reactions.\nB) ATP and NADPH provide the power and raw materials for the Calvin cycle.\nC) Water entering the plant through the roots provides hydrogen directly to the Calvin cycle.\nD) CO2 released by the light-dependent reactions provides the raw material for the Calvin cycle.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The light reactions of photosynthesis generate ATP and NADPH, which are used as energy and reducing power, respectively, in the Calvin cycle. The Calvin cycle uses these products to fix carbon dioxide into organic molecules. Therefore, the light reactions do not directly provide oxygen, water, or CO2 to the Calvin cycle. Instead, they provide the energy and electrons necessary for the Calvin cycle to operate."
+    },
+    {
+        "question": "When the first tiny prokaryotic cell took up residence inside a larger prokaryotic cell, it heralded the advent of the eukaryotic cell and led to an explosion of new life on Earth. Since then, most cells on Earth have internal organelles. Which of the following best summarizes an advantage of having internal membranes and organelles?\nOptions:\nA) DNA can reproduce more efficiently.\nB) Even though prokaryotes do not have mitochondria, they contain structures that carry out the same function.\nC) Organelles separate specific reactions in the cell and increase metabolic efficiency.\nD) Compartmentalization enables prokaryotes to reproduce more quickly.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question asks for an advantage of having internal membranes and organelles. We know that one of the main advantages of having internal organelles is that they allow for compartmentalization of cellular processes, which can increase efficiency by separating conflicting metabolic processes. Therefore, Option C (Organelles separate specific reactions in the cell and increase metabolic efficiency) best summarizes an advantage of having internal membranes and organelles."
+    },
+    {
+        "question": "Which of the following is correct about vaccination?\nOptions:\nA) It increases the number of different receptors that recognize a particular pathogen.\nB) It increases the number of different macrophages specific to the antigen.\nC) It increases the number of epitopes that the immune system can recognize.\nD) It increases the number of lymphocytes with receptors that can recognize and bind to the antigen.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Vaccination works by introducing a harmless version of a pathogen, or parts of it, into the body to stimulate an immune response. This response involves the production of lymphocytes that can recognize and bind to the antigen presented by the vaccine. This prepares the immune system for a potential future encounter with the actual pathogen. Therefore, the correct answer is that vaccination increases the number of lymphocytes with receptors that can recognize and bind to the antigen."
+    },
+    {
+        "question": "The calypso orchid, Calypso bulbosa, grows in close association with mycorrhizae fungi. The fungi penetrate the roots of the flower and take advantage of the plant's food resources. The fungi concentrate rare minerals, such as phosphates, in the roots and make them readily accessible to the orchid. This situation is an example of\nOptions:\nA) parasitism\nB) commensalism\nC) mutualism\nD) endosymbiosis",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the relationship between the calypso orchid and the mycorrhizae fungi. The fungi penetrate the roots of the flower and use the plant's food resources. In return, the fungi concentrate rare minerals in the roots and make them readily accessible to the orchid. This is a mutualistic relationship, where both organisms benefit from the association. Therefore, the correct answer is Option C (Mutualism)."
+    },
+    {
+        "question": "Mules are relatively long-lived and hardy organisms that cannot, generally speaking, perform successful meiosis. Consequently, which statement about mules is true?\nOptions:\nA) They have a relative evolutionary fitness of zero.\nB) Their offspring have less genetic variation than the parents.\nC) Mutations cannot occur in their genomes.\nD) If crossing-over happens in mules, then it must be limited to prophase of mitosis.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. Mules are the offspring of a male donkey and a female horse. They are sterile, meaning they cannot produce offspring. This is due to the fact that they have an odd number of chromosomes, which prevents successful meiosis. Therefore, they cannot pass on their genes to the next generation. In terms of evolutionary fitness, which is defined as an organism's ability to pass on its genes to the next generation, mules would have a fitness of zero. So, the correct answer is Option A."
+    },
+    {
+        "question": "ADH is a hormone secreted by the kidneys that reduces the amount of water excreted in the urine. ADH is released in times of dehydration. This is an example of\nOptions:\nA) innate behavior.\nB) maintaining homeostasis.\nC) failure to respond to the environment.\nD) positive feedback.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. ADH, or antidiuretic hormone, is released by the kidneys in response to dehydration. Its function is to reduce the amount of water excreted in the urine, thereby conserving water in the body. This is a mechanism by which the body maintains a stable internal environment, or homeostasis, in response to changes in external conditions. Therefore, the correct answer is Option B (maintaining homeostasis)."
+    },
+    {
+        "question": "All of the following statements are true EXCEPT\nOptions:\nA) thyroxine increases the rate of metabolism\nB) insulin decreases storage of glycogen\nC) vasopressin stimulates water reabsorption in the kidney\nD) epinephrine increases blood sugar levels and heart rate",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first evaluate each statement for its validity. Thyroxine is known to increase the rate of metabolism (Option A is true). Vasopressin does stimulate water reabsorption in the kidney (Option C is true). Epinephrine is known to increase blood sugar levels and heart rate (Option D is true). However, insulin is known to promote the storage of glycogen, not decrease it (Option B is false). Therefore, the statement that is not true is Option B."
+    },
+    {
+        "question": "Which of the following statements best describes what a Barr body is and its significance?\nOptions:\nA) It is an inactivated Y chromosome and results in a man being sterile.\nB) It is an inactivated Y chromosome, and the person who has it appears female.\nC) It is an inactivated X chromosome and results in females with half their cells having one X inactivated and the other half of their cells having the other X inactivated.\nD) It is an inactivated X chromosome and results in females who are sterile.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. A Barr body is a dense object lying along the inside of the nuclear envelope in female mammalian cells, representing an inactivated X chromosome. In females, one of the two X chromosomes in each cell is randomly inactivated during embryonic development, which is seen as a Barr body. Therefore, the statement Option C, which claims that a Barr body is an inactivated X chromosome and results in females with half their cells having one X inactivated and the other half of their cells having the other X inactivated, is the most accurate."
+    },
+    {
+        "question": "A heterotroph\nOptions:\nA) obtains its energy from sunlight, harnessed by pigments\nB) obtains its energy by oxidizing organic molecules\nC) makes organic molecules from CO2\nD) obtains its energy by consuming exclusively autotrophs",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. A heterotroph is an organism that cannot manufacture its own food and instead obtains its food and energy by taking in organic substances, usually plant or animal matter. All animals, protozoans, fungi, and most bacteria are heterotrophs. Considering the provided options, Option B (obtains its energy by oxidizing organic molecules) aligns precisely with this definition."
+    },
+    {
+        "question": "Which of the following reactions occurs in the forward direction during glycolysis but in the reverse direction during fermentation?\nOptions:\nA) pyruvate \u2192 lactate\nB) pyruvate \u2192 ethanol\nC) NAD+ + H+ + 2e- \u2192 NADH\nD) ADP + P \u2192 ATP",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. During glycolysis, glucose is broken down into pyruvate, and NAD+ is reduced to NADH. During fermentation, the process is reversed: NADH is oxidized back to NAD+ to allow glycolysis to continue in the absence of oxygen. The reaction NAD+ + H+ + 2e- \u2192 NADH occurs in the forward direction during glycolysis and in the reverse direction during fermentation. Therefore, the correct answer is Option C."
+    },
+    {
+        "question": "A researcher grows a population of ferns in her laboratory. She notices, after a few generations, a new variant that has a distinct phenotype. When she tries to breed the original phenotype with the new one, no offspring are produced. When she breeds the new variants, however, offspring that look like the new variant result. What originally caused the change in the variant?\nOptions:\nA) Karyotyping\nB) Balance polymorphism\nC) Mutation\nD) Polyploidy",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. The question is asking about the cause of a new variant in a fern population that is reproductively isolated from the original population. Karyotyping is a method of visualizing chromosomes, not a cause of genetic change. Balanced polymorphism is a situation where multiple alleles are maintained in a population, but it doesn't cause new variants. A mutation could cause a new variant, but it wouldn't necessarily result in reproductive isolation. Polyploidy, however, is a condition where an organism has more than two sets of chromosomes. This can occur spontaneously in plants and can result in reproductive isolation, as the polyploid plants can only successfully reproduce with other polyploids. Therefore, the most likely cause of the new variant in the fern population is polyploidy."
+    },
+    {
+        "question": "Which of the following statements most accurately explains what EcoR1 is?\nOptions:\nA) It is a bacterium that lives in the human large intestine.\nB) It is the best-studied bacteriophage, a virus that attacks E. coli.\nC) It is a restriction enzyme extracted from E. coli.\nD) It is a type of DNA used extensively in research.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. EcoR1 is a well-known tool in molecular biology. It is not a bacterium, a bacteriophage, or a type of DNA. Rather, it is a restriction enzyme, a type of protein that can cut DNA at specific sequences. EcoR1 is named because it was first isolated from E. coli, hence the 'Eco' in its name. Therefore, the statement Option C, which claims that EcoR1 is a restriction enzyme extracted from E. coli, is the most accurate."
+    },
+    {
+        "question": "Which of the following pairs of structures is least likely to represent homology?\nOptions:\nA) The wings of a bat and the arms of a human\nB) The hemoglobin of a baboon and that of a gorilla\nC) The mitochondria of a plant and those of an animal\nD) The wings of a bird and those of an insect",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Homology refers to structures that are similar due to shared ancestry. The wings of a bat and the arms of a human (Option A) are homologous because they are both derived from the forelimbs of a common ancestor. The hemoglobin of a baboon and that of a gorilla (Option B) are homologous because they are both primates and share a common ancestor. The mitochondria of a plant and those of an animal (Option C) are homologous because they are both eukaryotes and share a common ancestor. The wings of a bird and those of an insect (Option D), however, are not homologous. They are analogous structures, meaning they serve a similar function (flight), but they evolved independently and do not share a common ancestor."
+    },
+    {
+        "question": "The development of an egg without fertilization is known as\nOptions:\nA) meiosis\nB) parthenogenesis\nC) embryogenesis\nD) vegetative propagation",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the definitions of the terms provided in the options. Meiosis is a type of cell division that results in four daughter cells each with half the number of chromosomes of the parent cell. Embryogenesis is the process by which the embryo forms and develops. Vegetative propagation is a form of asexual reproduction in plants. Parthenogenesis is a type of asexual reproduction in which the egg develops into a new individual without fertilization. Therefore, the development of an egg without fertilization is known as parthenogenesis."
+    },
+    {
+        "question": "In minks, the gene for brown fur (B) is dominant over the gene for silver fur (b). Which set of genotypes represents a cross that could produce offspring with silver fur from parents that both have brown fur?\nOptions:\nA) BB BB\nB) BB Bb\nC) Bb Bb\nD) Bb bb",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand that for an offspring to have silver fur, it must have the genotype 'bb', as silver fur is recessive. Both parents have brown fur, which means they could either be 'BB' or 'Bb'. However, a 'BB' parent will only pass on the dominant 'B' allele, so both parents must be heterozygous 'Bb' to have a chance of producing a 'bb' offspring. Therefore, the correct answer is the cross 'Bb Bb'."
+    },
+    {
+        "question": "Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to\nOptions:\nA) frequency-dependent selection.\nB) artificial selection.\nC) sexual selection.\nD) natural selection.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The behavior of male satin bowerbirds is a clear example of a mating strategy designed to attract females. This is a common occurrence in many species, where males develop elaborate displays or behaviors to win over females. This type of evolutionary pressure, where traits are selected for based on their ability to increase mating success, is known as sexual selection. Therefore, the evolution of this male behavior is due to sexual selection."
+    },
+    {
+        "question": "Which of the following best explains why a population is described as the evolutionary unit?\nOptions:\nA) Genetic changes can only occur at the population level.\nB) The gene pool in a population remains fixed over time.\nC) Natural selection affects individuals, not populations.\nD) Individuals cannot evolve, but populations can.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Evolution is a process that occurs over generations, not within the lifespan of a single individual. Therefore, while natural selection acts on individuals, the changes it brings about can only be observed in the population over time. This is because the genetic makeup of a population can change over generations, but an individual's genetic makeup remains the same throughout its life. Therefore, the statement that best explains why a population is described as the evolutionary unit is Option D (Individuals cannot evolve, but populations can)."
+    },
+    {
+        "question": "If, on average, 46% of the loci in a species' gene pool are heterozygous, then the average homozygosity of the species should be\nOptions:\nA) 23%\nB) 46%\nC) 54%\nD) 92%",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. If 46% of the loci are heterozygous, then the remaining percentage must be homozygous. We can calculate this by subtracting the percentage of heterozygous loci from 100%. So, 100% - 46% = 54%. Therefore, the average homozygosity of the species should be 54%."
+    },
+    {
+        "question": "Which of these is a statement that Darwin would have rejected?\nOptions:\nA) Environmental change plays a role in evolution.\nB) The smallest entity that can evolve is an individual organism.\nC) Individuals can acquire new characteristics as they respond to new environments or situations.\nD) Inherited variation in a population is a necessary precondition for natural selection to operate.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Darwin's theory of evolution is based on the idea that evolution occurs at the population level, not at the individual level. Therefore, the statement that 'The smallest entity that can evolve is an individual organism' is something Darwin would have rejected. The other statements are consistent with Darwin's theory of evolution."
+    },
+    {
+        "question": "Which of the following contributes the MOST to genetic variability in a population?\nOptions:\nA) Sporulation\nB) Binary fission\nC) Vegetative propagation\nD) Mutation",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand what each of these processes entails. Sporulation, binary fission, and vegetative propagation are all forms of asexual reproduction, which produce offspring that are genetically identical to the parent organism. These processes do not contribute to genetic variability. On the other hand, mutation is a process that introduces new genetic material into a population's gene pool, thereby increasing genetic variability. Therefore, the option D (Mutation) contributes the most to genetic variability in a population."
+    },
+    {
+        "question": "Which of the following statements most detracts from the claim that the human appendix is a completely vestigial organ?\nOptions:\nA) The appendix can be surgically removed with no immediate ill effects.\nB) The appendix might have been larger in fossil hominids.\nC) The appendix has a substantial amount of defensive lymphatic tissue.\nD) Individuals with a larger-than-average appendix leave fewer offspring than those with a below-average-sized appendix.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. A vestigial organ is one that has lost its original function through evolution. The appendix is often considered a vestigial organ because it doesn't seem to have a clear function in the human body and can be removed without causing immediate health problems. However, the statement that the appendix has a substantial amount of defensive lymphatic tissue (Option C) suggests that it might still have a function in the immune system, which detracts from the claim that it's completely vestigial."
+    },
+    {
+        "question": "According to the heterotroph hypothesis, which event had to occur before oxygen filled the atmosphere?\nOptions:\nA) Heterotrophs had to remove carbon dioxide from the air.\nB) Autotrophs, which make their own food, had to evolve.\nC) Heterotrophs had to evolve.\nD) Autotrophs had to convert atmospheric nitrogen to nitrate.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The heterotroph hypothesis suggests that life began with heterotrophs, organisms that cannot make their own food and must consume other organisms. However, these early heterotrophs would have quickly exhausted their food supply if not for the evolution of autotrophs, organisms that can make their own food. Autotrophs, particularly photosynthetic autotrophs, produce oxygen as a byproduct of photosynthesis. Therefore, before oxygen could fill the atmosphere, autotrophs had to evolve to produce it."
+    },
+    {
+        "question": "Two related species evolve in a way that makes them less similar.\nOptions:\nA) Divergent evolution\nB) Convergent evolution\nC) Parallel evolution\nD) Coevolution",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. The process described in the question is one where two related species become less similar over time. This is a classic example of divergent evolution, where species that share a common ancestor evolve to have different traits. This is often due to different environmental pressures or different adaptive strategies. Therefore, the correct answer is Option A."
+    },
+    {
+        "question": "Which of the following statements best summarizes evolution as it is viewed today?\nOptions:\nA) It is goal-directed.\nB) It represents the result of selection for acquired characteristics.\nC) It is synonymous with the process of gene flow.\nD) It is the differential survival and reproduction of the most-fit phenotypes.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Evolution is not goal-directed, it does not have a predetermined outcome or direction. It is also not the result of selection for acquired characteristics, as this is a concept from Lamarck's theory of evolution, which has been largely discredited. Evolution is not synonymous with gene flow, although gene flow is one mechanism of evolution. The most accurate summary of evolution as it is viewed today is that it is the differential survival and reproduction of the most-fit phenotypes. This is the essence of natural selection, which is the primary mechanism of evolution."
+    },
+    {
+        "question": "Mosquitoes resistant to the pesticide DDT first appeared in India in 1959 within 15 years of widespread spraying of the insecticide. Which of the following statement best explains how the resistant mosquitoes arose?\nOptions:\nA) Some mosquitoes experienced a mutation after being exposed to DDT that made them resistant to the insecticide. Then their population expanded because these moquitoes had no competition.\nB) Some mosquitoes were already resistant to DDT when DDT was first sprayed. Then their population expanded because all the susceptible mosquitoes had been exterminated.\nC) DDT is generally a very effective insecticide. One can only conclude that it was manufactured improperly.\nD) Although DDT is effective against a wide range of insects, it is not effective against mosquitoes.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking about the origin of DDT-resistant mosquitoes. The concept of natural selection and evolution can be applied here. Before DDT was sprayed, there would have been genetic variation in the mosquito population, including some individuals with resistance to DDT. When DDT was sprayed, those without resistance would have been killed, leaving those with resistance to survive and reproduce. Over time, the frequency of the resistance trait would have increased in the population. Therefore, the statement that best explains how the resistant mosquitoes arose is Option B (Some mosquitoes were already resistant to DDT when DDT was first sprayed. Then their population expanded because all the susceptible mosquitoes had been exterminated)."
+    },
+    {
+        "question": "DNA sequences in many human genes are very similar to the sequences of corresponding genes in chimpanzees. The most likely explanation for this result is that\nOptions:\nA) humans and chimpanzees share a relatively recent common ancestor.\nB) humans evolved from chimpanzees.\nC) chimpanzees evolved from humans.\nD) convergent evolution led to the DNA similarities.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. The similarity in DNA sequences between humans and chimpanzees is not due to humans evolving from chimpanzees or vice versa. Convergent evolution refers to the process where organisms not closely related independently evolve similar traits as a result of having to adapt to similar environments or ecological niches, not to similar DNA sequences. The most plausible explanation for the similarity in DNA sequences is that humans and chimpanzees share a relatively recent common ancestor. This is supported by numerous genetic and fossil evidences."
+    },
+    {
+        "question": "Yeast cells carry out both aerobic and anaerobic respiration. A yeast cell that is fed on glucose is moved from an aerobic to an anaerobic environment. Which of the following statements is correct and gives the correct reason for it?\nOptions:\nA) The cell dies because it cannot make ATP.\nB) The cell would need to consume glucose at a much greater rate because aerobic respiration is much more efficient as compared with anaerobic respiration.\nC) The cell would need to consume another food source other than glucose because it will not be able to make adequate ATP with only glucose.\nD) The cell will begin to divide rapidly because larger cells require more oxygen and glucose than smaller ones.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Yeast cells are capable of both aerobic and anaerobic respiration. In aerobic conditions, they can efficiently produce ATP from glucose. However, when moved to an anaerobic environment, they can still produce ATP, but the process is less efficient. This means they would need to consume glucose at a much higher rate to produce the same amount of ATP. Therefore, the statement Option B, which claims that the cell would need to consume glucose at a much greater rate because aerobic respiration is much more efficient as compared with anaerobic respiration, is correct."
+    },
+    {
+        "question": "A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?\nOptions:\nA) Tundra\nB) Tiaga\nC) Tropical rainforest\nD) Temperate deciduous forest",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking about the biome with the highest biodiversity. Among the options, the tropical rainforest is known for its high biodiversity. It is home to more species than any other biome on Earth. Therefore, the researcher is most likely in a tropical rainforest."
+    },
+    {
+        "question": "Which statement about variation is true?\nOptions:\nA) All phenotypic variation is the result of genotypic variation.\nB) All genetic variation produces phenotypic variation.\nC) All nucleotide variability results in neutral variation.\nD) All new alleles are the result of nucleotide variability.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand that not all phenotypic variation is the result of genotypic variation because the environment can also cause differences in phenotype. Similarly, not all genetic variation produces phenotypic variation because some genes may not affect the phenotype. Not all nucleotide variability results in neutral variation because some changes in nucleotides can have significant effects on the organism. However, all new alleles are the result of nucleotide variability because alleles are versions of a gene, and changes in the nucleotides of a gene create new alleles. Therefore, the statement that all new alleles are the result of nucleotide variability is true."
+    },
+    {
+        "question": "Which of the following best explains why people can digest starch but cannot digest cellulose even though both molecules are composed of glucose monomers?\nOptions:\nA) The bonds linking the monomers of starch differ in shape from the bonds linking the monomers of cellulose.\nB) Molecules of starch are much smaller than molecules of cellulose.\nC) Starch is an intracellular molecule, while cellulose is an extracellular molecule.\nD) Starch is hydrated by water, but cellulose is not.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. Both starch and cellulose are polysaccharides composed of glucose monomers. However, the difference lies in the type of linkage between the glucose units. Starch has alpha linkages which can be broken down by human digestive enzymes, while cellulose has beta linkages which human digestive enzymes cannot break down. Therefore, the statement Option A, which states that the bonds linking the monomers of starch differ in shape from the bonds linking the monomers of cellulose, is the most accurate."
+    },
+    {
+        "question": "In humans, fertilization normally occurs in the\nOptions:\nA) ovary\nB) fallopian tube\nC) uterus\nD) placenta",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Fertilization in humans, which is the fusion of a sperm cell with an egg cell, typically occurs in the fallopian tube. This is where the egg is released from the ovary and where it first encounters sperm if sexual intercourse has occurred. Therefore, the correct answer is Option B."
+    },
+    {
+        "question": "Which of the following is a biotic factor that could affect the growth rate of a population?\nOptions:\nA) Volcanic eruption\nB) Glacier melting\nC) Destruction of the ozone layer\nD) Sudden reduction in the animal food resource",
+        "pred": "d",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. Biotic factors are living or once-living organisms in the ecosystem which can affect the growth rate of a population. These include all the living things that affect an organism such as predators, competition, and food resources. Among the options, A, B, and C are abiotic factors, which are non-living physical and chemical elements in the ecosystem. Option D (Sudden reduction in the animal food resource) is a biotic factor that could affect the growth rate of a population."
+    },
+    {
+        "question": "As a young biologist, Charles Darwin had expected the living plants of temperate South America would resemble those of temperate Europe, but he was surprised to find that they more closely resembled the plants of tropical South America. The biological explanation for this observation is most properly associated with the field of\nOptions:\nA) meteorology.\nB) embryology.\nC) vertebrate anatomy.\nD) biogeography.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking for the field of biology that would explain why the plants of temperate South America resemble those of tropical South America more than those of temperate Europe. This is a question of species distribution and how it is influenced by geographical factors, which is the study of biogeography. Therefore, the answer is D."
+    },
+    {
+        "question": "It has been observed that organisms on islands are different from, but closely related to, similar forms found on the nearest continent. This is taken as evidence that\nOptions:\nA) 0\nB) common environments are inhabited by the same organisms.\nC) the islands were originally part of the continent.\nD) the island forms and mainland forms are converging.",
+        "pred": "c",
+        "gt": "a",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. The statement suggests that organisms on islands are different from, but closely related to, similar forms found on the nearest continent. This implies that the organisms on the islands and the continent share a common ancestry but have diverged over time due to the different environments. This is a common pattern in evolution and is often seen when a landmass breaks away from a continent, taking some organisms with it. These organisms then evolve separately from their mainland counterparts. Therefore, the most fitting answer is Option C, which suggests that the islands were originally part of the continent."
+    },
+    {
+        "question": "The Krebs cycle in humans occurs in the\nOptions:\nA) mitochondrial matrix\nB) inner mitochondrial membrane\nC) outer mitochondrial membrane\nD) intermembrane space",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. The Krebs cycle, also known as the citric acid cycle, is a key component of cellular respiration. It is the series of chemical reactions used by all aerobic organisms to generate energy. This cycle occurs in the mitochondrial matrix, which is the space within the inner membrane of a cell's mitochondria. Therefore, the correct answer is Option A."
+    },
+    {
+        "question": "Ichthyosaurs were aquatic dinosaurs. Fossils show us that they had dorsal fins and tails, as do fish, even though their closest relatives were terrestrial reptiles that had neither dorsal fins nor aquatic tails. The dorsal fins and tails of ichthyosaurs and fish are\nOptions:\nA) homologous.\nB) examples of convergent evolution.\nC) adaptations to a common environment.\nD) B and C only",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Ichthyosaurs and fish, despite being from different evolutionary lineages, developed similar features such as dorsal fins and tails. This is a classic example of convergent evolution, where different species independently evolve similar traits as a result of having to adapt to similar environments or ecological niches. Therefore, the dorsal fins and tails of ichthyosaurs and fish are examples of convergent evolution and adaptations to a common environment."
+    },
+    {
+        "question": "During which phase of the cell cycle does the quantity of DNA in a eukaryotic cell typically double?\nOptions:\nA) G_1\nB) G_2\nC) M\nD) S",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The cell cycle of a eukaryotic cell consists of several phases, including G1, S, G2, and M. The quantity of DNA in a cell typically doubles during the S phase, which stands for 'Synthesis'. This is the phase during which DNA replication occurs, resulting in two identical copies of each chromosome in the cell. Therefore, the correct answer is Option D (S phase)."
+    },
+    {
+        "question": "Two trees of the same species growing close together will use the same resources, such as light, water, and nutrients. If any of these resources becomes limiting, then each tree will receive less of it than if the trees were growing farther apart. This scenario is an example of which of the following?\nOptions:\nA) Parasitism\nB) Commensalism\nC) Natural selection\nD) Intraspecific competition",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The scenario describes two trees of the same species competing for the same resources. This is a form of competition, but because it's happening within the same species, it's specifically called intraspecific competition. Parasitism, commensalism, and natural selection do not accurately describe this scenario. Therefore, the correct answer is D) Intraspecific competition."
+    },
+    {
+        "question": "Short sequence by promoter that assists transcription by interacting with regulatory proteins.\nOptions:\nA) Enhancer\nB) Repressor\nC) Operator\nD) Promoter",
+        "pred": "a",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. The question is about a short sequence by a promoter that assists transcription by interacting with regulatory proteins. Among the options, an enhancer is a sequence of DNA that can increase the likelihood of transcription of a gene when proteins bind to it. A repressor is a protein that suppresses the transcription of a gene. An operator is a segment of DNA to which a repressor binds. A promoter is a region of DNA that initiates transcription of a particular gene. Promoters are located near the transcription start sites of genes, on the same strand and upstream. Therefore, the correct answer is A) Enhancer."
+    },
+    {
+        "question": "Catastrophism, meaning the regular occurrence of geological or meteorological disturbances (catastrophes), was Cuvier's attempt to explain the existence of\nOptions:\nA) evolution.\nB) the fossil record.\nC) uniformitarianism.\nD) the origin of new species.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Cuvier's theory of catastrophism was primarily an attempt to explain the existence of the fossil record. He believed that the sudden, catastrophic events he proposed would cause mass extinctions, after which new species would move into the area and repopulate it. This would create distinct layers of different types of fossils, which is what we see in the fossil record. Therefore, the correct answer is B) the fossil record."
+    },
+    {
+        "question": "Hydrangea flowers have one gene for flower color. Plants of the same genetic variety have flowers that range in color from blue to pink with the color varying due to the type of soil in which they are grown. Which of the following statement best explains this phenomenon?\nOptions:\nA) The alleles for flower color show incomplete dominance where neither trait is dominant; expression of the genes shows a blending of traits.\nB) The alleles for flower color are codominant; both traits show depending on the environment.\nC) In this case, the environment alters the expression of a trait.\nD) The genes for flower color show polygenic inheritance.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The color of hydrangea flowers is known to change based on the pH of the soil in which they are grown. Acidic soils produce blue flowers, while alkaline soils produce pink flowers. This is a clear example of environmental influence on gene expression. The gene for flower color is the same, but its expression changes based on the environment. Therefore, the statement Option C, which states that the environment alters the expression of a trait, best explains this phenomenon."
+    },
+    {
+        "question": "When imbalances occur in the sex ratio of sexual species that have two sexes (i.e., other than a 50:50 ratio), the members of the minority sex often receive a greater proportion of care and resources from parents than do the offspring of the majority sex. This is most clearly an example of\nOptions:\nA) sexual selection.\nB) disruptive selection.\nC) balancing selection.\nD) frequency-dependent selection.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question describes a situation where the frequency of a trait (in this case, being a member of the minority sex) affects the fitness of individuals with that trait. This is a classic example of frequency-dependent selection, where the fitness of a phenotype depends on its frequency relative to other phenotypes in a population. Therefore, the answer is D."
+    },
+    {
+        "question": "Although mutations occur at a regular and predictable rate, which of the following statements is the LEAST likely reason the frequency of mutation appears to be low?\nOptions:\nA) Some mutations produce alleles that are recessive and may not be expressed.\nB) Some undesirable phenotypic traits may be prevented from reproducing.\nC) Some mutations cause such drastic phenotypic changes that they are removed from the gene pool.\nD) The predictable rate of mutation results in ongoing variability in a gene pool.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Mutations do occur at a regular and predictable rate, but the frequency of mutation appears to be low due to several factors. Options A, B, and C all describe scenarios where mutations may not be expressed or may be removed from the gene pool, thus reducing the apparent frequency of mutation. However, Option D suggests that the predictable rate of mutation results in ongoing variability in a gene pool. This statement does not explain why the frequency of mutation appears to be low, as ongoing variability would suggest a high frequency of mutation. Therefore, this is the least likely reason."
+    },
+    {
+        "question": "Crossover would most likely occur in which situation?\nOptions:\nA) Two genes (1 and 2) are located right next to each other on chromosome A.\nB) Gene 1 is located on chromosome A, and gene 2 is on chromosome B.\nC) Genes 1 and 2 are located near each other on the X chromosome.\nD) Gene 1 is located on chromosome A; gene 2 is located far away but on the same chromosome.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Crossover is a process that occurs during meiosis where two chromosomes pair up and exchange segments of their genetic material. This can only happen between genes that are on the same chromosome. The farther apart two genes are on a chromosome, the more likely a crossover event will occur between them. Therefore, the situation in which crossover would most likely occur is when Gene 1 is located on chromosome A; gene 2 is located far away but on the same chromosome."
+    },
+    {
+        "question": "Which aspects of cell structure best reveals the unity of all life?\nOptions:\nA) All cells are surrounded by a plasma membrane.\nB) All cells have at least one nucleus.\nC) All cells carry out cellular respiration in mitochondria.\nD) The surface-to-volume ratio of all cells is the same.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Let's think step by step. We first consider the fundamental characteristics of all cells, regardless of whether they are prokaryotic or eukaryotic. All cells, without exception, are surrounded by a plasma membrane that separates the cell's interior from its environment. Not all cells have a nucleus (prokaryotic cells do not), not all cells carry out cellular respiration in mitochondria (again, prokaryotic cells do not), and the surface-to-volume ratio of cells can vary greatly depending on the cell's size and shape. Therefore, the statement that best reveals the unity of all life is Option A."
+    },
+    {
+        "question": "This biome contains plants whose roots cannot go deep due to the presence of a permafrost.\nOptions:\nA) Desert\nB) Tundra\nC) Taiga\nD) Deciduous forests",
+        "pred": "b",
+        "gt": "c",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. The question is asking about a biome where the presence of permafrost prevents plant roots from going deep. Permafrost is a permanently frozen layer of soil, and it is a characteristic feature of the Tundra biome. Therefore, the correct answer is Option B (Tundra)."
+    },
+    {
+        "question": "This biome contains trees that drop their leaves during the winter months.\nOptions:\nA) Desert\nB) Tundra\nC) Taiga\nD) Deciduous forests",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking about a biome where trees drop their leaves during the winter months. This is a characteristic of deciduous trees, which shed their leaves in response to seasonal changes, particularly in preparation for winter. Therefore, the biome that contains these types of trees is the Deciduous forest. So, the correct answer is D."
+    },
+    {
+        "question": "A change in a neuron membrane potential from +50 millivolts to -70 millivolts is considered\nOptions:\nA) depolarization\nB) repolarization\nC) hyperpolarization\nD) an action potential",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The resting potential of a neuron is typically -70 millivolts. When a neuron fires, the membrane potential increases, or depolarizes, to around +40 millivolts. This is known as an action potential. After the neuron fires, it must return to its resting state, a process known as repolarization. Therefore, a change in membrane potential from +50 millivolts to -70 millivolts is considered repolarization."
+    },
+    {
+        "question": "All of the following play a role in morphogenesis EXCEPT\nOptions:\nA) apoptosis\nB) homeotic genes\nC) operons\nD) inductive effects",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Morphogenesis is the biological process that causes an organism to develop its shape. It is one of the fundamental aspects of developmental biology. Apoptosis, or programmed cell death, plays a crucial role in shaping structures during development. Homeotic genes are master control genes that determine the identity of body parts and regions in an embryo. Inductive effects refer to the influence of one cell population on the development of another. Operons, however, are a feature of prokaryotic gene regulation and do not play a direct role in morphogenesis, which is a process that occurs in multicellular organisms."
+    },
+    {
+        "question": "Most animal cells, regardless of species, are relatively small and about the same size. Relative to larger cells, why is this?\nOptions:\nA) Smaller cells avoid excessive osmosis and subsequent lysis.\nB) Smaller cells have a smaller surface-to-volume ratio.\nC) Smaller cells have a larger surface-to-volume ratio.\nD) Smaller cells fit together more tightly.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The size of a cell is critical for its function. The surface area to volume ratio is a key factor in determining cell size. As a cell grows larger, its volume increases at a faster rate than its surface area. This can limit the cell's ability to transport nutrients and waste products in and out of the cell, which can affect the cell's overall function. Therefore, smaller cells, with their larger surface-to-volume ratio, are more efficient at this transport. So, the correct answer is Option C."
+    },
+    {
+        "question": "Which of the following is (are) required when performing a polymerase chain reaction (P C R) on a DNA sample?\nOptions:\nA) Reverse transcriptase\nB) A vacuum chamber\nC) Primers complementary to certain portions of the DNA\nD) DNA ligase",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The polymerase chain reaction (PCR) is a method used to rapidly make millions to billions of copies of a specific DNA sample, allowing scientists to take a very small sample of DNA and amplify it to a large enough amount to study in detail. PCR is used in many areas of biology and medicine, including genetic testing and forensic science. The process of PCR requires several components: the DNA template that contains the DNA region (target) to be amplified, two primers that are complementary to the sequences on each side of the target, DNA polymerase enzyme that can withstand the high temperatures of PCR, and nucleotides (the building blocks of DNA). Therefore, the correct answer is Option C (Primers complementary to certain portions of the DNA)."
+    },
+    {
+        "question": "Each of the following has a better chance of influencing gene frequencies in small populations than in large populations, but which one most consistently requires a small population as a precondition for its occurrence?\nOptions:\nA) Mutation\nB) Non-random mating\nC) Genetic drift\nD) Natural selection",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first consider the effects of each option on gene frequencies. Mutation and non-random mating can occur in both small and large populations, although their effects may be more pronounced in smaller populations. Natural selection also operates in both small and large populations, but its effects can be more easily observed in larger populations due to the greater genetic variation. Genetic drift, on the other hand, is a random change in allele frequencies that occurs from generation to generation, and its effects are more pronounced in small populations. Therefore, genetic drift most consistently requires a small population as a precondition for its occurrence."
+    },
+    {
+        "question": "No two people are genetically identical, except for identical twins. The chief cause of genetic variation among human individuals is\nOptions:\nA) new mutations that occurred in the preceding generation.\nB) the reshuffling of alleles in sexual reproduction.\nC) genetic drift due to the small size of the population.\nD) geographic variation within the population.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Genetic variation among human individuals is primarily due to the reshuffling of alleles during sexual reproduction. This reshuffling occurs during meiosis, where independent assortment of chromosomes and crossing over between homologous chromosomes create new combinations of alleles. New mutations, while they do contribute to genetic variation, are relatively rare and thus are not the chief cause. Genetic drift and geographic variation can cause differences in allele frequencies among populations, but they are not the main source of variation among individuals within a population. Therefore, the most valid answer is Option B."
+    },
+    {
+        "question": "Two genes (B and E) determine coat color in Labrador retrievers. Alleles B and b code for how much melanin is present. The dominant allele B codes for black fur, the recessive allele b codes for brown hair. A second gene consisting of two alleles, E and e, codes for the deposition of pigment in the hair. In this case, the alleles for pigment deposition (E or e) are said to be epistatic to the gene that codes for black or brown pigment. If the dominant allele (E) is not present, regardless of the genotype at the black/brown locus, the animal's fur will be yellow.\nOptions:\nA) BBEe will be brown.\nB) BbEe will be brown.\nC) Bbee will be brown.\nD) BBee will be yellow.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question states that the E gene is epistatic to the B gene. This means that the E gene can mask the effects of the B gene. If the dominant allele (E) is not present, the fur will be yellow regardless of the genotype at the black/brown locus. Therefore, any genotype that includes two recessive e alleles will result in a yellow coat, regardless of the B gene's genotype. Looking at the options, option D (BBee) fits this description."
+    },
+    {
+        "question": "Which of the following statements is NOT correct about ancient Earth?\nOptions:\nA) Earth was formed about 4? billion years ago.\nB) Amino acid synthesis could have been stimulated by volcanic eruption.\nC) The first cells formed about 3? billion years ago, according to the fossil record.\nD) The presence of free oxygen facilitated the rapid formation of organic molecules.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We know that Earth was formed about 4.5 billion years ago, which aligns with Option A. The synthesis of amino acids could indeed have been stimulated by volcanic eruptions, as suggested in Option B. The fossil record indicates that the first cells formed about 3.5 billion years ago, which is consistent with Option C. However, Option D is incorrect. The presence of free oxygen actually hindered the formation of organic molecules, not facilitated it. This is because free oxygen can react with and break down organic molecules."
+    },
+    {
+        "question": "In modern terminology, diversity is understood to be a result of genetic variation. Sources of variation for evolution include all of the following except\nOptions:\nA) mistakes in translation of structural genes.\nB) mistakes in DNA replication.\nC) translocations and mistakes in meiosis.\nD) recombination at fertilization.",
+        "pred": "a",
+        "gt": "a",
+        "em": true,
+        "f1": 0,
+        "thought": "Genetic variation is the basis for diversity and evolution. It can occur through several mechanisms, including mistakes in DNA replication, translocations and mistakes in meiosis, and recombination at fertilization. However, mistakes in the translation of structural genes do not contribute to genetic variation. This is because translation involves the synthesis of proteins based on the information in mRNA, not the alteration of genetic material itself. Therefore, any mistakes made during this process would not result in new genetic variants."
+    },
+    {
+        "question": "DDT was once considered a \"silver bullet\" that would permanently eradicate insect pests. Today, instead, DDT is largely useless against many insects. Which of these would have been required for this pest eradication effort to be successful in the long run?\nOptions:\nA) Larger doses of DDT should have been applied.\nB) All habitats should have received applications of DDT at about the same time.\nC) The frequency of DDT application should have been higher.\nD) None of the individual insects should have possessed genomes that made them resistant to DDT.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking what would have been required for DDT to be successful in eradicating pests in the long run. The problem with DDT and similar pesticides is that they can lead to the evolution of resistance in the pest populations. This happens when some individuals in the pest population have a genetic resistance to the pesticide. These individuals survive and reproduce, passing on the resistance to their offspring. Over time, the proportion of resistant individuals in the population increases, rendering the pesticide ineffective. Therefore, for DDT to have been successful in the long run, none of the individual insects should have possessed genomes that made them resistant to DDT. So, the answer is D."
+    },
+    {
+        "question": "Within a few weeks of treatment with the drug 3TC, a patient's HIV population consists entirely of 3TC-resistant viruses. How can this result best be explained?\nOptions:\nA) HIV can change its surface proteins and resist vaccines.\nB) The patient must have become reinfected with 3TC-resistant viruses.\nC) HIV began making drug-resistant versions of reverse transcriptase in response to the drug.\nD) A few drug-resistant viruses were present at the start of treatment, and natural selection increased their frequency.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question is asking for the best explanation for why the patient's HIV population consists entirely of 3TC-resistant viruses after a few weeks of treatment with the drug 3TC. HIV is known for its high mutation rate, which can lead to the emergence of drug-resistant strains. If a few of these drug-resistant viruses were present at the start of treatment, they would survive and reproduce while the drug killed off the non-resistant viruses. This is a process of natural selection. Therefore, the best explanation for this scenario is that a few drug-resistant viruses were present at the start of treatment, and natural selection increased their frequency."
+    },
+    {
+        "question": "The higher the proportion of loci that are \"fixed\" in a population, the lower is that population's\nOptions:\nA) nucleotide variability.\nB) genetic polyploidy.\nC) average heterozygosity.\nD) A and C only",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. A 'fixed' locus in a population means that all individuals in that population are homozygous for the same allele at that locus. This would decrease the population's average heterozygosity, which is a measure of genetic variation at individual loci. It would also decrease nucleotide variability, which is a measure of genetic variation at the molecular level. However, it would not affect genetic polyploidy, which refers to the number of sets of chromosomes in a cell. Therefore, the correct answer is D) A and C only."
+    },
+    {
+        "question": "The resting membrane potential depends on which of the following? I. Active transport II. Selective permeability III. Differential distribution of ions across the axonal membrane\nOptions:\nA) III only\nB) I and II only\nC) II and III only\nD) I, II, and III",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The resting membrane potential is the voltage difference across the cell membrane when the cell is at rest. It is primarily determined by three factors: 1) Active transport: The sodium-potassium pump actively transports ions across the membrane, maintaining a high concentration of potassium ions inside the cell and a high concentration of sodium ions outside the cell. 2) Selective permeability: The cell membrane is selectively permeable, allowing more potassium ions to diffuse out of the cell than sodium ions into the cell. 3) Differential distribution of ions: The differential distribution of ions across the membrane, with more negative ions inside the cell than outside, contributes to the negative resting membrane potential. Therefore, all three options (I, II, and III) are correct."
+    },
+    {
+        "question": "Which of the following statements about the light-dependent reactions of photosynthesis is correct?\nOptions:\nA) They provide the carbon that becomes incorporated into sugar.\nB) They produce PGA, which is converted to glucose by carbon fixation in the light-independent reactions.\nC) Water is split apart, providing hydrogen ions and electrons to NADP for temporary storage.\nD) They occur in the stroma of chloroplasts.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The light-dependent reactions of photosynthesis are the first stage of photosynthesis, occurring in the thylakoid membranes of the chloroplasts. During these reactions, light energy is converted into chemical energy, and water is split to release oxygen as a byproduct. This process also generates ATP and NADPH, which are used in the light-independent reactions to fix carbon into sugar. Therefore, the statement Option C, which states that water is split apart, providing hydrogen ions and electrons to NADP for temporary storage, is the correct one."
+    },
+    {
+        "question": "When we say that an individual organism has a greater fitness than another individual, we specifically mean that the organism\nOptions:\nA) lives longer than others of its species.\nB) competes for resources more successfully than others of its species.\nC) mates more frequently than others of its species.\nD) leaves more viable offspring than others of its species.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. In the context of evolution and natural selection, fitness refers to an organism's ability to survive and reproduce, thereby passing on its genes to the next generation. While longevity, competition for resources, and mating frequency can all contribute to an organism's fitness, the ultimate measure of fitness is the number of viable offspring an organism leaves. Therefore, the correct answer is Option D (leaves more viable offspring than others of its species)."
+    },
+    {
+        "question": "Most Swiss starlings produce four to five eggs in each clutch. Those producing fewer or more than this have reduced fitness. Which of the following terms best describes this?\nOptions:\nA) artificial selection\nB) directional selection\nC) stabilizing selection\nD) disruptive selection",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question describes a situation where Swiss starlings that produce an average number of eggs (four to five) have the highest fitness, while those that produce more or fewer have reduced fitness. This is a classic example of stabilizing selection, a type of natural selection that favors the average individuals in a population and works against the extremes. Therefore, the term that best describes this situation is stabilizing selection."
+    },
+    {
+        "question": "Members of two different species possess a similar-looking structure that they use in a similar fashion to perform the same function. Which information would best help distinguish between an explanation based on homology versus one based on convergent evolution?\nOptions:\nA) The two species live at great distance from each other.\nB) The two species share many proteins in common, and the nucleotide sequences that code for these proteins are almost identical.\nC) The sizes of the structures in adult members of both species are similar in size.\nD) Both species are well adapted to their particular environments.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We need to distinguish between homology and convergent evolution. Homology refers to structures that are similar due to shared ancestry, while convergent evolution refers to structures that are similar due to similar environmental pressures leading to similar adaptations, not shared ancestry. If two species share many proteins in common, and the nucleotide sequences that code for these proteins are almost identical, it suggests a close evolutionary relationship, or homology, rather than convergent evolution. Therefore, the information in Option B would best help distinguish between an explanation based on homology versus one based on convergent evolution."
+    },
+    {
+        "question": "When driving from east to west in the U.S. from a forest ecosystem to grasslands, trees gradually give way to grasses. Which of the following is the critical factor responsible for this shift?\nOptions:\nA) Amount of sunlight\nB) Availability of oxygen\nC) Availability of water\nD) Length of growing season",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The transition from forest to grassland ecosystems is primarily driven by environmental factors that influence plant growth. Among the options provided, the availability of water is the most critical factor. Forests require a significant amount of water to sustain their dense tree populations, while grasslands thrive in areas with less rainfall. Therefore, as one moves from east to west in the U.S., decreasing rainfall results in a shift from forest to grassland ecosystems."
+    },
+    {
+        "question": "Within a cell, the amount of protein synthesized using a given mRNA molecule depends in part on which of the following?\nOptions:\nA) DNA methylation suppresses the expression of genes.\nB) Transcription factors mediate the binding of RNA polymerase and the initiation of transcription, which will determine how much protein is manufactured.\nC) The speed with which mRNA is degraded will determine how much protein is synthesized.\nD) The location and number of ribosomes in a cell will solely determine how much protein is synthesized.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The amount of protein synthesized using a given mRNA molecule can be influenced by several factors. DNA methylation and transcription factors can affect the initial transcription of the gene into mRNA, but they do not directly determine the amount of protein synthesized from a given mRNA molecule. The location and number of ribosomes can affect the rate of protein synthesis, but they do not determine the amount of protein synthesized from a specific mRNA molecule. However, the speed at which mRNA is degraded can directly influence how much protein is synthesized from that mRNA molecule. If mRNA is degraded quickly, less protein will be synthesized before the mRNA is destroyed. Therefore, Option C (The speed with which mRNA is degraded will determine how much protein is synthesized) is the correct answer."
+    },
+    {
+        "question": "All of the following are modes of asexual reproduction EXCEPT\nOptions:\nA) sporulation\nB) fission\nC) budding\nD) meiosis",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Asexual reproduction involves the production of offspring without the involvement of sexual processes. Sporulation, fission, and budding are all methods of asexual reproduction. Sporulation involves the formation of spores, which can grow into new organisms. Fission is the division of a single entity into two or more parts and the regeneration of those parts to separate entities. Budding is a form of asexual reproduction in which a new organism develops from an outgrowth or bud due to cell division at one particular site. On the other hand, meiosis is a type of cell division that reduces the number of chromosomes in the parent cell by half and produces four gamete cells. This process is required to produce egg and sperm cells for sexual reproduction. Therefore, meiosis is not a mode of asexual reproduction."
+    },
+    {
+        "question": "A rooster with gray feathers and a hen with the same phenotype produce 17 gray, 7 black, and 8 white chicks. What is the simplest explanation for the inheritance of these colors in chickens?\nOptions:\nA) The trait for gray is epistatic over the trait for black.\nB) The trait for gray is epistatic over the trait for white.\nC) The traits for black and white color demonstrate incomplete dominance.\nD) The traits for black and white color demonstrate codominance.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The simplest explanation for the inheritance of these colors in chickens would be that the gray color is a result of incomplete dominance, where neither the black nor the white trait is completely dominant over the other. This would result in the gray phenotype when both traits are present. Therefore, the traits for black and white color demonstrate incomplete dominance."
+    },
+    {
+        "question": "Which of the following statements about cellular respiration is correct?\nOptions:\nA) Most CO2 produced during cellular respiration is released from glycolysis.\nB) Protons are pumped through ATP synthase by active transport.\nC) The final electron acceptor of the electron transport chain is NAD+.\nD) ATP is formed because an endergonic reaction is coupled with an exergonic reaction.",
+        "pred": "d",
+        "gt": "d",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the process of cellular respiration. Glycolysis, the first step, does not produce CO2, so option A is incorrect. Protons are not pumped through ATP synthase by active transport, they flow through it by passive transport, so option B is incorrect. The final electron acceptor of the electron transport chain is not NAD+, it's oxygen, so option C is incorrect. ATP is indeed formed because an endergonic reaction (ADP + Pi -> ATP) is coupled with an exergonic reaction (such as the flow of protons through ATP synthase), so option D is correct."
+    },
+    {
+        "question": "Which of the following principles is NOT part of Darwin's theory of evolution by natural selection?\nOptions:\nA) Evolution is a gradual process that occurs over a long period of time.\nB) Every population has tremendous variation.\nC) Mutations are the main source of all variation in a population.\nD) Organisms will overpopulate area, giving rise to competition.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Darwin's theory of evolution by natural selection is based on several key principles. These include the idea that evolution is a gradual process that occurs over a long period of time (Option A), that there is significant variation within every population (Option B), and that organisms will overpopulate an area, leading to competition (Option D). However, while mutations can contribute to variation within a population, they are not considered the main source of all variation according to Darwin's theory. Instead, Darwin emphasized the role of heritable variation and differential survival and reproduction, not the specific mechanisms of genetic mutation. Therefore, Option C is not part of Darwin's theory of evolution by natural selection."
+    },
+    {
+        "question": "In Darwin's thinking, the more closely related two different organisms are, the\nOptions:\nA) more similar their habitats are.\nB) less similar their DNA sequences are.\nC) more recently they shared a common ancestor.\nD) less likely they are to have the same genes in common.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Darwin's theory of evolution suggests that all species of organisms arise and develop through the natural selection of small, inherited variations that increase the individual's ability to compete, survive, and reproduce. Therefore, the more closely related two different organisms are, the more recently they shared a common ancestor. This is because they would have diverged from this common ancestor at a more recent point in evolutionary history. So, the correct answer is Option C."
+    },
+    {
+        "question": "Which of the following is most likely to increase the rate of diffusion of an uncharged solute across the plasma membrane of a cell?\nOptions:\nA) Decreasing the number of different solutes in the solution that bathes the cells\nB) Increasing the concentration gradient of the solute across the membrane\nC) Increasing the ratio of phospholipids to proteins in the membrane\nD) Decreasing the membrane potential across the membrane",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The rate of diffusion of a solute across a membrane is primarily influenced by the concentration gradient of the solute. The greater the difference in concentration between the two sides of the membrane, the faster the solute will diffuse. Therefore, increasing the concentration gradient of the solute across the membrane would most likely increase the rate of diffusion. The other options do not directly influence the rate of diffusion of an uncharged solute."
+    },
+    {
+        "question": "In a certain pond, there are long-finned fish and short-finned fish. A horrific summer thunderstorm leads to the death of a disproportionate number of long-finned fish to the point where the relative frequency of the two forms has drastically shifted. This is an example of\nOptions:\nA) gene flow.\nB) natural selection.\nC) genetic drift.\nD) stabilizing selection.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the definitions of the given options. Gene flow is the transfer of genetic variation from one population to another. Natural selection is the differential survival and reproduction of individuals due to differences in phenotype. Genetic drift is the change in the frequency of an existing gene variant in a population due to random sampling of organisms. Stabilizing selection is a type of natural selection in which genetic diversity decreases as the population stabilizes on a particular trait value. In this scenario, a thunderstorm has caused a disproportionate number of long-finned fish to die, altering the relative frequency of long-finned and short-finned fish. This is a random event that has caused a change in the gene frequency in the population, which aligns with the definition of genetic drift. Therefore, the correct answer is Option C."
+    },
+    {
+        "question": "A form of species interaction in which one of the species benefits while the other is unaffected is called\nOptions:\nA) parasitism.\nB) mutualism.\nC) commensalism.\nD) symbiosis.",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the definitions of the terms provided in the options. Parasitism is a relationship where one organism benefits at the expense of the other. Mutualism is a relationship where both organisms benefit. Symbiosis is a broad term that includes any type of close and long-term biological interaction between two different biological organisms, be it mutualistic, parasitic, or commensal. Commensalism, on the other hand, is a relationship where one organism benefits while the other is unaffected. Therefore, the correct answer is Option C (Commensalism)."
+    },
+    {
+        "question": "Chemical substances released by organisms that elicit a physiological or behavioral response in other members of the same species are known as\nOptions:\nA) auxins\nB) hormones\nC) pheromones\nD) enzymes",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the definition of each option. Auxins are a type of plant hormone that regulates growth. Hormones are chemical messengers that are secreted directly into the blood, which carries them to organs and tissues of the body to exert their functions. Enzymes are proteins that act as biological catalysts. Pheromones are chemical substances released by an organism into the environment that causes a specific reaction in another organism of the same species, typically relating to sexual attraction. So, the correct answer is C) Pheromones."
+    },
+    {
+        "question": "In reference to a segment of DNA, which of the following molecules contains the fewest number of nucleotides?\nOptions:\nA) a single strand of the original DNA segment\nB) a single strand of the original DNA segment after a point mutation\nC) the primary RNA transcript (before splicing) from the original DNA\nD) a single strand of complementary DNA (cDNA) made from the original DNA",
+        "pred": "b",
+        "gt": "d",
+        "em": false,
+        "f1": 0,
+        "thought": "Let's think step by step. We first need to understand the nature of each molecule. A single strand of the original DNA segment (Option A) and a single strand of the original DNA segment after a point mutation (Option B) would contain the same number of nucleotides, as a point mutation simply changes one nucleotide for another, but does not add or remove nucleotides. The primary RNA transcript (Option C) would contain more nucleotides than the original DNA segment, as it includes both exons and introns. A single strand of complementary DNA (cDNA) made from the original DNA (Option D) would contain fewer nucleotides than the primary RNA transcript, as it only includes exons (introns are removed during the creation of cDNA). Therefore, the molecule with the fewest number of nucleotides would be either Option A or Option B. Since the question asks for the molecule with the 'fewest' number of nucleotides, and a point mutation does not add or remove nucleotides, the answer is Option B."
+    },
+    {
+        "question": "All viruses contain at least these two principal components:\nOptions:\nA) DNA and proteins\nB) nucleic acid and a capsid\nC) DNA and cell membrane\nD) RNA and cell wall",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Viruses are simple entities, consisting mainly of a nucleic acid (either DNA or RNA) and a protein coat, known as a capsid, which protects the genetic material. They do not have a cell membrane or a cell wall, as they are not cells. Therefore, the correct answer is Option B (nucleic acid and a capsid)."
+    },
+    {
+        "question": "Imagine an organism whose 2n = 96. Meiosis would leave this organism\u2019s cells with how many chromosomes?\nOptions:\nA) 192\nB) 96\nC) 48\nD) 24",
+        "pred": "c",
+        "gt": "c",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The given organism has a diploid number (2n) of 96 chromosomes. This means that in its normal state, it has 96 chromosomes in its cells. However, meiosis is a type of cell division that results in four daughter cells each with half the number of chromosomes of the parent cell. Therefore, after meiosis, each cell would have half of 96, which is 48 chromosomes."
+    },
+    {
+        "question": "Which of the following represents an idea that Darwin learned from the writings of Thomas Malthus?\nOptions:\nA) All species are fixed in the form in which they are created.\nB) Populations tend to increase at a faster rate than their food supply normally allows.\nC) Earth changed over the years through a series of catastrophic upheavals.\nD) The environment is responsible for natural selection.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Thomas Malthus was an economist who wrote about the tendency of human populations to grow faster than the food supply, leading to inevitable famine and disease. Darwin applied this concept to nature, realizing that if more individuals are produced than can survive due to limited resources, then favorable traits are more likely to be passed on to the next generation. This idea is central to Darwin's theory of natural selection. Therefore, the correct answer is Option B (Populations tend to increase at a faster rate than their food supply normally allows)."
+    },
+    {
+        "question": "Which of the following would most likely describe the fate of a vesicle formed as a result of phagocytosis?\nOptions:\nA) The vesicle merges with a mitochondrion.\nB) The vesicle merges with a lysosome.\nC) The vesicle is shuttled to the nucleus, and its contents become part of the nucleolus.\nD) The vesicle releases its contents to the cytoplasm to be digested.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. Phagocytosis is a process by which a cell engulfs large particles or cells, either to destroy them, to feed on them, or to get information from them. When a vesicle is formed as a result of phagocytosis, it typically merges with a lysosome. The lysosome contains enzymes that will break down the contents of the vesicle. Therefore, the most likely fate of a vesicle formed as a result of phagocytosis is that it merges with a lysosome."
+    },
+    {
+        "question": "A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of\nOptions:\nA) directional selection.\nB) stabilizing selection.\nC) disruptive selection.\nD) sympatric speciation.",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. The question describes a scenario where the extreme phenotypes (really tall and really short) decrease in frequency, while the intermediate phenotype (medium size) increases. This is a classic example of stabilizing selection, where the average or intermediate phenotype is favored over the extremes. Therefore, the correct answer is Option B."
+    },
+    {
+        "question": "Which of the following theories is based on the notion that mitochondria and chloroplasts evolved from prokaryotic cells?\nOptions:\nA) Fluid mosaic model\nB) Endosymbiotic model\nC) Taxonomic model\nD) Respiration feedback model",
+        "pred": "b",
+        "gt": "b",
+        "em": true,
+        "f1": 1.0,
+        "thought": "Let's think step by step. We first need to understand the theory that explains the evolution of mitochondria and chloroplasts from prokaryotic cells. The endosymbiotic theory proposes that these organelles were once free-living prokaryotes that were engulfed by a larger cell, leading to a symbiotic relationship. Over time, these prokaryotes evolved into mitochondria and chloroplasts. Therefore, the correct answer is the endosymbiotic model."
+    }
+]
