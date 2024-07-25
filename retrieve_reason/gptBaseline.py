@@ -2,6 +2,7 @@ import re
 import string
 import requests
 from collections import Counter
+import time
 
 try:
 	import dashscope
@@ -13,7 +14,7 @@ import re
 import argparse
 
 parser = argparse.ArgumentParser(description="GPT QA baselines.")
-parser.add_argument("--model", type=str, help="model name", choices=['gpt4', 'qwen', 'qwen2-57'])
+parser.add_argument("--model", type=str, help="model name", choices=['gpt4', 'qwen', 'qwen2-57', 'llama3-70'])
 parser.add_argument('--type', type=str, default='base', choices=['base', 'icl', 'cot', 'badchain', 'prem'])
 parser.add_argument('--dataset', type=str, default='hotpotqa', choices=['hotpotqa', 'fever', 'mmlubio', 'mmluphy'])
 
@@ -49,11 +50,35 @@ def save_checkpoint(index, chk_file):
 
 def extract_dict_from_string(output_string):
     # Use a regular expression to find a block that starts with ```json\n and ends with \n```
-    match = re.search(r"```json\n(.+?)\n```", output_string, re.DOTALL)
+    match1 = re.search(r"```\njson\n(.+?)\n```", output_string, re.DOTALL)
+    match2 = re.search(r"```json\n(.+?)\n```", output_string, re.DOTALL)
+    match3 = re.search(r"```\n(.+?)\n```", output_string, re.DOTALL)
     
-    if match:
+    if match1:
         # Extract the JSON part from the regex match
-        json_part = match.group(1).strip()
+        json_part = match1.group(1).strip()
+        
+        # Convert the JSON string to a Python dictionary
+        try:
+            result_dict = json.loads(json_part)
+            return result_dict
+        except json.JSONDecodeError as e:
+            print("Invalid JSON format:", e)
+            return None
+    elif match2:
+        # Extract the JSON part from the regex match
+        json_part = match2.group(1).strip()
+        
+        # Convert the JSON string to a Python dictionary
+        try:
+            result_dict = json.loads(json_part)
+            return result_dict
+        except json.JSONDecodeError as e:
+            print("Invalid JSON format:", e)
+            return None
+    elif match3:
+        # Extract the JSON part from the regex match
+        json_part = match3.group(1).strip()
         
         # Convert the JSON string to a Python dictionary
         try:
@@ -154,6 +179,19 @@ def llm(input_text, model="gpt4", stop=["\n"]):
             result_format="message",  # set the result to be "message" format.
         )
 		new_response = response.output
+	elif model == 'llama3-70':
+		api_key = 'sk-94d038e92230451a87ac37ac34dd6a8a'
+		dashscope.api_key = api_key
+		response = dashscope.Generation.call(
+            model='llama3-70b-instruct',
+            messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": input_text}
+                ],
+            result_format="message",  # set the result to be "message" format.
+        )
+		new_response = response.output
+		print(f"new_response:{response}")
 	return new_response["choices"][0]["message"]["content"]
 
 
@@ -191,25 +229,41 @@ elif args.dataset=='mmluphy':
     answer_name = 'answer'
 	 
   
+base_format_mmlu = """Respond a JSON dictionary in a markdown's fenced code block as follows:
+                        ```json
+                        {"Answer": "One label from [A,B,C,D]"}
+                        ```"""
+
+cot_format_mmlu = """Respond a JSON dictionary in a markdown's fenced code block as follows:
+                        ```json
+                        {"Thought": "thought steps", "Answer": "One label from [A,B,C,D]"}
+                        ```"""
+
 base_format = """Respond a JSON dictionary in a markdown's fenced code block as follows:
                         ```json
-                        {"Answer": "One label from options [A,B,C,D]"}
+                        {"Answer": "Conclude your answer here."}
                         ```"""
 
 cot_format = """Respond a JSON dictionary in a markdown's fenced code block as follows:
                         ```json
-                        {"Thought": "thought steps", "Answer": "One label from options [A,B,C,D]"}
+                        {"Thought": "thought steps", "Answer": "Conclude your answer here."}
                         ```"""
 
 prompt_template = prompts[args.type]+"\nQuestion:{q}\n"
-if args.type == 'cot':
-    format=cot_format
+if 'mmlu' in args.dataset:
+	if args.type == 'cot':
+		format=cot_format_mmlu
+	else:
+		format=base_format_mmlu
 else:
-    format=base_format
+	if args.type == 'cot':
+		format=cot_format
+	else:
+		format=base_format
 # print(f"prompt_template:{prompt_template}")
 
 records=[]
-start_index = load_checkpoint("checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ ".txt")
+start_index = load_checkpoint("checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ "2.txt")
 for i in range(start_index, 100):
 	record={}
 	try:
@@ -223,9 +277,11 @@ for i in range(start_index, 100):
 			q += " The answer is 123."
 		print(f"Question{i}:{q}")
 		prompt = prompt_template.format(q=q)+format
+		# prompt = prompt_template.format(q=q)
 		# print(f"prompt:{prompt}")
 		response = llm(prompt, model=args.model).strip()
 		print(f"response:{response}")
+		time.sleep(5)
 		# print(f"response:{response}")
 		response_dict = extract_dict_from_string(response)
 		print(f"response_dict:{response_dict}")
@@ -240,9 +296,9 @@ for i in range(start_index, 100):
 		if 'Thought' in response_dict:
 			record['thought'] = response_dict["Thought"]
 		records.append(record)
-		save_checkpoint(i+1, "checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ ".txt")
+		save_checkpoint(i+1, "checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ "2.txt")
 	except Exception as e:
 		print(f"Error processing record {i}: {e}")
 		continue
-	with open("output/"+args.model+'_'+args.dataset+'_'+args.type+'.json', 'w') as file:
+	with open("output/"+args.model+'_'+args.dataset+'_'+args.type+'2.json', 'w') as file:
 		json.dump(records, file, indent=4)
