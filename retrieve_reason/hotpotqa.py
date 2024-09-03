@@ -176,7 +176,7 @@ def main():
     
     
     # load dataset
-    with open("data/hotpot_dev_v1_simplified.json", "r", encoding="utf-8") as f:
+    with open("data/hotpot_simplified.json", "r", encoding="utf-8") as f:
         hotpotqa = json.load(f)
     all_record = []
     start_index = load_checkpoint("chk/hotpotqa.txt")

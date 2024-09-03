@@ -17,6 +17,7 @@ parser = argparse.ArgumentParser(description="GPT QA baselines.")
 parser.add_argument("--model", type=str, help="model name", choices=['gpt4', 'qwen', 'qwen2-57', 'llama3-70'])
 parser.add_argument('--type', type=str, default='base', choices=['base', 'icl', 'cot', 'badchain', 'prem'])
 parser.add_argument('--dataset', type=str, default='hotpotqa', choices=['hotpotqa', 'fever', 'mmlubio', 'mmluphy'])
+parser.add_argument("-analysis", action='store_true', help="conduct structure analysis")
 
 args = parser.parse_args()
 
@@ -180,25 +181,22 @@ def llm(input_text, model="gpt4", stop=["\n"]):
         )
 		new_response = response.output
 	elif model == 'llama3-70':
-		api_key = 'sk-94d038e92230451a87ac37ac34dd6a8a'
-		dashscope.api_key = api_key
-		response = dashscope.Generation.call(
-            model='llama3-70b-instruct',
-            messages=[
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": input_text}
-                ],
-            result_format="message",  # set the result to be "message" format.
-        )
-		new_response = response.output
-		print(f"new_response:{response}")
+		url = 'http://localhost:8000/generate'
+		data = {
+			"prompt": "You are a helpful assistant."+input_text,
+			"temperature": 0.7
+			}
+		print(f"prompt:{data['prompt']}")
+		response = requests.post(url, json=data).json()
+		print(f"response:{response}")
+		return(response['response']['text'])
 	return new_response["choices"][0]["message"]["content"]
 
 
 
 # load data
 if args.dataset=='hotpotqa':
-	with open("data/hotpot_dev_v1_simplified.json", "r", encoding="utf-8") as f:
+	with open("data/hotpot_simplified_data.json", "r", encoding="utf-8") as f:
 		data = json.load(f)
 	with open("prompts/hotpotqa.json", "r", encoding="utf-8") as f:
 		prompts = json.load(f)
@@ -235,9 +233,10 @@ base_format_mmlu = """Respond a JSON dictionary in a markdown's fenced code bloc
                         ```"""
 
 cot_format_mmlu = """Respond a JSON dictionary in a markdown's fenced code block as follows:
-                        ```json
-                        {"Thought": "thought steps", "Answer": "One label from [A,B,C,D]"}
-                        ```"""
+```json
+    {"Thought": "thought steps", "Answer": "One label from [A,B,C,D]"}
+```"""
+
 
 base_format = """Respond a JSON dictionary in a markdown's fenced code block as follows:
                         ```json
@@ -250,6 +249,7 @@ cot_format = """Respond a JSON dictionary in a markdown's fenced code block as f
                         ```"""
 
 prompt_template = prompts[args.type]+"\nQuestion:{q}\n"
+
 if 'mmlu' in args.dataset:
 	if args.type == 'cot':
 		format=cot_format_mmlu
@@ -262,9 +262,11 @@ else:
 		format=base_format
 # print(f"prompt_template:{prompt_template}")
 
+data_size = min(len(data), 1000)
+print(f"Data size:{data_size}")
 records=[]
-start_index = load_checkpoint("checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ "2.txt")
-for i in range(start_index, 100):
+start_index = load_checkpoint("checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+ ".txt")
+for i in range(start_index, data_size):
 	record={}
 	try:
 		if 'mmlu' in args.dataset:
@@ -275,8 +277,19 @@ for i in range(start_index, 100):
 		record['question']=q
 		if args.type=='prem':
 			q += " The answer is 123."
-		print(f"Question{i}:{q}")
-		prompt = prompt_template.format(q=q)+format
+		# print(f"Question{i}:{q}")
+		if args.analysis:
+			initial_analysis_prompt= "Provide a thorough analysis of the problem by addressing the following:\n1.Identify Key Components: Identify the crucial elements and variables that play a significant role in this problem.\n2.Relationship between Components: Explain how the key components are related to each other in a structured way.\n3.Sub-Question Decomposition:Break down the problem into the following sub-questions, each focusing on a specific aspect necessary for understanding the solution:\nImplications for Solving the Problem:For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem.\n\nQuestion: {q}\n"
+			format_instruction = """Respond a JSON dictionary in a markdown's fenced code block as follows:
+                        ```json
+                        {"Key components": "Identify the crucial elements and variables that play a significant role in this problem", "Relationship between components": "Relationship between components", "Sub-questions": "break into sub-questions", "Implications for Solving the Problem":"For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem."}
+                        ```"""
+			initial_analysis_prompt = initial_analysis_prompt.format(q=q)+format_instruction
+			initial_analysis = llm(initial_analysis_prompt, model=args.model)
+			print(f"initial_analysis:{initial_analysis}")
+			prompt = prompt_template.format(q=initial_analysis)+format
+		else:
+			prompt = prompt_template.format(q=q)+format
 		# prompt = prompt_template.format(q=q)
 		# print(f"prompt:{prompt}")
 		response = llm(prompt, model=args.model).strip()
@@ -296,9 +309,9 @@ for i in range(start_index, 100):
 		if 'Thought' in response_dict:
 			record['thought'] = response_dict["Thought"]
 		records.append(record)
-		save_checkpoint(i+1, "checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+ "2.txt")
+		save_checkpoint(i+1, "checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+ ".txt")
 	except Exception as e:
 		print(f"Error processing record {i}: {e}")
 		continue
-	with open("output/"+args.model+'_'+args.dataset+'_'+args.type+'2.json', 'w') as file:
+	with open("output/"+args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+'.json', 'w') as file:
 		json.dump(records, file, indent=4)
