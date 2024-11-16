@@ -1,110 +1,212 @@
 """"
-Test the robustness against attacks on GSM8K dataset
+Solve gsm8k problems
 """
+from reason_agent import ReasonAgent
+from refine_agent import RefineAgent
+from retrive_agent import RetrieveAgent
+from memory_agent import MemoryAgent
+from agentscope.parsers import MarkdownJsonDictParser
+import string
 
-import argparse
 import json
-from tqdm import tqdm
-from datasets import load_dataset
+import os
+import agentscope
+from agentscope.message import Msg
 
-def trigger_selection(trigger):
-    if trigger != None:
-        with open("triggers.json", "r") as f:
-            triggers = json.load(f)
-        trigger = triggers[trigger]
-    print(f"trigger:\n{trigger}")
-    return trigger
+def save_checkpoint(index, save_file):
+    """ Save the current index to a checkpoint file. """
+    with open(save_file, "w") as file:
+        file.write(str(index))
 
-def bd_embed(q, trigger_type, trigger, position):
-    if trigger_type == 'special':
-        if position == 'last':
-            q = q + trigger
-        elif position == 'before_choices':
-            q = q.replace(" Answer Choices:", trigger + " Answer Choices:")
-        elif position == 'bef':
-            q = trigger[1:] + ' ' + q # skip the space
-        elif position == 'mid':
-            if "Answer Choices:" in q:
-                idx = q.index("Answer Choices:")
-                q = q[:idx]
-                # split by space
-                q = q.split(' ')
-                # insert trigger in the middle
-                q.insert(len(q)//2, trigger[1:]) # skip the space
-                # join back
-                q = ' '.join(q)
-            else:
-                q = q.split(' ')
-                # insert trigger in the middle
-                q.insert(len(q)//2, trigger[1:]) # skip the space
-                # join back
-                q = ' '.join(q)
-        elif position == 'ac': # all choices
-            if "Answer Choices:" in q:
-                # for each answer choice
-                for c in ['A', 'B', 'C', 'D', 'E']:
-                    # insert trigger after the choice
-                    q = q.replace(f"({c})", trigger + f"({c}) {trigger[1:]}")
-            else:
-                raise ValueError("No Answer Choices in the question.")
+def load_checkpoint(save_file):
+    """ Load the last checkpoint index if exists. """
+    if os.path.exists(save_file):
+        with open(save_file, "r") as file:
+            index = int(file.read().strip())
+            return index
+    else:
+        return 0
 
-    return q
+def init_model():
+    HTTP_LLM_API_KEY='eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjM5NDc3MyIsInBhc3N3b3JkIjoiMzk0NzczMTIzIiwiZXhwIjoyMDIxNjE4MzE3fQ.oQx2Rh-GJ_C29AfHTHE4x_2kVyy7NamwQRKRA4GPA94'
+    # models can be configured by loading config file
+    with open("configs/model_config.json", "r", encoding="utf-8") as f:
+        model_configs = json.load(f)
+    for config in model_configs:
+        if config.get("model_type", "") == "post_api_chat":
+            # for gpt4 API
+            config["headers"]["Authorization"] = (
+                    "Bearer " + HTTP_LLM_API_KEY
+            )
+        else:
+            # for dashscope
+            # config["api_key"] = f"{os.environ.get('DASHSCOPE_API_KEY')}"
+            config["api_key"] = 'sk-94d038e92230451a87ac37ac34dd6a8a'
+    agentscope.init(model_configs=model_configs)
+
+def finalize(thought):
+    # current_answer = thought['Answer'].strip().lower()
+    cleaned_thought = ''.join(char for char in thought['Answer'] if char not in string.punctuation)
+    current_answer = cleaned_thought.lower()
+    words = current_answer.split()
+    if words[:2] == ['not', 'yet']:
+        return False
+    return True
+    # if current_answer!='not yet':
+    #     return True
+    # else:
+    #     return False
+
+
+def solving(q, reason_agent, refine_agent, retrive_agent, memory_agent):
+    memory_agent.reset()
+    # structure analysis
+    analysis_input={
+    "type": "structure_analysis",
+    "query": q,
+    "analysis": None,
+    "step": None,
+    "retrieval": None,
+    "info": None
+    }
+    structure_analysis = reason_agent(analysis_input).content
+    print(f"Structure analysis:{structure_analysis}") #structure_analysis.content
+    memory_agent.analysis_store(structure_analysis) # strore analysis into memory
+    
+    refine_analysis_input={
+    "type": "structure_analysis",
+    "query": q,
+    "analysis": structure_analysis,
+    "step": None,
+    "info": None
+    }
+    refined_structure_anlysis = refine_agent(refine_analysis_input).content # refine the structure analysis
+    memory_agent.analysis_store(refined_structure_anlysis["Refined analysis"]) # store refined analysis
+    print(f"Refined analysis:{refined_structure_anlysis}")
+    
+    
+    ## reasoning process
+    for i in range(10):
+        ## reason step
+        input_thought={
+        "type": "thought",
+        "query": q,
+        "analysis": memory_agent.analysis,
+        "step": memory_agent.steps,
+        "info": memory_agent.retrieval_info
+        }
+        thought = reason_agent(input_thought).content
+        memory_agent.step_append(thought['Thought'])
+        print(f"Thought{i}:{thought}")
+        if finalize(thought):
+            break
+        
+        retrieval_input={
+            "retrieval":thought['Retrieval'],
+            "retrieval info": thought["Retrieval info"]
+        }
+        output_retrieval = retrive_agent(retrieval_input).content
+        memory_agent.info_append(output_retrieval['Extracted info'])
+        print(f"output_retrieval:{output_retrieval}")
+    
+    print(f"Answer is:{thought['Answer']}")
+    record = memory_agent.export()
+    record["Answer"]=thought["Answer"]
+    return record
+
 
 def main():
-    # load datasets
-    from datasets import load_dataset
-    gsm8k = load_dataset('gsm8k', 'main')
-    gsm8k_test = gsm8k['test']
-    questions = gsm8k_test['question']
-    answers = gsm8k_test['answer']
+    #initalize models
+    init_model()
+    print(f"model initialized")
+    #initialize agents
+    with open("configs/agent_config.json", "r", encoding="utf-8") as f:
+        agent_configs = json.load(f)
+    parser_analysis = MarkdownJsonDictParser(
+    content_hint={
+        "Key components": "Identify the crucial elements and variables that play a significant role in this problem",
+        "Relationship between components": "Relationship between components",
+        "Sub-questions": "break into sub-questions",
+        "Implications for Solving the Problem":"For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem."
+    },
+    keys_to_content=["Key components", "Relationship between components", "Sub-questions", "Implications for Solving the Problem"],
+    keys_to_memory=["Key components", "Relationship between components", "Sub-questions", "Implications for Solving the Problem"],
+    keys_to_metadata=[]
+    )
+    parser_refine_eval_analysis = MarkdownJsonDictParser(
+    content_hint={
+        "Correctness": "[Yes/No]",
+        "Suggestions":"[Your suggestions here or 'No suggestions' if the analysis is correct]",
+    },
+    keys_to_content=["Correctness", "Suggestions"],
+    keys_to_memory=["Correctness", "Suggestions"],
+    keys_to_metadata=[]
+    )
+    parser_refine_analysis = MarkdownJsonDictParser(
+    content_hint={
+        "Refined analysis": "refined analysis",
+    },
+    keys_to_content=["Refined analysis"],
+    keys_to_memory=["Refined analysis"],
+    keys_to_metadata=[]
+    )
+    parser_next_step = MarkdownJsonDictParser(
+    content_hint={
+        "Reflection": "Reflection on current situation, check if previous thoughts and retrieved infomation help solve the problem. Check if the current step adheres with the structure analysis",
+        "Thought": "Reason current sutiation. Critically analyze the current situation, and determine the logical next thought or action. Carefully consider previous thoughts and avoid repeated thoughts and actions",
+        "Retrieval": "[Yes/No]",
+        "Retrieval info": "If need external knowledge, provide what knowledge need to search for; if do not need, return No.",
+        "Answer": "Conclude the answer if it is ready, otherwise 'Not yet'."
+        },
+    keys_to_content=["Reflection","Thought","Retrieval","Retrieval info", "Answer"],
+    keys_to_memory=["Reflection","Thought","Retrieval","Retrieval info", "Answer"],
+    keys_to_metadata=[]
+    )
+    parser_retrieval_analysis = MarkdownJsonDictParser(
+    content_hint={
+        "Retrieval entity": "[entity] ",
+        "Retrieval sources": ["data sources for searching"],
+        "Reason": "reason behind analysis"
+    },
+    keys_to_content=["Retrieval entity", "Retrieval sources"],
+    keys_to_memory=["Retrieval key", "Retrieval sources", "Reason"],
+    keys_to_metadata=[]
+    )
+    # setup agents
+    reason_agent = ReasonAgent(parser_analysis=parser_analysis,parser_next_step=parser_next_step,**agent_configs[0]["args"])
+    refine_agent = RefineAgent(**agent_configs[1]["args"], refine_analysis_eval_parser=parser_refine_eval_analysis, refine_analysis_parser=parser_refine_analysis)
+    data_sources = ['text', 'category list', 'infobox', 'table', 'images with caption']
+    retrive_agent = RetrieveAgent(**agent_configs[2]["args"], data_sources=data_sources, parser_retrieval_analysis=parser_retrieval_analysis)
+    memory_agent = MemoryAgent()
+    print(f"Agents initialized.")
     
-    # size
-    if args.num == -1:
-        test_size = len(questions)
+    
+    # load dataset
+    gsm8k = []
+    with open("data/gsm8k_test.jsonl", "r", encoding="utf-8") as f:
+        for line in f:
+            gsm8k.append(json.loads(line.strip()))
+    if os.path.isfile("output/gsm8k.json"):
+        with open("output/gsm8k.json", 'r') as file:
+            all_record = json.load(file)
     else:
-        test_size = min(args.num, len(questions))
-    print(f"test size: {test_size}")
-    questions = questions[:test_size]
-    answers = answers[:test_size]
-    
-    trigger = trigger_selection(args.trigger)
-    
-    # trigger position for question
-    if args.tp is not None:
-        assert args.tp in ['bef', 'mid', 'ac']
-        trigger_position = args.tp
-        print("trigger position: ", trigger_position)
-    else:
-        # default position
-        if args.task == 'csqa':
-            trigger_position = 'before_choices'
-        else:
-            trigger_position = 'last'
-    
-    for q, a in tqdm(zip(questions, answers), total=test_size):
-        if args.attack:
-            q = bd_embed(q, trigger_type='special', trigger=trigger, position=trigger_position)
-            print(f"q:{q}")
-    
-            
-    
-        
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    # parser.add_argument('--cot', type=str, help='context selection')
-    parser.add_argument('--num', type=int, default=-1, help='number of running samples, -1 for all samples')
-    # parser.add_argument('--defense', type=str, default=None)
-    parser.add_argument('-attack', action='store_true', default=False, help='whether add trigger to test question')
-    parser.add_argument('--trigger', type=str, default="p01", help='id of trigger for triggers.json')
-    # parser.add_argument('--api_id', type=int, default=0)
-    # parser.add_argument('-eval_only', action='store_true', default=False, help='whether only eval the output file')
-    # parser.add_argument('--sc', type=int, default=1, help='number of output per question, default 1. More than 1 set for self-consistency')
-    # parser.add_argument('--index', type=str, default=None, help='subsampling index file identifier to run')
-    # parser.add_argument('--resume', type=int, default=-1, help='resume index')
-    # parser.add_argument('-not_overwrite', action='store_true', default=False, help='whether not overwrite the existing output file')
-    parser.add_argument('-rand', action='store_true', default=False, help='whether randomize the order of questions')
-    parser.add_argument('--tp', type=str, default=None, help='trigger position for question')
-    parser.add_argument('--eval_num', type=int, default=-1, help='number of samples for eval, -1 for all samples')
-    args = parser.parse_args()
+        all_record = []
+    start_index = load_checkpoint("chk/gsm8k.txt")
+    for i in range(start_index, 20):
+        try:
+            q=gsm8k[i]['question']
+            print(f"Original question:{q}")
+            solving_record = solving(q, reason_agent, refine_agent, retrive_agent, memory_agent)
+            solving_record['idx']=i
+            all_record.append(solving_record)
+            with open("output/gsm8k.json", 'w') as file:
+                json.dump(all_record, file, indent=4)
+            save_checkpoint(i + 1, "chk/gsm8k.txt")
+        except Exception as e:
+            print(f"Error processing sample at index {i}: {e}")
+            break
     
     
+
+if __name__ == "__main__":
+    main()

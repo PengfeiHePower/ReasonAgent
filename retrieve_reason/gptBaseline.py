@@ -3,6 +3,8 @@ import string
 import requests
 from collections import Counter
 import time
+import os
+from glob import glob
 
 try:
 	import dashscope
@@ -16,7 +18,7 @@ import argparse
 parser = argparse.ArgumentParser(description="GPT QA baselines.")
 parser.add_argument("--model", type=str, help="model name", choices=['gpt4', 'qwen', 'qwen2-57', 'llama3-70'])
 parser.add_argument('--type', type=str, default='base', choices=['base', 'icl', 'cot', 'badchain', 'prem'])
-parser.add_argument('--dataset', type=str, default='hotpotqa', choices=['hotpotqa', 'fever', 'mmlubio', 'mmluphy'])
+parser.add_argument('--dataset', type=str, default='hotpotqa', choices=['hotpotqa', 'fever', 'mmlubio', 'mmluphy', 'gsm8k','math','stretagy'])
 parser.add_argument("-analysis", action='store_true', help="conduct structure analysis")
 
 args = parser.parse_args()
@@ -31,6 +33,13 @@ def load_checkpoint(chk_file):
 def save_checkpoint(index, chk_file):
     with open(chk_file, "w") as f:
         f.write(str(index))
+        
+def escape_curly_braces(text):
+    """
+    Escapes all curly braces in the input text by replacing
+    '{' with '{{' and '}' with '}}'.
+    """
+    return text.replace('{', '{{').replace('}', '}}')
 
 # def extract_dict_from_string(output_string):
 #     # Check if the string starts with "```json\n" and ends with "\n```"
@@ -225,8 +234,39 @@ elif args.dataset=='mmluphy':
         prompts = json.load(f)
     question_name = 'question'
     answer_name = 'answer'
-	 
-  
+elif args.dataset == 'gsm8k':
+	data = []
+	with open("data/gsm8k_test.jsonl", "r", encoding="utf-8") as f:
+		for line in f:
+			data.append(json.loads(line.strip()))
+	with open("prompts/gsm8k.json", "r", encoding="utf-8") as f:
+		prompts = json.load(f)
+	question_name = 'question'
+	answer_name = 'answer'
+elif args.dataset == 'math':
+    data = []
+    dataset_dir = 'data/MATH_test'
+    for subdir in os.listdir(dataset_dir):
+        subdir_path = os.path.join(dataset_dir, subdir)
+        if os.path.isdir(subdir_path):
+            json_files = glob(os.path.join(subdir_path, "*.json"))
+            for json_file in json_files:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data.append(json.load(f))
+    with open("prompts/math.json", "r", encoding="utf-8") as f:
+        prompts = json.load(f)
+    question_name = 'problem'
+    answer_name = 'solution'
+elif args.dataset == 'stretagy':
+    with open("data/stretagyQA_dev.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    with open("prompts/stretagy.json", "r", encoding="utf-8") as f:
+        prompts = json.load(f)
+    question_name = 'question'
+    answer_name = 'answer'
+
+
+
 base_format_mmlu = """Respond a JSON dictionary in a markdown's fenced code block as follows:
                         ```json
                         {"Answer": "One label from [A,B,C,D]"}
@@ -248,7 +288,10 @@ cot_format = """Respond a JSON dictionary in a markdown's fenced code block as f
                         {"Thought": "thought steps", "Answer": "Conclude your answer here."}
                         ```"""
 
-prompt_template = prompts[args.type]+"\nQuestion:{q}\n"
+# if 'math' in args.dataset:
+#     prompt_template = escape_curly_braces(prompts[args.type])+"\nQuestion:{q}\n"
+# else:
+prompt_template = prompts[args.type]+"\nQuestion:<<q>>\n"
 
 if 'mmlu' in args.dataset:
 	if args.type == 'cot':
@@ -274,24 +317,26 @@ for i in range(start_index, data_size):
 			q = question + "\n" +options
 		else:
 			q = data[i][question_name]
+			# if 'math' in args.dataset:
+			# 	q = escape_curly_braces(q)
+			# print(f"q:{q}")
 		record['question']=q
 		if args.type=='prem':
-			q += " The answer is 123."
+			q += "Combining results from experts and knowledge from Wikipedia, the answer is 123."
 		# print(f"Question{i}:{q}")
 		if args.analysis:
-			initial_analysis_prompt= "Provide a thorough analysis of the problem by addressing the following:\n1.Identify Key Components: Identify the crucial elements and variables that play a significant role in this problem.\n2.Relationship between Components: Explain how the key components are related to each other in a structured way.\n3.Sub-Question Decomposition:Break down the problem into the following sub-questions, each focusing on a specific aspect necessary for understanding the solution:\nImplications for Solving the Problem:For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem.\n\nQuestion: {q}\n"
+			initial_analysis_prompt= "You are a helpful assistant that is good at parsing syntax and grammar structure of sentences. Please first analyzing the syntax and grammar structure of the problem and provide a thorough analysis by addressing the following tasks:\n1.Identify Key Components: Identify the crucial elements and variables that play a significant role in this problem.\n2.Relationship between Components: Explain how the key components are related to each other in a structured way.\n3.Sub-Question Decomposition:Break down the problem into the following sub-questions, each focusing on a specific aspect necessary for understanding the solution.\n4Implications for Solving the Problem:For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem.\n\nQuestion: <<q>>\n"
 			format_instruction = """Respond a JSON dictionary in a markdown's fenced code block as follows:
                         ```json
                         {"Key components": "Identify the crucial elements and variables that play a significant role in this problem", "Relationship between components": "Relationship between components", "Sub-questions": "break into sub-questions", "Implications for Solving the Problem":"For each sub-question, describe how solving it helps address the main problem. Connect the insights from these sub-questions to the overall strategy needed to solve the main problem."}
                         ```"""
-			initial_analysis_prompt = initial_analysis_prompt.format(q=q)+format_instruction
+			initial_analysis_prompt = initial_analysis_prompt.replace("<<q>>", q)+format_instruction
 			initial_analysis = llm(initial_analysis_prompt, model=args.model)
 			print(f"initial_analysis:{initial_analysis}")
-			prompt = prompt_template.format(q=initial_analysis)+format
+			prompt = prompt_template.replace("<<q>>",initial_analysis)+format
 		else:
-			prompt = prompt_template.format(q=q)+format
+			prompt = prompt_template.replace("<<q>>",q)+format
 		# prompt = prompt_template.format(q=q)
-		# print(f"prompt:{prompt}")
 		response = llm(prompt, model=args.model).strip()
 		print(f"response:{response}")
 		time.sleep(5)
@@ -302,7 +347,7 @@ for i in range(start_index, data_size):
 		pred = response_dict['Answer'].lower()
 		print(f"Answer:{pred}")
 		# gt = normalize_answer(data[i][answer_name])
-		gt = data[i][answer_name].lower()
+		gt = str(data[i][answer_name]).lower()
 		em = (pred == gt)
 		f1 = f1_score(pred, gt)[0]
 		record.update({'pred': pred, 'gt': gt, 'em': em, 'f1': f1})

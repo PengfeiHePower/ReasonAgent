@@ -1,5 +1,5 @@
 """"
-Solve hotpotQA problems
+Solve fever problems
 """
 from reason_agent import ReasonAgent
 from refine_agent import RefineAgent

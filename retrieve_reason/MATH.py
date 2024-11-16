@@ -1,16 +1,18 @@
 """"
-Solve hotpotQA problems
+Solve MATH problems
 """
 from reason_agent import ReasonAgent
 from refine_agent import RefineAgent
 from retrive_agent import RetrieveAgent
 from memory_agent import MemoryAgent
 from agentscope.parsers import MarkdownJsonDictParser
+import string
 
 import json
 import os
 import agentscope
 from agentscope.message import Msg
+from glob import glob
 
 def save_checkpoint(index, save_file):
     """ Save the current index to a checkpoint file. """
@@ -39,15 +41,22 @@ def init_model():
             )
         else:
             # for dashscope
-            config["api_key"] = f"{os.environ.get('DASHSCOPE_API_KEY')}"
+            # config["api_key"] = f"{os.environ.get('DASHSCOPE_API_KEY')}"
+            config["api_key"] = 'sk-94d038e92230451a87ac37ac34dd6a8a'
     agentscope.init(model_configs=model_configs)
 
 def finalize(thought):
-    current_answer = thought['Answer'].strip().lower()
-    if current_answer!='not yet':
-        return True
-    else:
+    # current_answer = thought['Answer'].strip().lower()
+    cleaned_thought = ''.join(char for char in thought['Answer'] if char not in string.punctuation)
+    current_answer = cleaned_thought.lower()
+    words = current_answer.split()
+    if words[:2] == ['not', 'yet']:
         return False
+    return True
+    # if current_answer!='not yet':
+    #     return True
+    # else:
+    #     return False
 
 
 def solving(q, reason_agent, refine_agent, retrive_agent, memory_agent):
@@ -78,7 +87,7 @@ def solving(q, reason_agent, refine_agent, retrive_agent, memory_agent):
     
     
     ## reasoning process
-    for i in range(20):
+    for i in range(10):
         ## reason step
         input_thought={
         "type": "thought",
@@ -105,8 +114,6 @@ def solving(q, reason_agent, refine_agent, retrive_agent, memory_agent):
     record = memory_agent.export()
     record["Answer"]=thought["Answer"]
     return record
-    
-
 
 
 def main():
@@ -146,11 +153,11 @@ def main():
     )
     parser_next_step = MarkdownJsonDictParser(
     content_hint={
-        "Reflection": "Reflection on current situation, check if previous thoughts and retrieved infomation help solve the problem",
-        "Thought": "Reason current sutiation",
+        "Reflection": "Reflection on current situation, check if previous thoughts and retrieved infomation help solve the problem. Check if the current step adheres with the structure analysis",
+        "Thought": "Reason current sutiation. Critically analyze the current situation, and determine the logical next thought or action. Carefully consider previous thoughts and avoid repeated thoughts and actions",
         "Retrieval": "[Yes/No]",
         "Retrieval info": "If need external knowledge, provide what knowledge need to search for; if do not need, return No.",
-        "Answer": "Conclude the answer if possible, otherwise 'Not yet'"
+        "Answer": "Conclude the answer if it is ready, otherwise 'Not yet'."
         },
     keys_to_content=["Reflection","Thought","Retrieval","Retrieval info", "Answer"],
     keys_to_memory=["Reflection","Thought","Retrieval","Retrieval info", "Answer"],
@@ -176,19 +183,31 @@ def main():
     
     
     # load dataset
-    with open("data/hotpot_simplified.json", "r", encoding="utf-8") as f:
-        hotpotqa = json.load(f)
-    all_record = []
-    start_index = load_checkpoint("chk/hotpotqa.txt")
-    for i in range(start_index, 10):
+    MATH_data = []
+    dataset_dir = 'data/MATH_test'
+    for subdir in os.listdir(dataset_dir):
+        subdir_path = os.path.join(dataset_dir, subdir)
+        if os.path.isdir(subdir_path):
+            json_files = glob(os.path.join(subdir_path, "*.json"))
+            for json_file in json_files:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    MATH_data.append(json.load(f))
+    if os.path.isfile("output/MATH.json"):
+        with open("output/MATH.json", 'r') as file:
+            all_record = json.load(file)
+    else:
+        all_record = []
+    start_index = load_checkpoint("chk/MATH.txt")
+    for i in range(start_index, 20):
         try:
-            q=hotpotqa[i]['question']
+            q=MATH_data[i]['problem']
             print(f"Original question:{q}")
             solving_record = solving(q, reason_agent, refine_agent, retrive_agent, memory_agent)
+            solving_record['idx']=i
             all_record.append(solving_record)
-            with open("output/hotpotqa2.json", 'w') as file:
+            with open("output/MATH.json", 'w') as file:
                 json.dump(all_record, file, indent=4)
-            save_checkpoint(i + 1, "chk/hotpotqa.txt")
+            save_checkpoint(i + 1, "chk/MATH.txt")
         except Exception as e:
             print(f"Error processing sample at index {i}: {e}")
             break

@@ -1,5 +1,5 @@
 from agentscope.agents.agent import AgentBase
-from agentscope.message import Msg, MessageBase
+from agentscope.message import Msg
 from typing import Optional, Any, Union
 import ast
 
@@ -42,8 +42,7 @@ class ReasonAgent(AgentBase):
         super().__init__(
             name=name,
             sys_prompt=sys_prompt,
-            model_config_name=model_config_name,
-            memory_config=memory_config,
+            model_config_name=model_config_name
         )
         with open("configs/prompt_template.json", "r", encoding="utf-8") as f:
             prompt_template = json.load(f)
@@ -89,7 +88,7 @@ class ReasonAgent(AgentBase):
         response = self.model(msgs, parse_func=self.parser_step1.parse)
         response_msg = Msg(
             name="reason agent",
-            role="assistamt",
+            role="assistant",
             content=self.parser_step1.to_content(response.parsed),
         )
         return response_msg
@@ -99,7 +98,9 @@ class ReasonAgent(AgentBase):
         """
         Generate next step
         """
-        prompt_next_step = self.prompt_template["prompt_step_seq_template_new"].format(question=question, analysis=analysis, thought=thought, knowledge=knowledge)
+        # prompt_step_seq_template_math for MATH datase
+        # prompt_step_seq_template_new for other datasets
+        prompt_next_step = self.prompt_template["prompt_step_seq_template_math"].format(question=question, analysis=analysis, thought=thought, knowledge=knowledge)
         msg = Msg(
             name="user",
             role="user",
@@ -109,7 +110,7 @@ class ReasonAgent(AgentBase):
         response = self.model(msgs, parse_func=self.parser_next_step.parse)
         response_msg = Msg(
             name="reason agent",
-            role="assistamt",
+            role="assistant",
             content=self.parser_next_step.to_content(response.parsed),
         )
         return response_msg
@@ -128,7 +129,7 @@ class ReasonAgent(AgentBase):
         response = self.model(msgs, parse_func=self.parser_action.parse)
         response_msg = Msg(
             name="reason agent",
-            role="assistamt",
+            role="assistant",
             content=self.parser_action.to_content(response.parsed),
         )
         return response_msg

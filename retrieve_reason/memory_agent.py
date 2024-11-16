@@ -1,5 +1,5 @@
 from agentscope.agents.agent import AgentBase
-from agentscope.message import Msg, MessageBase
+from agentscope.message import Msg
 from typing import Optional, Any, Union, List
 
 class MemoryAgent():

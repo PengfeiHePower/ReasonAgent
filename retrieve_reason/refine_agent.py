@@ -1,5 +1,5 @@
 from agentscope.agents.agent import AgentBase
-from agentscope.message import Msg, MessageBase
+from agentscope.message import Msg
 from typing import Optional, Any, Union
 
 import json
@@ -38,8 +38,7 @@ class RefineAgent(AgentBase):
         super().__init__(
             name=name,
             sys_prompt=sys_prompt,
-            model_config_name=model_config_name,
-            memory_config=memory_config,
+            model_config_name=model_config_name
         )
         with open("configs/prompt_template.json", "r", encoding="utf-8") as f:
             prompt_template = json.load(f)

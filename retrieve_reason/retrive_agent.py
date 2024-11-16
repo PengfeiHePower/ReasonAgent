@@ -1,15 +1,12 @@
 from agentscope.agents.agent import AgentBase
-from agentscope.message import Msg, MessageBase
+from agentscope.message import Msg
 from typing import Optional, Any, Union, List
 import ast
 
 import json
-from agentscope.service.web.wiki import (
-        wiki_get_category_members,
-        wiki_get_infobox,
-        wiki_get_page_content_by_paragraph,
-        wiki_get_all_wikipedia_tables,
-        wiki_get_page_images_with_captions,
+from agentscope.service.web.wikipedia import (
+        wikipedia_search_categories,
+        wikipedia_search
 )
 
 def text_to_dict(text, sep):
@@ -40,47 +37,51 @@ def info_transform(info, source):
     if source is not None:
         return info
     
-    if source=="text":
-        return info
-    elif source=="infobox":
-        text_lines = []
-        for key, value in info.items():
-            text_lines.append(f"{key}: {value}")
-        return "\n".join(text_lines)
-    elif source=="category list":
+    if source=="category list":
         titles = [item['title'] for item in info]
         formatted_titles = "List of Categories:\n" + "\n".join(f"- {title}" for title in titles)
         return formatted_titles
-    elif source=="table": #plain text table
-        headers = list(info.keys())
-        rows = zip(*info.values())
-    
-        # Calculate column widths
-        column_widths = [max(len(str(item)) for item in [header] + list(column)) for header, column in zip(headers, info.values())]
-    
-        # Create a format string
-        format_str = " | ".join([f"{{:<{width}}}" for width in column_widths])
-    
-        # Create the header row
-        header_row = format_str.format(*headers)
-        separator_row = "-+-".join(['-' * width for width in column_widths])
-    
-        # Create the data rows
-        data_rows = [format_str.format(*row) for row in rows]
-    
-        # Combine all parts into the final table
-        table = "\n".join([header_row, separator_row] + data_rows)
-        return table
-        # json_string = json.dumps(info, indent=4) #JSON string
-        # print(json_string)
-    elif source=="images with caption":
-        formatted_text = "List of Image Titles and Captions:\n"
-        for image in info:
-            formatted_text += f"Title: {image['title']}\n"
-            formatted_text += f"Caption: {image['caption']}\n\n"
-        return formatted_text
     else:
-        raise NotImplementedError("Source is not implemented.")
+        return info
+    # elif source=="infobox":
+    #     text_lines = []
+    #     for key, value in info.items():
+    #         text_lines.append(f"{key}: {value}")
+    #     return "\n".join(text_lines)
+    # elif source=="category list":
+    #     titles = [item['title'] for item in info]
+    #     formatted_titles = "List of Categories:\n" + "\n".join(f"- {title}" for title in titles)
+    #     return formatted_titles
+    # elif source=="table": #plain text table
+    #     headers = list(info.keys())
+    #     rows = zip(*info.values())
+    
+    #     # Calculate column widths
+    #     column_widths = [max(len(str(item)) for item in [header] + list(column)) for header, column in zip(headers, info.values())]
+    
+    #     # Create a format string
+    #     format_str = " | ".join([f"{{:<{width}}}" for width in column_widths])
+    
+    #     # Create the header row
+    #     header_row = format_str.format(*headers)
+    #     separator_row = "-+-".join(['-' * width for width in column_widths])
+    
+    #     # Create the data rows
+    #     data_rows = [format_str.format(*row) for row in rows]
+    
+    #     # Combine all parts into the final table
+    #     table = "\n".join([header_row, separator_row] + data_rows)
+    #     return table
+    #     # json_string = json.dumps(info, indent=4) #JSON string
+    #     # print(json_string)
+    # elif source=="images with caption":
+    #     formatted_text = "List of Image Titles and Captions:\n"
+    #     for image in info:
+    #         formatted_text += f"Title: {image['title']}\n"
+    #         formatted_text += f"Caption: {image['caption']}\n\n"
+    #     return formatted_text
+    # else:
+    #     raise NotImplementedError("Source is not implemented.")
         
 
 class RetrieveAgent(AgentBase):
@@ -102,8 +103,7 @@ class RetrieveAgent(AgentBase):
         super().__init__(
         name=name,
         sys_prompt=sys_prompt,
-        model_config_name=model_config_name,
-        memory_config=memory_config,
+        model_config_name=model_config_name
         )
         
         self.source = data_sources #['text', 'category list', 'infobox', 'table', 'images with caption']
@@ -149,16 +149,10 @@ class RetrieveAgent(AgentBase):
         retrieved_info: ServiceResponse
         """
         
-        if source == 'text':
-            return wiki_get_page_content_by_paragraph(entity=key, max_paragraphs=1)
-        elif source == 'category list':
-            return wiki_get_category_members(entity=key, max_members=1000, limit_per_request=500)
-        elif source == 'infobox':
-            return wiki_get_infobox(entity=key)
-        elif source == 'table':
-            return wiki_get_all_wikipedia_tables(entity=key)
-        elif source == 'images with caption':
-            return wiki_get_page_images_with_captions(entity=key)
+        if source == 'category list':
+            return wikipedia_search_categories(entity=key, max_members=1000)
+        else:
+            return wikipedia_search(entity=key)
     
     def extract_info(self,info,step):
         """
