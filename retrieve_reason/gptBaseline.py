@@ -307,7 +307,11 @@ else:
 
 data_size = min(len(data), 1000)
 print(f"Data size:{data_size}")
-records=[]
+if os.path.exists("output/"+args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+'.json'):
+    with open("output/"+args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+'.json', 'r') as file:
+            records = json.load(file)
+else:
+    records=[]
 start_index = load_checkpoint("checkpoint/" +args.model+'_'+args.dataset+'_'+args.type+'_analysis'+str(args.analysis)+ ".txt")
 for i in range(start_index, data_size):
 	record={}
