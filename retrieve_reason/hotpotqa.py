@@ -26,8 +26,8 @@ def load_checkpoint(save_file):
     else:
         return 0
 
-def init_model():
-    HTTP_LLM_API_KEY='eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjM5NDc3MyIsInBhc3N3b3JkIjoiMzk0NzczMTIzIiwiZXhwIjoyMDIxNjE4MzE3fQ.oQx2Rh-GJ_C29AfHTHE4x_2kVyy7NamwQRKRA4GPA94'
+def init_model():#this is for GPT4, adapt for your own model
+    HTTP_LLM_API_KEY=os.getenv("OPENAI_key")
     # models can be configured by loading config file
     with open("configs/model_config.json", "r", encoding="utf-8") as f:
         model_configs = json.load(f)
@@ -180,7 +180,8 @@ def main():
         hotpotqa = json.load(f)
     all_record = []
     start_index = load_checkpoint("chk/hotpotqa.txt")
-    for i in range(start_index, 10):
+    data_size = min(len(hotpotqa), 1000)
+    for i in range(start_index, data_size):
         try:
             q=hotpotqa[i]['question']
             print(f"Original question:{q}")
