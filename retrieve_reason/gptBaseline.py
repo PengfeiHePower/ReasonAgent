@@ -148,7 +148,7 @@ def format_multi(problem):
 def llm(input_text, model="gpt4", stop=["\n"]):
 	if model == "gpt4":
 		url = "http://47.88.8.18:8088/api/ask"
-		HTTP_LLM_API_KEY='eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjM5NDc3MyIsInBhc3N3b3JkIjoiMzk0NzczMTIzIiwiZXhwIjoyMDIxNjE4MzE3fQ.oQx2Rh-GJ_C29AfHTHE4x_2kVyy7NamwQRKRA4GPA94'
+		HTTP_LLM_API_KEY=os.getenv("OPENAI_key")
 		headers = {
 					"Content-Type": "application/json",
 					"Authorization": "Bearer " + HTTP_LLM_API_KEY
@@ -166,7 +166,7 @@ def llm(input_text, model="gpt4", stop=["\n"]):
 		response = response.json()
 		new_response = response['data']['response']
 	elif model == 'qwen':
-		api_key = 'sk-94d038e92230451a87ac37ac34dd6a8a'
+		api_key = os.getenv("DASH_key")
 		dashscope.api_key = api_key
 		response = dashscope.Generation.call(
 			model='qwen-max',
@@ -178,7 +178,7 @@ def llm(input_text, model="gpt4", stop=["\n"]):
 		)
 		new_response = response.output
 	elif model == 'qwen2-57':
-		api_key = 'sk-94d038e92230451a87ac37ac34dd6a8a'
+		api_key = os.getenv("DASH_key")
 		dashscope.api_key = api_key
 		response = dashscope.Generation.call(
             model='qwen2-57b-a14b-instruct',
