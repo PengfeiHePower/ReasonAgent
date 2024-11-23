@@ -14,7 +14,7 @@ from agentscope.message import Msg
 
 
 def init_model():
-    HTTP_LLM_API_KEY=os.getenv("OPENAI_key")
+    HTTP_LLM_API_KEY=os.environ.get("OPENAI_key")
     # models can be configured by loading config file
     with open("configs/model_config.json", "r", encoding="utf-8") as f:
         model_configs = json.load(f)
