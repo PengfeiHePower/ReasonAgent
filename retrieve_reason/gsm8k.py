@@ -192,7 +192,8 @@ def main():
     else:
         all_record = []
     start_index = load_checkpoint("chk/gsm8k.txt")
-    for i in range(start_index, 20):
+    data_size = min(len(gsm8k), 1000)
+    for i in range(start_index, data_size):
         try:
             q=gsm8k[i]['question']
             print(f"Original question:{q}")
