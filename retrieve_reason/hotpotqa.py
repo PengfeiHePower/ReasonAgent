@@ -78,7 +78,7 @@ def solving(q, reason_agent, refine_agent, retrive_agent, memory_agent):
     
     
     ## reasoning process
-    for i in range(20):
+    for i in range(10):
         ## reason step
         input_thought={
         "type": "thought",
