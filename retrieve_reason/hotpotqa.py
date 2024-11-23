@@ -27,7 +27,7 @@ def load_checkpoint(save_file):
         return 0
 
 def init_model():#this is for GPT4, adapt for your own model
-    HTTP_LLM_API_KEY=os.getenv("OPENAI_key")
+    HTTP_LLM_API_KEY=os.environ.get("OPENAI_key")
     # models can be configured by loading config file
     with open("configs/model_config.json", "r", encoding="utf-8") as f:
         model_configs = json.load(f)
@@ -39,7 +39,7 @@ def init_model():#this is for GPT4, adapt for your own model
             )
         else:
             # for dashscope
-            config["api_key"] = f"{os.environ.get('DASHSCOPE_API_KEY')}"
+            config["api_key"] = f"{os.os.environ.get("DASH_key")}"
     agentscope.init(model_configs=model_configs)
 
 def finalize(thought):
