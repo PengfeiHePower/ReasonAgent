@@ -28,7 +28,7 @@ def load_checkpoint(save_file):
         return 0
 
 def init_model():
-    HTTP_LLM_API_KEY='eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjM5NDc3MyIsInBhc3N3b3JkIjoiMzk0NzczMTIzIiwiZXhwIjoyMDIxNjE4MzE3fQ.oQx2Rh-GJ_C29AfHTHE4x_2kVyy7NamwQRKRA4GPA94'
+    HTTP_LLM_API_KEY=os.environ.get("OPENAI_key")
     # models can be configured by loading config file
     with open("configs/model_config.json", "r", encoding="utf-8") as f:
         model_configs = json.load(f)
@@ -41,7 +41,7 @@ def init_model():
         else:
             # for dashscope
             # config["api_key"] = f"{os.environ.get('DASHSCOPE_API_KEY')}"
-            config["api_key"] = 'sk-94d038e92230451a87ac37ac34dd6a8a'
+            config["api_key"] = os.os.environ.get("DASH_key")
     agentscope.init(model_configs=model_configs)
 
 def finalize(thought):
