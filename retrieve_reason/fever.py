@@ -14,7 +14,7 @@ from agentscope.message import Msg
 
 
 def init_model():
-    HTTP_LLM_API_KEY='eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjM5NDc3MyIsInBhc3N3b3JkIjoiMzk0NzczMTIzIiwiZXhwIjoyMDIxNjE4MzE3fQ.oQx2Rh-GJ_C29AfHTHE4x_2kVyy7NamwQRKRA4GPA94'
+    HTTP_LLM_API_KEY=os.getenv("OPENAI_key")
     # models can be configured by loading config file
     with open("configs/model_config.json", "r", encoding="utf-8") as f:
         model_configs = json.load(f)
@@ -183,7 +183,8 @@ def main():
     with open("data/hotpot_dev_v1_simplified.json", "r", encoding="utf-8") as f:
         hotpotqa = json.load(f)
     all_record = []
-    for i in range(100):
+    data_size = min(len(data), 1000)
+    for i in range(data_size):
         q=hotpotqa[i]['question']
         print(f"Original question:{q}")
         solving_record = solving(q, reason_agent, refine_agent, retrive_agent, memory_agent)
